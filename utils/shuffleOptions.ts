@@ -1,0 +1,22 @@
+import { Option } from "@/types/quiz";
+
+/**
+ * Fisher-Yates shuffle algorithm for randomizing array elements
+ * Creates a new array to avoid mutating the original
+ */
+export function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+/**
+ * Shuffles options for a question
+ * Returns the shuffled options array
+ */
+export function shuffleOptions(options: Option[]): Option[] {
+  return shuffleArray(options);
+}
