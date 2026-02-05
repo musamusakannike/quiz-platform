@@ -609,6 +609,615 @@ export const quizTopics: Topic[] = [
         explanation: "No explanation provided."
       },
     ]
+  },
+  {
+    id: "programming-with-cpp",
+    title: "Programming with C++",
+    description: "Test your knowledge of C++ syntax, OOP concepts, compilers, and algorithms.",
+    icon: "Code",
+    color: "#00599C",
+    questions: [
+      {
+        id: "cpp-1",
+        question: "C++ was developed as an extension of which programming language?",
+        options: [
+          { id: "a", text: "Java" },
+          { id: "b", text: "Pascal" },
+          { id: "c", text: "C" },
+          { id: "d", text: "Basic" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-2",
+        question: "In C++, what term is used to describe an \"abstract data type\"?",
+        options: [
+          { id: "a", text: "Object" },
+          { id: "b", text: "Class" },
+          { id: "c", text: "Method" },
+          { id: "d", text: "Library" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-3",
+        question: "Which of the following best describes a \"class\" in C++ according to the text?",
+        options: [
+          { id: "a", text: "A struct with a few more features" },
+          { id: "b", text: "A function with private data" },
+          { id: "c", text: "A completely new data format unrelated to C" },
+          { id: "d", text: "An external library file" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-4",
+        question: "What is the key difference between a C struct and a C++ class mentioned in the text?",
+        options: [
+          { id: "a", text: "A class cannot store data." },
+          { id: "b", text: "A struct cannot be public." },
+          { id: "c", text: "A class can keep part of its data private." },
+          { id: "d", text: "A struct supports inheritance by default." },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-5",
+        question: "What are the \"three pillars\" of Object-Oriented Programming (OOP)?",
+        options: [
+          { id: "a", text: "Editing, Compiling, Linking" },
+          { id: "b", text: "Encapsulation, Inheritance, Polymorphism" },
+          { id: "c", text: "Input, Processing, Output" },
+          { id: "d", text: "Classes, Functions, Variables" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-6",
+        question: "The concept of \"Data Hiding\" is achieved through which OOP pillar?",
+        options: [
+          { id: "a", text: "Inheritance" },
+          { id: "b", text: "Polymorphism" },
+          { id: "c", text: "Encapsulation" },
+          { id: "d", text: "Structured Programming" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-7",
+        question: "In the text's analogy, a resistor or a refrigerator is an example of what concept?",
+        options: [
+          { id: "a", text: "Inheritance" },
+          { id: "b", text: "Encapsulation (a \"black box\")" },
+          { id: "c", text: "Polymorphism" },
+          { id: "d", text: "A compiler" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-8",
+        question: "Which concept allows a programmer to take an existing class and augment or modify it?",
+        options: [
+          { id: "a", text: "Inheritance" },
+          { id: "b", text: "Encapsulation" },
+          { id: "c", text: "Interpretation" },
+          { id: "d", text: "Debugging" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-9",
+        question: "What does \"Polymorphism\" mean?",
+        options: [
+          { id: "a", text: "Many forms" },
+          { id: "b", text: "Hidden data" },
+          { id: "c", text: "Single structure" },
+          { id: "d", text: "Machine code" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-10",
+        question: "\"Procedural programming\" focuses primarily on what?",
+        options: [
+          { id: "a", text: "Objects" },
+          { id: "b", text: "Procedures (functions)" },
+          { id: "c", text: "Data security" },
+          { id: "d", text: "User Interfaces" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-11",
+        question: "What translates source code directly into actions as it reads it?",
+        options: [
+          { id: "a", text: "Compiler" },
+          { id: "b", text: "Linker" },
+          { id: "c", text: "Interpreter" },
+          { id: "d", text: "Editor" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-12",
+        question: "A compiler translates source code into what intermediary form?",
+        options: [
+          { id: "a", text: "Script file" },
+          { id: "b", text: "Object file" },
+          { id: "c", text: "Text file" },
+          { id: "d", text: "Library file" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-13",
+        question: "What tool combines object files into an executable program?",
+        options: [
+          { id: "a", text: "Text Editor" },
+          { id: "b", text: "Preprocessor" },
+          { id: "c", text: "Interpreter" },
+          { id: "d", text: "Linker" },
+        ],
+        correctAnswer: "d",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-14",
+        question: "Why do compiled programs generally run faster than interpreted ones?",
+        options: [
+          { id: "a", text: "They use less memory." },
+          { id: "b", text: "The translation to machine language is done once at compile time." },
+          { id: "c", text: "They do not require an operating system." },
+          { id: "d", text: "They are always smaller in size." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-15",
+        question: "Who developed the C++ programming language?",
+        options: [
+          { id: "a", text: "Dennis Ritchie" },
+          { id: "b", text: "Bill Gates" },
+          { id: "c", text: "Bjarne Stroustrup" },
+          { id: "d", text: "The ANSI Committee" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-16",
+        question: "According to the text, is it necessary to learn C before learning C++?",
+        options: [
+          { id: "a", text: "Yes, it is mandatory." },
+          { id: "b", text: "Yes, because C++ is a superset of C." },
+          { id: "c", text: "No, it might even be advantageous not to." },
+          { id: "d", text: "Only if you want to use pointers." },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-17",
+        question: "C++ and Java are so similar that learning one is said to be learning what percentage of the other?",
+        options: [
+          { id: "a", text: "50%" },
+          { id: "b", text: "75%" },
+          { id: "c", text: "90%" },
+          { id: "d", text: "100%" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-18",
+        question: "Interpreters are often referred to as what in modern programming?",
+        options: [
+          { id: "a", text: "Script engines" },
+          { id: "b", text: "Linkers" },
+          { id: "c", text: "Compilers" },
+          { id: "d", text: "Debuggers" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-19",
+        question: "What is the principal idea behind \"Structured Programming\"?",
+        options: [
+          { id: "a", text: "Hide the data" },
+          { id: "b", text: "Divide and conquer" },
+          { id: "c", text: "Use only global variables" },
+          { id: "d", text: "Eliminate functions" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-20",
+        question: "In the example of \"Acme Motors,\" creating a \"Quasar\" car from a \"Star\" car illustrates which concept?",
+        options: [
+          { id: "a", text: "Encapsulation" },
+          { id: "b", text: "Inheritance" },
+          { id: "c", text: "Iteration" },
+          { id: "d", text: "Linking" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-21",
+        question: "Programs that use an interpreter are often called what?",
+        options: [
+          { id: "a", text: "Applications" },
+          { id: "b", text: "Executables" },
+          { id: "c", text: "Scripts" },
+          { id: "d", text: "Objects" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-22",
+        question: "What type of file does a text editor produce for programming?",
+        options: [
+          { id: "a", text: "Object file" },
+          { id: "b", text: "Executable file" },
+          { id: "c", text: "Source file" },
+          { id: "d", text: "Library file" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-23",
+        question: "Which of the following is a common file extension for C++ source files?",
+        options: [
+          { id: "a", text: ".txt" },
+          { id: "b", text: ".cpp" },
+          { id: "c", text: ".exe" },
+          { id: "d", text: ".obj" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-24",
+        question: "What is the extension of an object file produced by the compiler?",
+        options: [
+          { id: "a", text: ".cpp" },
+          { id: "b", text: ".obj or .o" },
+          { id: "c", text: ".h" },
+          { id: "d", text: ".bin" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-25",
+        question: "Which software component runs before the compiler to handle lines starting with #?",
+        options: [
+          { id: "a", text: "Linker" },
+          { id: "b", text: "Preprocessor" },
+          { id: "c", text: "Debugger" },
+          { id: "d", text: "Editor" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-26",
+        question: "What does the #include command tell the preprocessor to do?",
+        options: [
+          { id: "a", text: "Run the program immediately" },
+          { id: "b", text: "Print a line of text" },
+          { id: "c", text: "Find a file, read it, and place it right there" },
+          { id: "d", text: "Ignore the following lines" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-27",
+        question: "If a compiler error states \"cannot find file iostream,\" what is a likely cause?",
+        options: [
+          { id: "a", text: "The computer is out of memory." },
+          { id: "b", text: "The include path or environment variables are not set up." },
+          { id: "c", text: "The main function is missing." },
+          { id: "d", text: "The internet connection is down." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-28",
+        question: "Errors that show up only when you run the program are often called what?",
+        options: [
+          { id: "a", text: "Syntax errors" },
+          { id: "b", text: "Link errors" },
+          { id: "c", text: "Bugs (Run-time errors)" },
+          { id: "d", text: "Typos" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-29",
+        question: "The \"link\" step fails if:",
+        options: [
+          { id: "a", text: "The source code has a syntax error." },
+          { id: "b", text: "The object file cannot be combined with necessary libraries." },
+          { id: "c", text: "The computer is too slow." },
+          { id: "d", text: "The variable names are too long." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-30",
+        question: "What is a \"library\" in the context of C++?",
+        options: [
+          { id: "a", text: "A collection of linkable files (functions/classes)" },
+          { id: "b", text: "A manual for the programming language" },
+          { id: "c", text: "A database of variable names" },
+          { id: "d", text: "A folder for saving .cpp files" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-31",
+        question: "Every C++ program must have which function?",
+        options: [
+          { id: "a", text: "start()" },
+          { id: "b", text: "begin()" },
+          { id: "c", text: "main()" },
+          { id: "d", text: "init()" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-32",
+        question: "What constitutes a \"block of code\" in a function?",
+        options: [
+          { id: "a", text: "Everything between ( and )" },
+          { id: "b", text: "Everything between { and }" },
+          { id: "c", text: "Everything on a single line" },
+          { id: "d", text: "Everything after #include" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-33",
+        question: "What symbol is used for \"output redirection\" (printing to screen)?",
+        options: [
+          { id: "a", text: ">>" },
+          { id: "b", text: "==" },
+          { id: "c", text: "<<" },
+          { id: "d", text: "::" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-34",
+        question: "The std:: prefix before cout indicates what?",
+        options: [
+          { id: "a", text: "It is a standard variable." },
+          { id: "b", text: "It belongs to the standard namespace." },
+          { id: "c", text: "It is a static function." },
+          { id: "d", text: "It is a system driver." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-35",
+        question: "Which of the following is a legal variable name in C++?",
+        options: [
+          { id: "a", text: "my Age" },
+          { id: "b", text: "23Jump" },
+          { id: "c", text: "myAge" },
+          { id: "d", text: "class" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-36",
+        question: "C++ is \"case sensitive,\" which means:",
+        options: [
+          { id: "a", text: "All commands must be in uppercase." },
+          { id: "b", text: "age, Age, and AGE are considered different variables." },
+          { id: "c", text: "Variables must always start with a capital letter." },
+          { id: "d", text: "It automatically corrects capitalization errors." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-37",
+        question: "According to Table  5.9.8, what is the size of a double variable?",
+        options: [
+          { id: "a", text: "2 bytes" },
+          { id: "b", text: "4 bytes" },
+          { id: "c", text: "8 bytes" },
+          { id: "d", text: "1 byte" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-38",
+        question: "Which variable type is used to hold a True or False value?",
+        options: [
+          { id: "a", text: "int" },
+          { id: "b", text: "char" },
+          { id: "c", text: "bool" },
+          { id: "d", text: "float" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-39",
+        question: "What does the keyword typedef do?",
+        options: [
+          { id: "a", text: "Creates a new variable type from scratch." },
+          { id: "b", text: "Creates an alias or synonym for an existing type." },
+          { id: "c", text: "Defines a type of function." },
+          { id: "d", text: "Imports a definition from a library." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-40",
+        question: "In the statement unsigned short width = 5;, what is the operator = called?",
+        options: [
+          { id: "a", text: "Equality operator" },
+          { id: "b", text: "Assignment operator" },
+          { id: "c", text: "Math operator" },
+          { id: "d", text: "Logical operator" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-41",
+        question: "What is \"Hungarian notation\"?",
+        options: [
+          { id: "a", text: "Writing variable names in all caps." },
+          { id: "b", text: "Prefixing variables with characters that describe their type (e.g., iAge)." },
+          { id: "c", text: "Using underscores between words (e.g., my_age)." },
+          { id: "d", text: "Using random letters for variables." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-42",
+        question: "Which of the following allows you to create comments in C++?",
+        options: [
+          { id: "a", text: "**" },
+          { id: "b", text: "$$" },
+          { id: "c", text: "//" },
+          { id: "d", text: "##" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-43",
+        question: "The character \\n inside a string is used to:",
+        options: [
+          { id: "a", text: "End the program." },
+          { id: "b", text: "Insert a new line." },
+          { id: "c", text: "Sound a beep." },
+          { id: "d", text: "Clear the screen." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-44",
+        question: "What happens if you try to use a C++ keyword (like if or while) as a variable name?",
+        options: [
+          { id: "a", text: "It works fine." },
+          { id: "b", text: "It works but gives a warning." },
+          { id: "c", text: "It is not allowed; keywords are reserved." },
+          { id: "d", text: "The compiler automatically renames it." },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-45",
+        question: "The factorial of a number $N$ is calculated as:",
+        options: [
+          { id: "a", text: "$N + (N-1) + ... + 1$" },
+          { id: "b", text: "$N * (N-1) * (N-2) * ... * 1$" },
+          { id: "c", text: "$N * N$" },
+          { id: "d", text: "$2^N$" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-46",
+        question: "In the recursive factorial function, what is the \"Base Case\" defined in the text?",
+        options: [
+          { id: "a", text: "If $n < 0$" },
+          { id: "b", text: "If $n == 100$" },
+          { id: "c", text: "If $n == 0$ or $n == 1$" },
+          { id: "d", text: "There is no base case." },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-47",
+        question: "Why is the variable type long long used for storing factorials in the example code?",
+        options: [
+          { id: "a", text: "Because factorials grow very quickly and exceed standard int capacity." },
+          { id: "b", text: "Because factorials are always negative." },
+          { id: "c", text: "Because int is not a valid type in C++." },
+          { id: "d", text: "To use less memory." },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-48",
+        question: "What is the mathematical definition of the Fibonacci series used in the text?",
+        options: [
+          { id: "a", text: "$F_K = F_{K-1} * F_{K-2}$" },
+          { id: "b", text: "$F_K = F_{K-1} + F_{K-2}$" },
+          { id: "c", text: "$F_K = F_{K-1} - 1$" },
+          { id: "d", text: "$F_K = 2 * K$" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-49",
+        question: "In the recursive Fibonacci function, what happens if $n=0$?",
+        options: [
+          { id: "a", text: "It returns 1." },
+          { id: "b", text: "It returns 0." },
+          { id: "c", text: "It calls the function again." },
+          { id: "d", text: "It prints an error." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "cpp-50",
+        question: "Which programming construct is used in the \"Iterative\" solution for Factorial?",
+        options: [
+          { id: "a", text: "A function calling itself" },
+          { id: "b", text: "A for loop" },
+          { id: "c", text: "A class definition" },
+          { id: "d", text: "A switch statement" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+    ]
   }
 ];
 
