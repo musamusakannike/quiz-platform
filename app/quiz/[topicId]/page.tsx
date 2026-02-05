@@ -9,7 +9,7 @@ import QuizProgress from "@/components/QuizProgress";
 import OptionCard from "@/components/OptionCard";
 import QuizResults from "@/components/QuizResults";
 import { gsap } from "gsap";
-import { ArrowLeft, ArrowRight, CheckCircle, XCircle } from "lucide-react";
+import { ArrowLeft, ArrowRight, CheckCircle, XCircle, SkipForward } from "lucide-react";
 import Link from "next/link";
 
 export default function QuizPage() {
@@ -88,6 +88,19 @@ export default function QuizPage() {
     }
   }, [topic, currentQuestionIndex]);
 
+  const handleSkip = useCallback(() => {
+    if (!topic) return;
+
+    // Treat skip as not answering correctly (score doesn't increase)
+    setSelectedAnswer(null);
+
+    if (currentQuestionIndex < topic.questions.length - 1) {
+      setCurrentQuestionIndex((prev) => prev + 1);
+    } else {
+      setIsComplete(true);
+    }
+  }, [topic, currentQuestionIndex]);
+
   const handleRestart = useCallback(() => {
     setCurrentQuestionIndex(0);
     setScore(0);
@@ -138,6 +151,7 @@ export default function QuizPage() {
         <QuizProgress
           current={currentQuestionIndex + 1}
           total={topic.questions.length}
+          score={score}
         />
 
         <div ref={questionRef} className="question-container">
@@ -159,6 +173,16 @@ export default function QuizPage() {
             />
           ))}
         </div>
+
+        {/* Skip Button */}
+        {!selectedAnswer && (
+          <div className="skip-container">
+            <button className="skip-button" onClick={handleSkip}>
+              Skip Question
+              <SkipForward size={18} />
+            </button>
+          </div>
+        )}
 
         {/* Inline Feedback Panel */}
         {selectedAnswer && (

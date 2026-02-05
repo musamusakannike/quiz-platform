@@ -6,9 +6,10 @@ import { gsap } from "gsap";
 interface QuizProgressProps {
   current: number;
   total: number;
+  score: number;
 }
 
-export default function QuizProgress({ current, total }: QuizProgressProps) {
+export default function QuizProgress({ current, total, score }: QuizProgressProps) {
   const progressRef = useRef<HTMLDivElement>(null);
   const fillRef = useRef<HTMLDivElement>(null);
 
@@ -36,7 +37,7 @@ export default function QuizProgress({ current, total }: QuizProgressProps) {
     <div ref={progressRef} className="quiz-progress">
       <div className="progress-header">
         <span className="progress-label">Question {current} of {total}</span>
-        <span className="progress-percentage">{Math.round((current / total) * 100)}%</span>
+        <span className="progress-score">Score: {score}</span>
       </div>
       <div className="progress-bar">
         <div ref={fillRef} className="progress-fill" style={{ width: 0 }} />
