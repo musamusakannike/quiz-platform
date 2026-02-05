@@ -1218,6 +1218,615 @@ export const quizTopics: Topic[] = [
         explanation: "No explanation provided."
       },
     ]
+  },
+  {
+    id: "intro-to-computers",
+    title: "Introduction to Computers & History",
+    description: "Test your knowledge on computer history, networks, ubiquitous computing, and the internet.",
+    icon: "Monitor", 
+    color: "#2e7d32",
+    questions: [
+      {
+        id: "intro-1",
+        question: "What is the course code for \"Computing and Software Engineering\" described in the document?",
+        options: [
+          { id: "a", text: "CSE 211" },
+          { id: "b", text: "GET 211" },
+          { id: "c", text: "CPE 301" },
+          { id: "d", text: "EEE 211" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-2",
+        question: "According to the learning outcomes, which languages are preferred for the practical object-oriented programming exposure?",
+        options: [
+          { id: "a", text: "Python, Java, or C++" },
+          { id: "b", text: "Ruby, Perl, or PHP" },
+          { id: "c", text: "C#, Swift, or Kotlin" },
+          { id: "d", text: "Assembly, Fortran, or Cobol" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-3",
+        question: "Which device, released in April 2024 for about 700 dollars, is cited as an example of an AGI-driven Computer System?",
+        options: [
+          { id: "a", text: "The AI Pin" },
+          { id: "b", text: "Google Glass 2" },
+          { id: "c", text: "The Neuralink Chip" },
+          { id: "d", text: "The Meta Quest 4" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-4",
+        question: "Which law is mentioned as driving the cost-wise development of today's computers?",
+        options: [
+          { id: "a", text: "Amdahl's Law" },
+          { id: "b", text: "Moore's Law" },
+          { id: "c", text: "Metcalfe's Law" },
+          { id: "d", text: "Gustafson's Law" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-5",
+        question: "Computers used by many people at the same time are often referred to as:",
+        options: [
+          { id: "a", text: "Personal Computers" },
+          { id: "b", text: "Time sharing systems" },
+          { id: "c", text: "Embedded Systems" },
+          { id: "d", text: "Micro-controllers" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-6",
+        question: "Which type of computer is used mainly for data acquisition systems, process controls, and hosting in manufacturing plants?",
+        options: [
+          { id: "a", text: "Personal Computer" },
+          { id: "b", text: "Industrial Computer" },
+          { id: "c", text: "Tablet PC" },
+          { id: "d", text: "Wearable Computer" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-7",
+        question: "Speed in computer systems is expressed in what unit?",
+        options: [
+          { id: "a", text: "Bytes" },
+          { id: "b", text: "Flops" },
+          { id: "c", text: "Hertz" },
+          { id: "d", text: "Pixels" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-8",
+        question: "What are the outputs from computers referred to as?",
+        options: [
+          { id: "a", text: "Data" },
+          { id: "b", text: "Processing" },
+          { id: "c", text: "Information" },
+          { id: "d", text: "Input" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-9",
+        question: "A computer network allows the sharing of resources. Which of the following is listed as a shareable resource?",
+        options: [
+          { id: "a", text: "Motherboards" },
+          { id: "b", text: "Printers" },
+          { id: "c", text: "Power Supply Units" },
+          { id: "d", text: "Users" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-10",
+        question: "Which of the following is an example of a communication protocol listed in the text?",
+        options: [
+          { id: "a", text: "HTML" },
+          { id: "b", text: "BGP (Border Gateway Protocol)" },
+          { id: "c", text: "SQL" },
+          { id: "d", text: "USB" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-11",
+        question: "The military radar system \"Semi-Automatic Ground Environment\" (SAGE) started in which era?",
+        options: [
+          { id: "a", text: "Late 1940s" },
+          { id: "b", text: "Late 1950s" },
+          { id: "c", text: "Early 1970s" },
+          { id: "d", text: "Late 1980s" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-12",
+        question: "Who created the first wide area network (WAN) in 1965?",
+        options: [
+          { id: "a", text: "Vinton Cerf" },
+          { id: "b", text: "Thomas Marill and Lawrence G. Roberts" },
+          { id: "c", text: "Leonard Kleinrock" },
+          { id: "d", text: "Tim Berners-Lee" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-13",
+        question: "In which network topology are all nodes connected to a special central node?",
+        options: [
+          { id: "a", text: "Bus" },
+          { id: "b", text: "Ring" },
+          { id: "c", text: "Star" },
+          { id: "d", text: "Mesh" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-14",
+        question: "In a ring network, how is each node connected?",
+        options: [
+          { id: "a", text: "To a central hub" },
+          { id: "b", text: "To every other node" },
+          { id: "c", text: "To its left and right neighbor" },
+          { id: "d", text: "To a common medium line" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-15",
+        question: "What is the distinguishing feature of a mesh network?",
+        options: [
+          { id: "a", text: "All nodes connect to a server" },
+          { id: "b", text: "Nodes connect in a circle" },
+          { id: "c", text: "There is at least one traversal from any node to any other" },
+          { id: "d", text: "Data travels in one direction only" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-16",
+        question: "Which protocol defines the rules and data formats for exchanging information on a network?",
+        options: [
+          { id: "a", text: "Communication protocol" },
+          { id: "b", text: "Operating System" },
+          { id: "c", text: "Encryption key" },
+          { id: "d", text: "Topography" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-17",
+        question: "Ubiquitous computing is defined as machines that:",
+        options: [
+          { id: "a", text: "Force humans to enter their environment" },
+          { id: "b", text: "Fit the human environment" },
+          { id: "c", text: "Are only found in laboratories" },
+          { id: "d", text: "Require command-line interfaces" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-18",
+        question: "Mark Weiser proposed three basic forms for ubiquitous devices. Which of these is NOT one of them?",
+        options: [
+          { id: "a", text: "Tabs" },
+          { id: "b", text: "Pads" },
+          { id: "c", text: "Boards" },
+          { id: "d", text: "Spheres" },
+        ],
+        correctAnswer: "d",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-19",
+        question: "How are \"Tabs\" defined in the context of ubiquitous computing?",
+        options: [
+          { id: "a", text: "Meter-sized displays" },
+          { id: "b", text: "Hand-held decimeter-sized devices" },
+          { id: "c", text: "Wearable centimeter-sized devices" },
+          { id: "d", text: "Invisible sensors" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-20",
+        question: "Which new form of ubiquitous device refers to ensembles of MEMS formed into arbitrary three-dimensional shapes?",
+        options: [
+          { id: "a", text: "Dust" },
+          { id: "b", text: "Skin" },
+          { id: "c", text: "Clay" },
+          { id: "d", text: "Fabric" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-21",
+        question: "\"Dust\" in ubiquitous computing refers to devices ranging from nanometers to:",
+        options: [
+          { id: "a", text: "Centimeters" },
+          { id: "b", text: "Millimeters" },
+          { id: "c", text: "Decimeters" },
+          { id: "d", text: "Meters" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-22",
+        question: "When did the word \"Internet\" first appear?",
+        options: [
+          { id: "a", text: "1969" },
+          { id: "b", text: "1975" },
+          { id: "c", text: "1982" },
+          { id: "d", text: "1990" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-23",
+        question: "Which Nigerian Earth Station was established in 1965?",
+        options: [
+          { id: "a", text: "Abuja Earth Station" },
+          { id: "b", text: "Lanlate Earth Station" },
+          { id: "c", text: "Lagos Earth Station" },
+          { id: "d", text: "NORSAR" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-24",
+        question: "The \"Internet\" is described as a:",
+        options: [
+          { id: "a", text: "Single centralized network" },
+          { id: "b", text: "Network of networks" },
+          { id: "c", text: "Synonym for the World Wide Web" },
+          { id: "d", text: "Government-owned database" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-25",
+        question: "What organization administers the Internet's core infrastructure and name spaces (like domain names)?",
+        options: [
+          { id: "a", text: "UNESCO" },
+          { id: "b", text: "IEEE" },
+          { id: "c", text: "ICANN" },
+          { id: "d", text: "ISO" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-26",
+        question: "The World Wide Web (WWW) is described as:",
+        options: [
+          { id: "a", text: "The same thing as the Internet" },
+          { id: "b", text: "Just one of many services running on the Internet" },
+          { id: "c", text: "A hardware component of the Internet" },
+          { id: "d", text: "A replacement for Email" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-27",
+        question: "Which term is used to describe the Internet's structure regarding IP routing and hypertext links?",
+        options: [
+          { id: "a", text: "Scale-free networks" },
+          { id: "b", text: "Linear networks" },
+          { id: "c", text: "Rigid networks" },
+          { id: "d", text: "Closed-loop networks" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-28",
+        question: "Who used a Teletype machine in 1940 to send instructions from Dartmouth College to New York?",
+        options: [
+          { id: "a", text: "Charles Babbage" },
+          { id: "b", text: "George Stibitz" },
+          { id: "c", text: "Alan Turing" },
+          { id: "d", text: "John McCarthy" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-29",
+        question: "The first two nodes of the ARPANET were interconnected in which year?",
+        options: [
+          { id: "a", text: "1965" },
+          { id: "b", text: "1969" },
+          { id: "c", text: "1972" },
+          { id: "d", text: "1982" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-30",
+        question: "When was the ARPANET decommissioned?",
+        options: [
+          { id: "a", text: "1985" },
+          { id: "b", text: "1990" },
+          { id: "c", text: "1995" },
+          { id: "d", text: "2000" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-31",
+        question: "Which of the following is listed as an early Internet Service Provider (ISP) in Nigeria?",
+        options: [
+          { id: "a", text: "Starlink" },
+          { id: "b", text: "LinkServe Limited" },
+          { id: "c", text: "Verizon" },
+          { id: "d", text: "AT&T" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-32",
+        question: "RFC 675, which used the term \"internet\" as shorthand for internetworking, was written by whom?",
+        options: [
+          { id: "a", text: "Roberts and Kleinrock" },
+          { id: "b", text: "Vinton Cerf, Yogen Dalal, and Carl Sunshine" },
+          { id: "c", text: "Bill Gates and Paul Allen" },
+          { id: "d", text: "Tim Berners-Lee" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-33",
+        question: "Which discipline integrates several fields of electrical engineering and computer science?",
+        options: [
+          { id: "a", text: "Information Technology" },
+          { id: "b", text: "Software Engineering" },
+          { id: "c", text: "Computer Engineering" },
+          { id: "d", text: "Information Systems" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-34",
+        question: "Herb Grosh postulated in the 1950s that the world would operate on dumb terminals powered by about how many large data centers?",
+        options: [
+          { id: "a", text: "5" },
+          { id: "b", text: "15" },
+          { id: "c", text: "100" },
+          { id: "d", text: "1000" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-35",
+        question: "The \"Cloud\" symbol was used to represent the internet as early as:",
+        options: [
+          { id: "a", text: "1990" },
+          { id: "b", text: "1994" },
+          { id: "c", text: "1998" },
+          { id: "d", text: "2005" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-36",
+        question: "What was \"Eucalyptus\" (2008) known for?",
+        options: [
+          { id: "a", text: "The first web browser" },
+          { id: "b", text: "The first open source software for deploying private and hybrid clouds" },
+          { id: "c", text: "A famous computer virus" },
+          { id: "d", text: "A new operating system by Apple" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-37",
+        question: "\"Smarter Computing\" gave birth to Cloud Computing on which specific date?",
+        options: [
+          { id: "a", text: "January 1, 2000" },
+          { id: "b", text: "March 1, 2011" },
+          { id: "c", text: "December 25, 2010" },
+          { id: "d", text: "July 4, 2012" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-38",
+        question: "The hardware subsystem refers to:",
+        options: [
+          { id: "a", text: "The programs installed" },
+          { id: "b", text: "The physical/electro-mechanical components" },
+          { id: "c", text: "The data stored" },
+          { id: "d", text: "The cloud connection" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-39",
+        question: "Which software category includes anti-virus, backup software, and disk cleaners?",
+        options: [
+          { id: "a", text: "Application Software" },
+          { id: "b", text: "Utility Software" },
+          { id: "c", text: "Firmware" },
+          { id: "d", text: "Business Software" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-40",
+        question: "Which utility is designed to move file fragments to one location on a hard disk to increase efficiency?",
+        options: [
+          { id: "a", text: "Disk Cleaner" },
+          { id: "b", text: "Disk Partition" },
+          { id: "c", text: "Disk Defragmenter" },
+          { id: "d", text: "Registry Cleaner" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-41",
+        question: "What is the function of \"Revision Control\" utilities?",
+        options: [
+          { id: "a", text: "To scan for viruses" },
+          { id: "b", text: "To clean the registry" },
+          { id: "c", text: "To deal with situations where more than one user modifies the same file" },
+          { id: "d", text: "To compress files" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-42",
+        question: "A device driver is best described as:",
+        options: [
+          { id: "a", text: "A physical tool to repair computers" },
+          { id: "b", text: "A program that operates or controls a particular type of device attached to a computer" },
+          { id: "c", text: "A type of computer virus" },
+          { id: "d", text: "The central processing unit" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-43",
+        question: "Which of the following is an example of a Command User Interface (CUI) operating system?",
+        options: [
+          { id: "a", text: "Windows 10" },
+          { id: "b", text: "MS DOS" },
+          { id: "c", text: "Android" },
+          { id: "d", text: "macOS" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-44",
+        question: "Registry cleaners are used to:",
+        options: [
+          { id: "a", text: "Clean the computer screen" },
+          { id: "b", text: "Remove old registry keys that are no longer in use" },
+          { id: "c", text: "Wipe the hard drive completely" },
+          { id: "d", text: "Organize desktop icons" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-45",
+        question: "Which utility outputs a shorter stream or smaller file when provided with a stream or file?",
+        options: [
+          { id: "a", text: "Data Compression utility" },
+          { id: "b", text: "Disk Checker" },
+          { id: "c", text: "Memory Tester" },
+          { id: "d", text: "Clipboard Manager" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-46",
+        question: "\"Computer Organization\" refers to:",
+        options: [
+          { id: "a", text: "The logical execution of programs" },
+          { id: "b", text: "The operational units and their interconnections" },
+          { id: "c", text: "The specific programming language used" },
+          { id: "d", text: "The software interface" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-47",
+        question: "\"Computer Architecture\" refers to attributes visible to whom?",
+        options: [
+          { id: "a", text: "The manufacturer" },
+          { id: "b", text: "The programmer" },
+          { id: "c", text: "The electrician" },
+          { id: "d", text: "The end-user" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-48",
+        question: "A \"Bus\" in a computer system is described as:",
+        options: [
+          { id: "a", text: "A vehicle for transporting computers" },
+          { id: "b", text: "A bunch of wires for connecting components and communicating signals" },
+          { id: "c", text: "A type of storage device" },
+          { id: "d", text: "A software protocol" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-49",
+        question: "Which of the following is mentioned as a type of interconnection in Chapter 2?",
+        options: [
+          { id: "a", text: "Single bus interconnection" },
+          { id: "b", text: "Triple wire interconnection" },
+          { id: "c", text: "Bluetooth interconnection" },
+          { id: "d", text: "Fiber optic interconnection" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "intro-50",
+        question: "If a laptop and a desktop have the same processor (e.g., Core i7), they share the same:",
+        options: [
+          { id: "a", text: "Organization" },
+          { id: "b", text: "Architecture" },
+          { id: "c", text: "Weight" },
+          { id: "d", text: "Power consumption" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+    ]
   }
 ];
 
