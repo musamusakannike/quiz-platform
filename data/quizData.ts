@@ -1827,6 +1827,616 @@ export const quizTopics: Topic[] = [
         explanation: "No explanation provided."
       },
     ]
+  },
+  {
+    id: "chapter-4-problem-solving",
+    title: "Chapter 4: Problem Solving, Data, & Speed",
+    description: "Test your knowledge on algorithms, flowcharts, numerical methods, and software engineering history.",
+    icon: "Cpu",
+    color: "#ff9800",
+    questions: [
+      {
+        id: "ch4-1",
+        question: "What is the term for the series of instructions written to solve tasks on a computer system?",
+        options: [
+          { id: "a", text: "Computer Heuristic" },
+          { id: "b", text: "Computer Architecture" },
+          { id: "c", text: "Computer Program" },
+          { id: "d", text: "Computer Syntax" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-2",
+        question: "Which of the following is NOT a tool mentioned for developing computer programs?",
+        options: [
+          { id: "a", text: "Algorithm" },
+          { id: "b", text: "Flowchart" },
+          { id: "c", text: "Pseudo-code" },
+          { id: "d", text: "Compiler" },
+        ],
+        correctAnswer: "d",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-3",
+        question: "How many binary digits make up a \"Nibble\"?",
+        options: [
+          { id: "a", text: "2" },
+          { id: "b", text: "4" },
+          { id: "c", text: "8" },
+          { id: "d", text: "16" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-4",
+        question: "Which unit is used to measure the speed of computer systems used for scientific calculations in floating-point format?",
+        options: [
+          { id: "a", text: "Hertz (Hz)" },
+          { id: "b", text: "MIPS" },
+          { id: "c", text: "FLOPS" },
+          { id: "d", text: "RPM" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-5",
+        question: "What is the value of 1 PetaFLOP?",
+        options: [
+          { id: "a", text: "$10^{12}$ FLOPS" },
+          { id: "b", text: "$10^{15}$ FLOPS" },
+          { id: "c", text: "$10^{18}$ FLOPS" },
+          { id: "d", text: "$10^{21}$ FLOPS" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-6",
+        question: "According to the document, which programming language is described as having \"weakly typed\" data types?",
+        options: [
+          { id: "a", text: "PASCAL" },
+          { id: "b", text: "C++" },
+          { id: "c", text: "BASIC" },
+          { id: "d", text: "FORTRAN" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-7",
+        question: "What is the storage allocation size for a \"Long int\"?",
+        options: [
+          { id: "a", text: "1 byte" },
+          { id: "b", text: "2 bytes" },
+          { id: "c", text: "4 bytes" },
+          { id: "d", text: "8 bytes" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-8",
+        question: "What is the range of values for a signed char data type?",
+        options: [
+          { id: "a", text: "0 to 255" },
+          { id: "b", text: "-128 to 127" },
+          { id: "c", text: "-32768 to 32767" },
+          { id: "d", text: "0 to 65535" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-9",
+        question: "Which operator is used to return the remainder after carrying out Integer division?",
+        options: [
+          { id: "a", text: "/" },
+          { id: "b", text: "#" },
+          { id: "c", text: "%" },
+          { id: "d", text: "&" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-10",
+        question: "In the expression K = (i > j) ? i : j, what kind of operator is ? :?",
+        options: [
+          { id: "a", text: "Logical Operator" },
+          { id: "b", text: "Relational Operator" },
+          { id: "c", text: "Ternary Operator" },
+          { id: "d", text: "Bitwise Operator" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-11",
+        question: "If I = 5, what is the result of the calculation I = i++ * i++ as described in the text?",
+        options: [
+          { id: "a", text: "25" },
+          { id: "b", text: "27" },
+          { id: "c", text: "30" },
+          { id: "d", text: "36" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-12",
+        question: "According to the Operator Precedence Rules table, which operator has the highest order of evaluation?",
+        options: [
+          { id: "a", text: "+ - (Binary Additive)" },
+          { id: "b", text: "* / % (Binary Multiplication)" },
+          { id: "c", text: "() -> (Array subscript, function call)" },
+          { id: "d", text: "&& (Logical AN" },
+          { id: "d", text: "" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-13",
+        question: "At which stage of the Program Development Cycle is the problem defined and a deep understanding of input/output relationships established?",
+        options: [
+          { id: "a", text: "Design" },
+          { id: "b", text: "Coding" },
+          { id: "c", text: "Analysis" },
+          { id: "d", text: "Testing" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-14",
+        question: "What is the process of finding errors in a program called?",
+        options: [
+          { id: "a", text: "Debugging" },
+          { id: "b", text: "Testing" },
+          { id: "c", text: "Compiling" },
+          { id: "d", text: "Documenting" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-15",
+        question: "Which type of documentation consists of annotations and comments within the program?",
+        options: [
+          { id: "a", text: "External documentation" },
+          { id: "b", text: "User documentation" },
+          { id: "c", text: "Internal documentation" },
+          { id: "d", text: "System documentation" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-16",
+        question: "How does the text differentiate an Algorithm from Heuristics?",
+        options: [
+          { id: "a", text: "Algorithms are individual dependent; Heuristics are not." },
+          { id: "b", text: "Heuristics guarantee a solution; Algorithms do not." },
+          { id: "c", text: "Algorithms allow anyone to solve the problem the same way; Heuristics depend on experience and may fail." },
+          { id: "d", text: "Heuristics are used for computers; Algorithms are for humans." },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-17",
+        question: "In a flowchart, which geometric symbol represents a \"Decision\"?",
+        options: [
+          { id: "a", text: "Oval" },
+          { id: "b", text: "Rectangle" },
+          { id: "c", text: "Diamond" },
+          { id: "d", text: "Parallelogram" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-18",
+        question: "Which flowchart symbol is depicted as a rectangle with a wavy base?",
+        options: [
+          { id: "a", text: "Data storage" },
+          { id: "b", text: "Document" },
+          { id: "c", text: "Manual Input" },
+          { id: "d", text: "Display" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-19",
+        question: "What does a parallelogram represent in a flowchart?",
+        options: [
+          { id: "a", text: "Processing" },
+          { id: "b", text: "Terminator (Start/End)" },
+          { id: "c", text: "Input/Output" },
+          { id: "d", text: "Connector" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-20",
+        question: "Euclid’s algorithm is used to determine which of the following?",
+        options: [
+          { id: "a", text: "The factorial of a number" },
+          { id: "b", text: "The Fibonacci series" },
+          { id: "c", text: "The Highest Common Factor (HCF) of two numbers" },
+          { id: "d", text: "The roots of a quadratic equation" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-21",
+        question: "A number is said to be \"perfect\" if:",
+        options: [
+          { id: "a", text: "It is divisible by 2." },
+          { id: "b", text: "The sum of its factors (including 1) equals the number." },
+          { id: "c", text: "It is a prime number." },
+          { id: "d", text: "It is an odd number." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-22",
+        question: "In the Fibonacci series algorithm provided, what is the recurrence relation for $F_n$?",
+        options: [
+          { id: "a", text: "$F_n = F_{n-1} * F_{n-2}$" },
+          { id: "b", text: "$F_n = F_{n-1} + F_{n-2}$" },
+          { id: "c", text: "$F_n = 2F_{n-1}$" },
+          { id: "d", text: "$F_n = F_{n-1} - F_{n-2}$" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-23",
+        question: "To obtain the transpose of a matrix, what operation is performed?",
+        options: [
+          { id: "a", text: "Inverting the sign of all elements." },
+          { id: "b", text: "Multiplying the diagonal elements by -1." },
+          { id: "c", text: "Interchanging the rows and columns." },
+          { id: "d", text: "Sorting the elements in ascending order." },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-24",
+        question: "In the \"Bubble Sort\" technique, how many passes are required to sort $n$ items?",
+        options: [
+          { id: "a", text: "$n$" },
+          { id: "b", text: "$n + 1$" },
+          { id: "c", text: "$n - 1$" },
+          { id: "d", text: "$n / 2$" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-25",
+        question: "What is the formula for the number of comparisons (probes) in a Bubble Sort for $n$ items?",
+        options: [
+          { id: "a", text: "$n^2$" },
+          { id: "b", text: "$n(n+1)/2$" },
+          { id: "c", text: "$n(n-1)/2$" },
+          { id: "d", text: "$2n$" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-26",
+        question: "Numerical methods are often employed when:",
+        options: [
+          { id: "a", text: "The exact analytic solution is unknown or does not exist." },
+          { id: "b", text: "The computer is too slow for exact methods." },
+          { id: "c", text: "The problem involves simple integer arithmetic." },
+          { id: "d", text: "An exact solution is required immediately." },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-27",
+        question: "Which rule for numerical integration states that the integral is approximately $\\frac{h}{2} [F(x_0) + F(x_n) + 2 \\times (\\text{sum of all other terms})]$?",
+        options: [
+          { id: "a", text: "Simpson’s Rule" },
+          { id: "b", text: "Trapezoidal Rule" },
+          { id: "c", text: "Newton's Rule" },
+          { id: "d", text: "Gaussian Rule" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-28",
+        question: "What is a specific requirement for the number of strips/intervals ($n$) when using Simpson’s Method (Rule)?",
+        options: [
+          { id: "a", text: "$n$ must be an odd number." },
+          { id: "b", text: "$n$ must be an even number." },
+          { id: "c", text: "$n$ must be a prime number." },
+          { id: "d", text: "$n$ must be a multiple of 3." },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-29",
+        question: "The Simpson's method formula involves multiplying the sum of odd ordinates by which factor?",
+        options: [
+          { id: "a", text: "2" },
+          { id: "b", text: "3" },
+          { id: "c", text: "4" },
+          { id: "d", text: "6" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-30",
+        question: "In Numerical Differentiation, utilizing the Taylor series expansion, the first derivative $y^1(x_0)$ is approximated by:",
+        options: [
+          { id: "a", text: "$(y(x_0+h) + y(x_0)) / h$" },
+          { id: "b", text: "$(y(x_0+h) - y(x_0)) / h$" },
+          { id: "c", text: "$h(y(x_0+h) - y(x_0))$" },
+          { id: "d", text: "$(y(x_0) - y(x_0-h)) / 2$" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-31",
+        question: "When truncating an infinite series (like Taylor series for sin(x)), one common technique to stop the iteration is when:",
+        options: [
+          { id: "a", text: "The value of the nth term is less than the required accuracy." },
+          { id: "b", text: "The value of the nth term is zero." },
+          { id: "c", text: "The number of terms reaches 100." },
+          { id: "d", text: "The computer runs out of memory." },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-32",
+        question: "The Newton-Raphson method is used to find:",
+        options: [
+          { id: "a", text: "The integral of a function." },
+          { id: "b", text: "The derivative of a function." },
+          { id: "c", text: "The root of the equation $F(x) = 0$." },
+          { id: "d", text: "The transpose of a matrix." },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-33",
+        question: "What is the iterative formula for the Newton-Raphson method?",
+        options: [
+          { id: "a", text: "$X_{n+1} = X_n - F(X_n) / F^1(X_n)$" },
+          { id: "b", text: "$X_{n+1} = X_n + F(X_n) / F^1(X_n)$" },
+          { id: "c", text: "$X_{n+1} = F(X_n) - X_n$" },
+          { id: "d", text: "$X_{n+1} = X_n * F^1(X_n)$" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-34",
+        question: "Which method is suggested for solving simultaneous linear equations with three or more unknowns?",
+        options: [
+          { id: "a", text: "Substitution method" },
+          { id: "b", text: "Graphical method" },
+          { id: "c", text: "Gaussian elimination method" },
+          { id: "d", text: "Bubble sort method" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-35",
+        question: "Where did the first primitive form of software engineering take place in 1944?",
+        options: [
+          { id: "a", text: "MIT, USA" },
+          { id: "b", text: "Bletchley Park, England" },
+          { id: "c", text: "Silicon Valley, USA" },
+          { id: "d", text: "Berlin, Germany" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-36",
+        question: "What was the name of the first programmable computer developed to decrypt Axis power ciphers?",
+        options: [
+          { id: "a", text: "ENIAC" },
+          { id: "b", text: "The Analytical Engine" },
+          { id: "c", text: "The Colossus" },
+          { id: "d", text: "UNIVAC" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-37",
+        question: "Which early programming language was used primarily by the scientific and engineering communities?",
+        options: [
+          { id: "a", text: "COBOL" },
+          { id: "b", text: "BASIC" },
+          { id: "c", text: "FORTRAN" },
+          { id: "d", text: "PASCAL" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-38",
+        question: "What does COBOL stand for?",
+        options: [
+          { id: "a", text: "Computer Oriented Business Operating Language" },
+          { id: "b", text: "Common Business Oriented Language" },
+          { id: "c", text: "Commercial Binary Operation Language" },
+          { id: "d", text: "Code Of Business Organization Logic" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-39",
+        question: "In the early days of programming, efficiency was prioritized due to limitations in:",
+        options: [
+          { id: "a", text: "Electricity availability" },
+          { id: "b", text: "Central processor speed and core memory" },
+          { id: "c", text: "Monitor resolution" },
+          { id: "d", text: "Keyboard responsiveness" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-40",
+        question: "Which language became central to the development of programming for microprocessors?",
+        options: [
+          { id: "a", text: "ALGOL" },
+          { id: "b", text: "FORTRAN" },
+          { id: "c", text: "BASIC" },
+          { id: "d", text: "Java" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-41",
+        question: "A bitwise operator that shifts bits to the left is represented by:",
+        options: [
+          { id: "a", text: ">>" },
+          { id: "b", text: "<<" },
+          { id: "c", text: "~~" },
+          { id: "d", text: "||" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-42",
+        question: "What is the result of a modulo operation A % B?",
+        options: [
+          { id: "a", text: "The quotient of A divided by B" },
+          { id: "b", text: "The product of A and B" },
+          { id: "c", text: "The remainder of A divided by B" },
+          { id: "d", text: "The sum of A and B" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-43",
+        question: "In the context of operator precedence, which direction is the assignment operator (=) evaluated?",
+        options: [
+          { id: "a", text: "Left to right" },
+          { id: "b", text: "Right to left" },
+          { id: "c", text: "Randomly" },
+          { id: "d", text: "Center outwards" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-44",
+        question: "Which of the following is considered a Low Level programming language?",
+        options: [
+          { id: "a", text: "Assembly Language" },
+          { id: "b", text: "C++" },
+          { id: "c", text: "BASIC" },
+          { id: "d", text: "PASCAL" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-45",
+        question: "What is the correct pseudo-code syntax used in the text to increment a variable K?",
+        options: [
+          { id: "a", text: "K++" },
+          { id: "b", text: "K = K + 1" },
+          { id: "c", text: "Inc(K)" },
+          { id: "d", text: "K += 1" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-46",
+        question: "For the quadratic equation $ax^2 + bx + c = 0$, what condition indicates that the roots are imaginary?",
+        options: [
+          { id: "a", text: "$D = 0$" },
+          { id: "b", text: "$D > 0$" },
+          { id: "c", text: "$D < 0$ (where $D = b^2 - 4ac$)" },
+          { id: "d", text: "$a = 0$" },
+        ],
+        correctAnswer: "c",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-47",
+        question: "Which symbol represents a \"Connector\" in a flowchart?",
+        options: [
+          { id: "a", text: "Small Circle" },
+          { id: "b", text: "Triangle" },
+          { id: "c", text: "Cylinder" },
+          { id: "d", text: "Diamond" },
+        ],
+        correctAnswer: "a",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-48",
+        question: "In the context of floating-point operations, what does \"1 flops\" (singular) correspond to?",
+        options: [
+          { id: "a", text: "One error per second" },
+          { id: "b", text: "$1 \\text{ second}^{-1}$" },
+          { id: "c", text: "One gigabyte of data" },
+          { id: "d", text: "One logic gate" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-49",
+        question: "What is the typical value range used for epsilon (accuracy) when terminating sine series iterations?",
+        options: [
+          { id: "a", text: "$10^{-1}$ to $10^{-2}$" },
+          { id: "b", text: "$10^{-6}$ to $10^{-9}$" },
+          { id: "c", text: "$10^3$ to $10^6$" },
+          { id: "d", text: "$0.1$ to $0.5$" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+      {
+        id: "ch4-50",
+        question: "The variable name Si,j in the student score example represents:",
+        options: [
+          { id: "a", text: "A single dimensional array" },
+          { id: "b", text: "A two dimensional variable (Student i, Score j)" },
+          { id: "c", text: "A function call" },
+          { id: "d", text: "A constant value" },
+        ],
+        correctAnswer: "b",
+        explanation: "No explanation provided."
+      },
+    ]
   }
 ];
 
