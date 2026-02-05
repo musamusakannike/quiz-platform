@@ -15,7 +15,7 @@ export default function TopicCard({ topic, index }: TopicCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
   
   // Get the icon dynamically from lucide-react
-  const IconComponent = (LucideIcons as Record<string, React.ComponentType<{ size?: number; className?: string }>>)[topic.icon] || LucideIcons.HelpCircle;
+  const IconComponent = (LucideIcons as unknown as Record<string, React.ComponentType<{ size?: number; className?: string }>>)[topic.icon] || LucideIcons.HelpCircle;
 
   useEffect(() => {
     if (cardRef.current) {
