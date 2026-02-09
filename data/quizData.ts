@@ -2861,614 +2861,1402 @@ export const quizTopics: Topic[] = [
     ],
   },
   {
-  "id": "entrepreneurship-marketing-validation-chapter-5",
-  "title": "Marketing and Idea Validation",
-  "description": "Test your knowledge on marketing functions, customer markets, product classification, and the strategic process of idea validation.",
-  "icon": "Megaphone",
-  "color": "#e91e63",
-  "questions": [
-    {
-      "id": "mv-1",
-      "question": "Concerted effort is required on investigating the likely market for an intended product to ensure its:",
-      "options": [
-        { "id": "a", "text": "Design aesthetic" },
-        { "id": "b", "text": "Commercial success tendencies" },
-        { "id": "c", "text": "Legal registration only" },
-        { "id": "d", "text": "Storage capacity" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Investigation is required to ensure the product has commercial success tendencies[cite: 1069, 1070]."
-    },
-    {
-      "id": "mv-2",
-      "question": "According to the text, a business-oriented person must prepare for failure not just in terms of finance but also as regards:",
-      "options": [
-        { "id": "a", "text": "Infrastructure" },
-        { "id": "b", "text": "Social media" },
-        { "id": "c", "text": "Emotion" },
-        { "id": "d", "text": "Politics" }
-      ],
-      "correctAnswer": "c",
-      "explanation": "A business-oriented person must prepare for failure emotionally as well as financially[cite: 1075]."
-    },
-    {
-      "id": "mv-3",
-      "question": "Which of these is a distinguishing feature of services compared to products?",
-      "options": [
-        { "id": "a", "text": "Visibility" },
-        { "id": "b", "text": "Intangibility" },
-        { "id": "c", "text": "Durability" },
-        { "id": "d", "text": "Separability" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Distinguishing features of services include intangibility, variability, inseparability, and simultaneity[cite: 1089, 1090]."
-    },
-    {
-      "id": "mv-4",
-      "question": "In the context of services, 'intangibility' means they:",
-      "options": [
-        { "id": "a", "text": "Can be stored for years" },
-        { "id": "b", "text": "Can be seen but not touched" },
-        { "id": "c", "text": "Can neither be held physically nor seen" },
-        { "id": "d", "text": "Are only performed by machines" }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Intangibility characterizes services as they can neither be held physically nor seen[cite: 1090]."
-    },
-    {
-      "id": "mv-5",
-      "question": "Simultaneity in services means that demand and supply happen:",
-      "options": [
-        { "id": "a", "text": "At different locations" },
-        { "id": "b", "text": "In two different years" },
-        { "id": "c", "text": "At the same time" },
-        { "id": "d", "text": "Only when the customer sleeps" }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Demand and supply of services happen simultaneously[cite: 1091]."
-    },
-    {
-      "id": "mv-6",
-      "question": "Who defined the entrepreneur as an innovator who brings new products or services into the economy?",
-      "options": [
-        { "id": "a", "text": "McClelland" },
-        { "id": "b", "text": "Schumpeter" },
-        { "id": "c", "text": "Young" },
-        { "id": "d", "text": "Hoselitz" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Schumpeter (1934) sees the entrepreneur as an innovator bringing new products or services into the economy[cite: 1100]."
-    },
-    {
-      "id": "mv-7",
-      "question": "Which theory emphasizes that religion has a large impact on entrepreneurial development?",
-      "options": [
-        { "id": "a", "text": "Theory viii" },
-        { "id": "b", "text": "Theory ix" },
-        { "id": "c", "text": "Theory iv" },
-        { "id": "d", "text": "Theory i" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Theory ix states that religion has a large impact on entrepreneurial development[cite: 1115]."
-    },
-    {
-      "id": "mv-8",
-      "question": "Drucker (1973) argues that the aim of marketing is to know the customer so well that the product:",
-      "options": [
-        { "id": "a", "text": "Becomes more expensive" },
-        { "id": "b", "text": "Fits him and sells itself" },
-        { "id": "c", "text": "Needs aggressive advertising" },
-        { "id": "d", "text": "Is always available in blue" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The aim is to know the customer so well that the product fits him and sells itself[cite: 1120]."
-    },
-    {
-      "id": "mv-9",
-      "question": "In marketing terms, 'wants' are basic human requirements directed to:",
-      "options": [
-        { "id": "a", "text": "Specific objects that satisfy a need" },
-        { "id": "b", "text": "General survival only" },
-        { "id": "c", "text": "Invisible entities" },
-        { "id": "d", "text": "The government for help" }
-      ],
-      "correctAnswer": "a",
-      "explanation": "A need becomes a want when it is directed to specific objects that might satisfy the need[cite: 1125]."
-    },
-    {
-      "id": "mv-10",
-      "question": "Demands are wants for specific products backed by:",
-      "options": [
-        { "id": "a", "text": "Government approval" },
-        { "id": "b", "text": "Ability to pay" },
-        { "id": "c", "text": "High education" },
-        { "id": "d", "text": "A physical market location" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Demands are wants for specific product backed by an ability to pay[cite: 1128]."
-    },
-    {
-      "id": "mv-11",
-      "question": "In the shoe industry, 'youth market' is an example of which type of market?",
-      "options": [
-        { "id": "a", "text": "Geographic" },
-        { "id": "b", "text": "Need market" },
-        { "id": "c", "text": "Demographic market" },
-        { "id": "d", "text": "Labour market" }
-      ],
-      "correctAnswer": "c",
-      "explanation": "The youth market is given as an example of a demographic market[cite: 1135]."
-    },
-    {
-      "id": "mv-12",
-      "question": "Which market consists of professional buyers skilled in evaluating competitive offerings to resell them at a profit?",
-      "options": [
-        { "id": "a", "text": "Consumer Markets" },
-        { "id": "b", "text": "Business Markets" },
-        { "id": "c", "text": "Voter Markets" },
-        { "id": "d", "text": "Global Markets" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Business markets consist of well trained professional buyers who buy goods to make or resell to others at a profit[cite: 1144, 1145]."
-    },
-    {
-      "id": "mv-13",
-      "question": "When selling to 'Global Markets,' entrepreneurs must decide on entries such as joint ventures, contract manufacturing, or:",
-      "options": [
-        { "id": "a", "text": "Giving products away for free" },
-        { "id": "b", "text": "Solo manufacturer" },
-        { "id": "c", "text": "Buying a whole country" },
-        { "id": "d", "text": "Ignoring local culture" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Ways to enter include being an exporter, licenser, joint venture partner, contract manufacturer, or solo manufacturer[cite: 1147]."
-    },
-    {
-      "id": "mv-14",
-      "question": "Government purchasing normally calls for ____, with the lowest one being favoured.",
-      "options": [
-        { "id": "a", "text": "Advertisements" },
-        { "id": "b", "text": "Bids" },
-        { "id": "c", "text": "Phone calls" },
-        { "id": "d", "text": "Lotteries" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Government purchasing normally calls for bids, with the lowest bid being favoured[cite: 1152]."
-    },
-    {
-      "id": "mv-15",
-      "question": "Which marketing entity involves professionals like accountants, bankers, and software programmers?",
-      "options": [
-        { "id": "a", "text": "Goods" },
-        { "id": "b", "text": "Services" },
-        { "id": "c", "text": "Events" },
-        { "id": "d", "text": "Properties" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Services include the work of professionals such as accountants, bankers, lawyers, and software programmers[cite: 1155]."
-    },
-    {
-      "id": "mv-16",
-      "question": "The Olympics and World Cup are prime examples of:",
-      "options": [
-        { "id": "a", "text": "Property marketing" },
-        { "id": "b", "text": "Experience marketing" },
-        { "id": "c", "text": "Event marketing" },
-        { "id": "d", "text": "Celebrity marketing" }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Global sporting events such as Olympic and World cup are good examples of event marketing[cite: 1158]."
-    },
-    {
-      "id": "mv-17",
-      "question": "Climbing Mount Everest or attending a live band concert are examples of:",
-      "options": [
-        { "id": "a", "text": "Information marketing" },
-        { "id": "b", "text": "Experiential marketing" },
-        { "id": "c", "text": "Business marketing" },
-        { "id": "d", "text": "Commodity marketing" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "By orchestrating several services and goods, firms create and market experiences, also known as experiential marketing[cite: 1160, 1161]."
-    },
-    {
-      "id": "mv-18",
-      "question": "In celebrity marketing, each person is advised to become a/an:",
-      "options": [
-        { "id": "a", "text": "Employee" },
-        { "id": "b", "text": "Brand" },
-        { "id": "c", "text": "Agent" },
-        { "id": "d", "text": "Mystery" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "In marketing, each person is advised to become a 'brand'[cite: 1168]."
-    },
-    {
-      "id": "mv-19",
-      "question": "Economic development specialists and real estate agents are primarily involved in ____ marketing.",
-      "options": [
-        { "id": "a", "text": "Idea" },
-        { "id": "b", "text": "Place" },
-        { "id": "c", "text": "Person" },
-        { "id": "d", "text": "Organization" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Place marketers include economic development specialists and real estate agents wooing people to such places[cite: 1171]."
-    },
-    {
-      "id": "mv-20",
-      "question": "Which of these is a Nigerian example of 'Place' marketing cited in the text?",
-      "options": [
-        { "id": "a", "text": "University of Ilorin" },
-        { "id": "b", "text": "Obudu Ranch" },
-        { "id": "c", "text": "Jide Taiwo and Associates" },
-        { "id": "d", "text": "Dangote Group" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Obudu Ranch, Ikogosi Warm Spring, and Owu Fall are examples of such places in Nigeria[cite: 1172]."
-    },
-    {
-      "id": "mv-21",
-      "question": "Financial property marketing involves the sale of stocks and:",
-      "options": [
-        { "id": "a", "text": "Houses" },
-        { "id": "b", "text": "Bonds" },
-        { "id": "c", "text": "Cars" },
-        { "id": "d", "text": "Furniture" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Financial property includes stocks and bonds[cite: 1174]."
-    },
-    {
-      "id": "mv-22",
-      "question": "The University of Ilorin has built a unique image (Organization marketing) partly due to its:",
-      "options": [
-        { "id": "a", "text": "Location in Lagos" },
-        { "id": "b", "text": "Uninterrupted academic calendar" },
-        { "id": "c", "text": "High student fees" },
-        { "id": "d", "text": "Low staff number" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The university built a good image because of its uninterrupted academic calendar for the past twenty years[cite: 1179]."
-    },
-    {
-      "id": "mv-23",
-      "question": "Management consulting firms primarily sell their ____ to companies.",
-      "options": [
-        { "id": "a", "text": "Physical machines" },
-        { "id": "b", "text": "Ideas" },
-        { "id": "c", "text": "Real estate" },
-        { "id": "d", "text": "Livestock" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Management consulting firms sell their ideas to companies and are paid for these services[cite: 1186]."
-    },
-    {
-      "id": "mv-24",
-      "question": "Which marketing function category includes buying, assembling, and selling?",
-      "options": [
-        { "id": "a", "text": "Physical function" },
-        { "id": "b", "text": "Exchange function" },
-        { "id": "c", "text": "Facilitating function" },
-        { "id": "d", "text": "Climatic function" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The exchange function brings about changes in ownership and includes buying, assembling, and selling[cite: 1193]."
-    },
-    {
-      "id": "mv-25",
-      "question": "Storage and transportation are part of which marketing function?",
-      "options": [
-        { "id": "a", "text": "Exchange" },
-        { "id": "b", "text": "Physical function" },
-        { "id": "c", "text": "Facilitating" },
-        { "id": "d", "text": "Social" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The physical function is the physical transfer of products via storage and transportation[cite: 1194]."
-    },
-    {
-      "id": "mv-26",
-      "question": "Facilitating functions like financing and risk-bearing help perform:",
-      "options": [
-        { "id": "a", "text": "Only storage" },
-        { "id": "b", "text": "Other marketing functions" },
-        { "id": "c", "text": "Only transportation" },
-        { "id": "d", "text": "Global manufacturing" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Facilitating functions are supporting activities that contribute to the performance of other marketing functions[cite: 1197]."
-    },
-    {
-      "id": "mv-27",
-      "question": "Beer, bread, and toothpaste are examples of which product category?",
-      "options": [
-        { "id": "a", "text": "Durable goods" },
-        { "id": "b", "text": "Nondurable goods" },
-        { "id": "c", "text": "Unsought goods" },
-        { "id": "d", "text": "Capital items" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Nondurable goods are tangible goods consumed quickly and frequently, such as beer, bread, and toothpaste[cite: 1204]."
-    },
-    {
-      "id": "mv-28",
-      "question": "Consumer convenience goods are further divided into staples, impulse goods, and:",
-      "options": [
-        { "id": "a", "text": "Specialty goods" },
-        { "id": "b", "text": "Emergency goods" },
-        { "id": "c", "text": "Industrial goods" },
-        { "id": "d", "text": "Capital items" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Convenience goods are further divided into staples, impulse, and emergency goods[cite: 1207]."
-    },
-    {
-      "id": "mv-29",
-      "question": "Magazines and yoghurt are examples of ____ goods because they are bought without planning.",
-      "options": [
-        { "id": "a", "text": "Staple" },
-        { "id": "b", "text": "Impulse" },
-        { "id": "c", "text": "Emergency" },
-        { "id": "d", "text": "Specialty" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Impulse goods are purchased without planning or search effort, such as magazines and yoghurt[cite: 1209]."
-    },
-    {
-      "id": "mv-30",
-      "question": "Umbrellas during a rainy season are considered ____ goods.",
-      "options": [
-        { "id": "a", "text": "Impulse" },
-        { "id": "b", "text": "Emergency" },
-        { "id": "c", "text": "Unsought" },
-        { "id": "d", "text": "Durable" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Emergency goods are purchased when there is an urgent need, like buying an umbrella during rainy seasons[cite: 1210]."
-    },
-    {
-      "id": "mv-31",
-      "question": "Furniture and used cars are ____ goods because consumers compare them on price and suitability.",
-      "options": [
-        { "id": "a", "text": "Convenience" },
-        { "id": "b", "text": "Shopping" },
-        { "id": "c", "text": "Unsought" },
-        { "id": "d", "text": "Industrial" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Shopping goods are compared by consumers in terms of suitability, quality, price, and style[cite: 1212]."
-    },
-    {
-      "id": "mv-32",
-      "question": "Life insurance and cemetery plots are categorized as ____ goods.",
-      "options": [
-        { "id": "a", "text": "Specialty" },
-        { "id": "b", "text": "Unsought" },
-        { "id": "c", "text": "Staple" },
-        { "id": "d", "text": "Capital" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Unsought goods are those consumers do not normally think of buying, like life insurance and cemetery plots[cite: 1220, 1221]."
-    },
-    {
-      "id": "mv-33",
-      "question": "Crude petroleum and lumber are examples of which type of industrial material?",
-      "options": [
-        { "id": "a", "text": "Capital items" },
-        { "id": "b", "text": "Raw materials (natural products)" },
-        { "id": "c", "text": "Business services" },
-        { "id": "d", "text": "Component parts" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Raw materials can be natural products such as lumber and crude petroleum[cite: 1225]."
-    },
-    {
-      "id": "mv-34",
-      "question": "Capital items include long-lasting goods like heavy equipment and:",
-      "options": [
-        { "id": "a", "text": "Writing paper" },
-        { "id": "b", "text": "Installations (buildings)" },
-        { "id": "c", "text": "Lubricants" },
-        { "id": "d", "text": "Soap" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Capital items include installations (buildings) and heavy equipment[cite: 1228, 1229]."
-    },
-    {
-      "id": "mv-35",
-      "question": "Window cleaning and copier repair fall under industrial:",
-      "options": [
-        { "id": "a", "text": "Materials" },
-        { "id": "b", "text": "Business services" },
-        { "id": "c", "text": "Installations" },
-        { "id": "d", "text": "Convenience goods" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Business services include maintenance and repair services such as window cleaning and copier repair[cite: 1232]."
-    },
-    {
-      "id": "mv-36",
-      "question": "The 4Ps of the marketing mix are Product, Price, Place, and:",
-      "options": [
-        { "id": "a", "text": "Profit" },
-        { "id": "b", "text": "Promotion" },
-        { "id": "c", "text": "People" },
-        { "id": "d", "text": "Packaging" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The 4Ps are product, price, place, and promotion[cite: 1246]."
-    },
-    {
-      "id": "mv-37",
-      "question": "According to the 4Cs model, 'Place' in the marketing mix represents the customer's:",
-      "options": [
-        { "id": "a", "text": "Solution" },
-        { "id": "b", "text": "Convenience (accessibility)" },
-        { "id": "c", "text": "Cost" },
-        { "id": "d", "text": "Communication" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Place offers convenience or accessibility of the product to consumers[cite: 1249]."
-    },
-    {
-      "id": "mv-38",
-      "question": "Small businesses are called different names; MSMEs stands for:",
-      "options": [
-        { "id": "a", "text": "Main System of Marketing Entities" },
-        { "id": "b", "text": "Micro, Small and Medium Enterprises" },
-        { "id": "c", "text": "Managerial Skills for Modern Engineers" },
-        { "id": "d", "text": "Multiple Small and Major Exports" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The text lists MSMEs as Micro, Small and Medium Enterprises[cite: 1252]."
-    },
-    {
-      "id": "mv-39",
-      "question": "The Central Bank of Nigeria (2013) defines SMEs as establishments with base capital (excluding land) between:",
-      "options": [
-        { "id": "a", "text": "N1 million and N10 million" },
-        { "id": "b", "text": "N5 million and N500 million" },
-        { "id": "c", "text": "N100 million and N1 billion" },
-        { "id": "d", "text": "N50,000 and N500,000" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "SMEs are defined as establishment with base capital between N5 million and N500 million[cite: 1256]."
-    },
-    {
-      "id": "mv-40",
-      "question": "Under the same definition, an SME in Nigeria employs between:",
-      "options": [
-        { "id": "a", "text": "1 and 5 staff" },
-        { "id": "b", "text": "11 and 200 staff" },
-        { "id": "c", "text": "500 and 1000 staff" },
-        { "id": "d", "text": "Any number of staff" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "SMEs in Nigeria are those employing between 11 and 200 staff[cite: 1256]."
-    },
-    {
-      "id": "mv-41",
-      "question": "Cybercafés and pure water production are identified as ____ businesses to be avoided.",
-      "options": [
-        { "id": "a", "text": "Growth" },
-        { "id": "b", "text": "Dying" },
-        { "id": "c", "text": "Illegal" },
-        { "id": "d", "text": "Specialty" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The entrepreneur should be careful not to go into 'dying' businesses like cybercafé and pure water production[cite: 1283]."
-    },
-    {
-      "id": "mv-42",
-      "question": "Idea validation is the process of checking the validity of an idea ____ converting it to a sellable product.",
-      "options": [
-        { "id": "a", "text": "After" },
-        { "id": "b", "text": "Before" },
-        { "id": "c", "text": "Instead of" },
-        { "id": "d", "text": "By never" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Idea validation involves checking the validity of an idea before converting it to a product[cite: 1285]."
-    },
-    {
-      "id": "mv-43",
-      "question": "The essence of validation is to ensure that a ____ is available for the planned product.",
-      "options": [
-        { "id": "a", "text": "Bank loan" },
-        { "id": "b", "text": "Ready market" },
-        { "id": "c", "text": "Supplier" },
-        { "id": "d", "text": "Tax refund" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The validation effort ensures that a ready market is available[cite: 1290]."
-    },
-    {
-      "id": "mv-44",
-      "question": "Opportunity recognition achieves profit potential through commencing a fresh enterprise or ____ an existing one.",
-      "options": [
-        { "id": "a", "text": "Selling" },
-        { "id": "b", "text": "Restructuring and rejuvenating" },
-        { "id": "c", "text": "Closing" },
-        { "id": "d", "text": "Ignoring" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Profit potential is achieved through fresh business or restructuring/rejuvenating existing ventures[cite: 1298, 1299]."
-    },
-    {
-      "id": "mv-45",
-      "question": "One's previous occupations or environment can be a source of ideas; this is called:",
-      "options": [
-        { "id": "a", "text": "Hobby" },
-        { "id": "b", "text": "Prior Experience" },
-        { "id": "c", "text": "Market Research" },
-        { "id": "d", "text": "Social Network" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Prior experience in previous occupations or environments is a source of entrepreneurial ideas[cite: 1317]."
-    },
-    {
-      "id": "mv-46",
-      "question": "When scanning for opportunities, government minimum wage and taxes are part of:",
-      "options": [
-        { "id": "a", "text": "Climatic conditions" },
-        { "id": "b", "text": "Government regulations" },
-        { "id": "c", "text": "Hobby interest" },
-        { "id": "d", "text": "Social networks" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Regulations include political and economic factors like minimum wage and taxes[cite: 1342, 1345]."
-    },
-    {
-      "id": "mv-47",
-      "question": "The mass advocacy for solar-powered cars due to global warming is an example of a/an ____ influence.",
-      "options": [
-        { "id": "a", "text": "Legal" },
-        { "id": "b", "text": "Climatic condition" },
-        { "id": "c", "text": "Individual" },
-        { "id": "d", "text": "Religious" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The influence of global warming on the automobile industry demonstrates climatic change affecting survival[cite: 1364, 1366]."
-    },
-    {
-      "id": "mv-48",
-      "question": "During brainstorming, an innovator should provide ____ innovative ideas to solving a problem.",
-      "options": [
-        { "id": "a", "text": "One hundred" },
-        { "id": "b", "text": "At most five" },
-        { "id": "c", "text": "No" },
-        { "id": "d", "text": "Only expensive" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "At most, five innovative ideas to solving a problem should be enough to avoid confusing clients[cite: 1374]."
-    },
-    {
-      "id": "mv-49",
-      "question": "In the step of Objectivity, entrepreneurs are advised NOT to seek assistance from ____ in validating their idea.",
-      "options": [
-        { "id": "a", "text": "Industry experts" },
-        { "id": "b", "text": "Relatives" },
-        { "id": "c", "text": "Bank managers" },
-        { "id": "d", "text": "Consultants" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The entrepreneur is not expected to seek the assistance of relatives because of possible pity or love[cite: 1376, 1381]."
-    },
-    {
-      "id": "mv-50",
-      "question": "A marketing survey for idea validation should select about how many objective individuals?",
-      "options": [
-        { "id": "a", "text": "Five hundred" },
-        { "id": "b", "text": "Not more than fifteen" },
-        { "id": "c", "text": "Two only" },
-        { "id": "d", "text": "The entire city" }
-      ],
-      "correctAnswer": "b",
-      "explanation": "The entrepreneur is expected to select not more than fifteen objective and unbiased individuals[cite: 1385, 1386]."
-    }
-  ]
-}
+    id: "entrepreneurship-marketing-validation-chapter-5",
+    title: "Marketing and Idea Validation",
+    description:
+      "Test your knowledge on marketing functions, customer markets, product classification, and the strategic process of idea validation.",
+    icon: "Megaphone",
+    color: "#e91e63",
+    questions: [
+      {
+        id: "mv-1",
+        question:
+          "Concerted effort is required on investigating the likely market for an intended product to ensure its:",
+        options: [
+          { id: "a", text: "Design aesthetic" },
+          { id: "b", text: "Commercial success tendencies" },
+          { id: "c", text: "Legal registration only" },
+          { id: "d", text: "Storage capacity" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Investigation is required to ensure the product has commercial success tendencies[cite: 1069, 1070].",
+      },
+      {
+        id: "mv-2",
+        question:
+          "According to the text, a business-oriented person must prepare for failure not just in terms of finance but also as regards:",
+        options: [
+          { id: "a", text: "Infrastructure" },
+          { id: "b", text: "Social media" },
+          { id: "c", text: "Emotion" },
+          { id: "d", text: "Politics" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "A business-oriented person must prepare for failure emotionally as well as financially[cite: 1075].",
+      },
+      {
+        id: "mv-3",
+        question:
+          "Which of these is a distinguishing feature of services compared to products?",
+        options: [
+          { id: "a", text: "Visibility" },
+          { id: "b", text: "Intangibility" },
+          { id: "c", text: "Durability" },
+          { id: "d", text: "Separability" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Distinguishing features of services include intangibility, variability, inseparability, and simultaneity[cite: 1089, 1090].",
+      },
+      {
+        id: "mv-4",
+        question: "In the context of services, 'intangibility' means they:",
+        options: [
+          { id: "a", text: "Can be stored for years" },
+          { id: "b", text: "Can be seen but not touched" },
+          { id: "c", text: "Can neither be held physically nor seen" },
+          { id: "d", text: "Are only performed by machines" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Intangibility characterizes services as they can neither be held physically nor seen[cite: 1090].",
+      },
+      {
+        id: "mv-5",
+        question:
+          "Simultaneity in services means that demand and supply happen:",
+        options: [
+          { id: "a", text: "At different locations" },
+          { id: "b", text: "In two different years" },
+          { id: "c", text: "At the same time" },
+          { id: "d", text: "Only when the customer sleeps" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Demand and supply of services happen simultaneously[cite: 1091].",
+      },
+      {
+        id: "mv-6",
+        question:
+          "Who defined the entrepreneur as an innovator who brings new products or services into the economy?",
+        options: [
+          { id: "a", text: "McClelland" },
+          { id: "b", text: "Schumpeter" },
+          { id: "c", text: "Young" },
+          { id: "d", text: "Hoselitz" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Schumpeter (1934) sees the entrepreneur as an innovator bringing new products or services into the economy[cite: 1100].",
+      },
+      {
+        id: "mv-7",
+        question:
+          "Which theory emphasizes that religion has a large impact on entrepreneurial development?",
+        options: [
+          { id: "a", text: "Theory viii" },
+          { id: "b", text: "Theory ix" },
+          { id: "c", text: "Theory iv" },
+          { id: "d", text: "Theory i" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Theory ix states that religion has a large impact on entrepreneurial development[cite: 1115].",
+      },
+      {
+        id: "mv-8",
+        question:
+          "Drucker (1973) argues that the aim of marketing is to know the customer so well that the product:",
+        options: [
+          { id: "a", text: "Becomes more expensive" },
+          { id: "b", text: "Fits him and sells itself" },
+          { id: "c", text: "Needs aggressive advertising" },
+          { id: "d", text: "Is always available in blue" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The aim is to know the customer so well that the product fits him and sells itself[cite: 1120].",
+      },
+      {
+        id: "mv-9",
+        question:
+          "In marketing terms, 'wants' are basic human requirements directed to:",
+        options: [
+          { id: "a", text: "Specific objects that satisfy a need" },
+          { id: "b", text: "General survival only" },
+          { id: "c", text: "Invisible entities" },
+          { id: "d", text: "The government for help" },
+        ],
+        correctAnswer: "a",
+        explanation:
+          "A need becomes a want when it is directed to specific objects that might satisfy the need[cite: 1125].",
+      },
+      {
+        id: "mv-10",
+        question: "Demands are wants for specific products backed by:",
+        options: [
+          { id: "a", text: "Government approval" },
+          { id: "b", text: "Ability to pay" },
+          { id: "c", text: "High education" },
+          { id: "d", text: "A physical market location" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Demands are wants for specific product backed by an ability to pay[cite: 1128].",
+      },
+      {
+        id: "mv-11",
+        question:
+          "In the shoe industry, 'youth market' is an example of which type of market?",
+        options: [
+          { id: "a", text: "Geographic" },
+          { id: "b", text: "Need market" },
+          { id: "c", text: "Demographic market" },
+          { id: "d", text: "Labour market" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The youth market is given as an example of a demographic market[cite: 1135].",
+      },
+      {
+        id: "mv-12",
+        question:
+          "Which market consists of professional buyers skilled in evaluating competitive offerings to resell them at a profit?",
+        options: [
+          { id: "a", text: "Consumer Markets" },
+          { id: "b", text: "Business Markets" },
+          { id: "c", text: "Voter Markets" },
+          { id: "d", text: "Global Markets" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Business markets consist of well trained professional buyers who buy goods to make or resell to others at a profit[cite: 1144, 1145].",
+      },
+      {
+        id: "mv-13",
+        question:
+          "When selling to 'Global Markets,' entrepreneurs must decide on entries such as joint ventures, contract manufacturing, or:",
+        options: [
+          { id: "a", text: "Giving products away for free" },
+          { id: "b", text: "Solo manufacturer" },
+          { id: "c", text: "Buying a whole country" },
+          { id: "d", text: "Ignoring local culture" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Ways to enter include being an exporter, licenser, joint venture partner, contract manufacturer, or solo manufacturer[cite: 1147].",
+      },
+      {
+        id: "mv-14",
+        question:
+          "Government purchasing normally calls for ____, with the lowest one being favoured.",
+        options: [
+          { id: "a", text: "Advertisements" },
+          { id: "b", text: "Bids" },
+          { id: "c", text: "Phone calls" },
+          { id: "d", text: "Lotteries" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Government purchasing normally calls for bids, with the lowest bid being favoured[cite: 1152].",
+      },
+      {
+        id: "mv-15",
+        question:
+          "Which marketing entity involves professionals like accountants, bankers, and software programmers?",
+        options: [
+          { id: "a", text: "Goods" },
+          { id: "b", text: "Services" },
+          { id: "c", text: "Events" },
+          { id: "d", text: "Properties" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Services include the work of professionals such as accountants, bankers, lawyers, and software programmers[cite: 1155].",
+      },
+      {
+        id: "mv-16",
+        question: "The Olympics and World Cup are prime examples of:",
+        options: [
+          { id: "a", text: "Property marketing" },
+          { id: "b", text: "Experience marketing" },
+          { id: "c", text: "Event marketing" },
+          { id: "d", text: "Celebrity marketing" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Global sporting events such as Olympic and World cup are good examples of event marketing[cite: 1158].",
+      },
+      {
+        id: "mv-17",
+        question:
+          "Climbing Mount Everest or attending a live band concert are examples of:",
+        options: [
+          { id: "a", text: "Information marketing" },
+          { id: "b", text: "Experiential marketing" },
+          { id: "c", text: "Business marketing" },
+          { id: "d", text: "Commodity marketing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "By orchestrating several services and goods, firms create and market experiences, also known as experiential marketing[cite: 1160, 1161].",
+      },
+      {
+        id: "mv-18",
+        question:
+          "In celebrity marketing, each person is advised to become a/an:",
+        options: [
+          { id: "a", text: "Employee" },
+          { id: "b", text: "Brand" },
+          { id: "c", text: "Agent" },
+          { id: "d", text: "Mystery" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "In marketing, each person is advised to become a 'brand'[cite: 1168].",
+      },
+      {
+        id: "mv-19",
+        question:
+          "Economic development specialists and real estate agents are primarily involved in ____ marketing.",
+        options: [
+          { id: "a", text: "Idea" },
+          { id: "b", text: "Place" },
+          { id: "c", text: "Person" },
+          { id: "d", text: "Organization" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Place marketers include economic development specialists and real estate agents wooing people to such places[cite: 1171].",
+      },
+      {
+        id: "mv-20",
+        question:
+          "Which of these is a Nigerian example of 'Place' marketing cited in the text?",
+        options: [
+          { id: "a", text: "University of Ilorin" },
+          { id: "b", text: "Obudu Ranch" },
+          { id: "c", text: "Jide Taiwo and Associates" },
+          { id: "d", text: "Dangote Group" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Obudu Ranch, Ikogosi Warm Spring, and Owu Fall are examples of such places in Nigeria[cite: 1172].",
+      },
+      {
+        id: "mv-21",
+        question:
+          "Financial property marketing involves the sale of stocks and:",
+        options: [
+          { id: "a", text: "Houses" },
+          { id: "b", text: "Bonds" },
+          { id: "c", text: "Cars" },
+          { id: "d", text: "Furniture" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Financial property includes stocks and bonds[cite: 1174].",
+      },
+      {
+        id: "mv-22",
+        question:
+          "The University of Ilorin has built a unique image (Organization marketing) partly due to its:",
+        options: [
+          { id: "a", text: "Location in Lagos" },
+          { id: "b", text: "Uninterrupted academic calendar" },
+          { id: "c", text: "High student fees" },
+          { id: "d", text: "Low staff number" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The university built a good image because of its uninterrupted academic calendar for the past twenty years[cite: 1179].",
+      },
+      {
+        id: "mv-23",
+        question:
+          "Management consulting firms primarily sell their ____ to companies.",
+        options: [
+          { id: "a", text: "Physical machines" },
+          { id: "b", text: "Ideas" },
+          { id: "c", text: "Real estate" },
+          { id: "d", text: "Livestock" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Management consulting firms sell their ideas to companies and are paid for these services[cite: 1186].",
+      },
+      {
+        id: "mv-24",
+        question:
+          "Which marketing function category includes buying, assembling, and selling?",
+        options: [
+          { id: "a", text: "Physical function" },
+          { id: "b", text: "Exchange function" },
+          { id: "c", text: "Facilitating function" },
+          { id: "d", text: "Climatic function" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The exchange function brings about changes in ownership and includes buying, assembling, and selling[cite: 1193].",
+      },
+      {
+        id: "mv-25",
+        question:
+          "Storage and transportation are part of which marketing function?",
+        options: [
+          { id: "a", text: "Exchange" },
+          { id: "b", text: "Physical function" },
+          { id: "c", text: "Facilitating" },
+          { id: "d", text: "Social" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The physical function is the physical transfer of products via storage and transportation[cite: 1194].",
+      },
+      {
+        id: "mv-26",
+        question:
+          "Facilitating functions like financing and risk-bearing help perform:",
+        options: [
+          { id: "a", text: "Only storage" },
+          { id: "b", text: "Other marketing functions" },
+          { id: "c", text: "Only transportation" },
+          { id: "d", text: "Global manufacturing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Facilitating functions are supporting activities that contribute to the performance of other marketing functions[cite: 1197].",
+      },
+      {
+        id: "mv-27",
+        question:
+          "Beer, bread, and toothpaste are examples of which product category?",
+        options: [
+          { id: "a", text: "Durable goods" },
+          { id: "b", text: "Nondurable goods" },
+          { id: "c", text: "Unsought goods" },
+          { id: "d", text: "Capital items" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Nondurable goods are tangible goods consumed quickly and frequently, such as beer, bread, and toothpaste[cite: 1204].",
+      },
+      {
+        id: "mv-28",
+        question:
+          "Consumer convenience goods are further divided into staples, impulse goods, and:",
+        options: [
+          { id: "a", text: "Specialty goods" },
+          { id: "b", text: "Emergency goods" },
+          { id: "c", text: "Industrial goods" },
+          { id: "d", text: "Capital items" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Convenience goods are further divided into staples, impulse, and emergency goods[cite: 1207].",
+      },
+      {
+        id: "mv-29",
+        question:
+          "Magazines and yoghurt are examples of ____ goods because they are bought without planning.",
+        options: [
+          { id: "a", text: "Staple" },
+          { id: "b", text: "Impulse" },
+          { id: "c", text: "Emergency" },
+          { id: "d", text: "Specialty" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Impulse goods are purchased without planning or search effort, such as magazines and yoghurt[cite: 1209].",
+      },
+      {
+        id: "mv-30",
+        question: "Umbrellas during a rainy season are considered ____ goods.",
+        options: [
+          { id: "a", text: "Impulse" },
+          { id: "b", text: "Emergency" },
+          { id: "c", text: "Unsought" },
+          { id: "d", text: "Durable" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Emergency goods are purchased when there is an urgent need, like buying an umbrella during rainy seasons[cite: 1210].",
+      },
+      {
+        id: "mv-31",
+        question:
+          "Furniture and used cars are ____ goods because consumers compare them on price and suitability.",
+        options: [
+          { id: "a", text: "Convenience" },
+          { id: "b", text: "Shopping" },
+          { id: "c", text: "Unsought" },
+          { id: "d", text: "Industrial" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Shopping goods are compared by consumers in terms of suitability, quality, price, and style[cite: 1212].",
+      },
+      {
+        id: "mv-32",
+        question:
+          "Life insurance and cemetery plots are categorized as ____ goods.",
+        options: [
+          { id: "a", text: "Specialty" },
+          { id: "b", text: "Unsought" },
+          { id: "c", text: "Staple" },
+          { id: "d", text: "Capital" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Unsought goods are those consumers do not normally think of buying, like life insurance and cemetery plots[cite: 1220, 1221].",
+      },
+      {
+        id: "mv-33",
+        question:
+          "Crude petroleum and lumber are examples of which type of industrial material?",
+        options: [
+          { id: "a", text: "Capital items" },
+          { id: "b", text: "Raw materials (natural products)" },
+          { id: "c", text: "Business services" },
+          { id: "d", text: "Component parts" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Raw materials can be natural products such as lumber and crude petroleum[cite: 1225].",
+      },
+      {
+        id: "mv-34",
+        question:
+          "Capital items include long-lasting goods like heavy equipment and:",
+        options: [
+          { id: "a", text: "Writing paper" },
+          { id: "b", text: "Installations (buildings)" },
+          { id: "c", text: "Lubricants" },
+          { id: "d", text: "Soap" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Capital items include installations (buildings) and heavy equipment[cite: 1228, 1229].",
+      },
+      {
+        id: "mv-35",
+        question: "Window cleaning and copier repair fall under industrial:",
+        options: [
+          { id: "a", text: "Materials" },
+          { id: "b", text: "Business services" },
+          { id: "c", text: "Installations" },
+          { id: "d", text: "Convenience goods" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Business services include maintenance and repair services such as window cleaning and copier repair[cite: 1232].",
+      },
+      {
+        id: "mv-36",
+        question:
+          "The 4Ps of the marketing mix are Product, Price, Place, and:",
+        options: [
+          { id: "a", text: "Profit" },
+          { id: "b", text: "Promotion" },
+          { id: "c", text: "People" },
+          { id: "d", text: "Packaging" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The 4Ps are product, price, place, and promotion[cite: 1246].",
+      },
+      {
+        id: "mv-37",
+        question:
+          "According to the 4Cs model, 'Place' in the marketing mix represents the customer's:",
+        options: [
+          { id: "a", text: "Solution" },
+          { id: "b", text: "Convenience (accessibility)" },
+          { id: "c", text: "Cost" },
+          { id: "d", text: "Communication" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Place offers convenience or accessibility of the product to consumers[cite: 1249].",
+      },
+      {
+        id: "mv-38",
+        question:
+          "Small businesses are called different names; MSMEs stands for:",
+        options: [
+          { id: "a", text: "Main System of Marketing Entities" },
+          { id: "b", text: "Micro, Small and Medium Enterprises" },
+          { id: "c", text: "Managerial Skills for Modern Engineers" },
+          { id: "d", text: "Multiple Small and Major Exports" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The text lists MSMEs as Micro, Small and Medium Enterprises[cite: 1252].",
+      },
+      {
+        id: "mv-39",
+        question:
+          "The Central Bank of Nigeria (2013) defines SMEs as establishments with base capital (excluding land) between:",
+        options: [
+          { id: "a", text: "N1 million and N10 million" },
+          { id: "b", text: "N5 million and N500 million" },
+          { id: "c", text: "N100 million and N1 billion" },
+          { id: "d", text: "N50,000 and N500,000" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "SMEs are defined as establishment with base capital between N5 million and N500 million[cite: 1256].",
+      },
+      {
+        id: "mv-40",
+        question:
+          "Under the same definition, an SME in Nigeria employs between:",
+        options: [
+          { id: "a", text: "1 and 5 staff" },
+          { id: "b", text: "11 and 200 staff" },
+          { id: "c", text: "500 and 1000 staff" },
+          { id: "d", text: "Any number of staff" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "SMEs in Nigeria are those employing between 11 and 200 staff[cite: 1256].",
+      },
+      {
+        id: "mv-41",
+        question:
+          "Cybercafés and pure water production are identified as ____ businesses to be avoided.",
+        options: [
+          { id: "a", text: "Growth" },
+          { id: "b", text: "Dying" },
+          { id: "c", text: "Illegal" },
+          { id: "d", text: "Specialty" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The entrepreneur should be careful not to go into 'dying' businesses like cybercafé and pure water production[cite: 1283].",
+      },
+      {
+        id: "mv-42",
+        question:
+          "Idea validation is the process of checking the validity of an idea ____ converting it to a sellable product.",
+        options: [
+          { id: "a", text: "After" },
+          { id: "b", text: "Before" },
+          { id: "c", text: "Instead of" },
+          { id: "d", text: "By never" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Idea validation involves checking the validity of an idea before converting it to a product[cite: 1285].",
+      },
+      {
+        id: "mv-43",
+        question:
+          "The essence of validation is to ensure that a ____ is available for the planned product.",
+        options: [
+          { id: "a", text: "Bank loan" },
+          { id: "b", text: "Ready market" },
+          { id: "c", text: "Supplier" },
+          { id: "d", text: "Tax refund" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The validation effort ensures that a ready market is available[cite: 1290].",
+      },
+      {
+        id: "mv-44",
+        question:
+          "Opportunity recognition achieves profit potential through commencing a fresh enterprise or ____ an existing one.",
+        options: [
+          { id: "a", text: "Selling" },
+          { id: "b", text: "Restructuring and rejuvenating" },
+          { id: "c", text: "Closing" },
+          { id: "d", text: "Ignoring" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Profit potential is achieved through fresh business or restructuring/rejuvenating existing ventures[cite: 1298, 1299].",
+      },
+      {
+        id: "mv-45",
+        question:
+          "One's previous occupations or environment can be a source of ideas; this is called:",
+        options: [
+          { id: "a", text: "Hobby" },
+          { id: "b", text: "Prior Experience" },
+          { id: "c", text: "Market Research" },
+          { id: "d", text: "Social Network" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Prior experience in previous occupations or environments is a source of entrepreneurial ideas[cite: 1317].",
+      },
+      {
+        id: "mv-46",
+        question:
+          "When scanning for opportunities, government minimum wage and taxes are part of:",
+        options: [
+          { id: "a", text: "Climatic conditions" },
+          { id: "b", text: "Government regulations" },
+          { id: "c", text: "Hobby interest" },
+          { id: "d", text: "Social networks" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Regulations include political and economic factors like minimum wage and taxes[cite: 1342, 1345].",
+      },
+      {
+        id: "mv-47",
+        question:
+          "The mass advocacy for solar-powered cars due to global warming is an example of a/an ____ influence.",
+        options: [
+          { id: "a", text: "Legal" },
+          { id: "b", text: "Climatic condition" },
+          { id: "c", text: "Individual" },
+          { id: "d", text: "Religious" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The influence of global warming on the automobile industry demonstrates climatic change affecting survival[cite: 1364, 1366].",
+      },
+      {
+        id: "mv-48",
+        question:
+          "During brainstorming, an innovator should provide ____ innovative ideas to solving a problem.",
+        options: [
+          { id: "a", text: "One hundred" },
+          { id: "b", text: "At most five" },
+          { id: "c", text: "No" },
+          { id: "d", text: "Only expensive" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "At most, five innovative ideas to solving a problem should be enough to avoid confusing clients[cite: 1374].",
+      },
+      {
+        id: "mv-49",
+        question:
+          "In the step of Objectivity, entrepreneurs are advised NOT to seek assistance from ____ in validating their idea.",
+        options: [
+          { id: "a", text: "Industry experts" },
+          { id: "b", text: "Relatives" },
+          { id: "c", text: "Bank managers" },
+          { id: "d", text: "Consultants" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The entrepreneur is not expected to seek the assistance of relatives because of possible pity or love[cite: 1376, 1381].",
+      },
+      {
+        id: "mv-50",
+        question:
+          "A marketing survey for idea validation should select about how many objective individuals?",
+        options: [
+          { id: "a", text: "Five hundred" },
+          { id: "b", text: "Not more than fifteen" },
+          { id: "c", text: "Two only" },
+          { id: "d", text: "The entire city" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The entrepreneur is expected to select not more than fifteen objective and unbiased individuals[cite: 1385, 1386].",
+      },
+    ],
+  },
+  {
+    id: "business-planning-chapter-6",
+    title: "Business Planning",
+    description:
+      "Test your knowledge on planning principles, strategic vs. operational frameworks, and financial projections like Break-Even and Cash Flow.",
+    icon: "ClipboardList",
+    color: "#607d8b",
+    questions: [
+      {
+        id: "bp-1",
+        question:
+          "Planning is defined as the process of deciding what to do and:",
+        options: [
+          { id: "a", text: "When to quit" },
+          { id: "b", text: "How to do it" },
+          { id: "c", text: "Who to blame" },
+          { id: "d", text: "How to hide costs" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Planning refers to the process of deciding what to do and how to do it[cite: 1433].",
+      },
+      {
+        id: "bp-2",
+        question: "What is identified as a leading cause of business failure?",
+        options: [
+          { id: "a", text: "High taxes" },
+          { id: "b", text: "Poor planning" },
+          { id: "c", text: "Location" },
+          { id: "d", text: "Competition" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Poor planning is a leading cause of business failure[cite: 1438].",
+      },
+      {
+        id: "bp-3",
+        question:
+          "The planning principle that ensures all significant options and impacts are considered is:",
+        options: [
+          { id: "a", text: "Efficient" },
+          { id: "b", text: "Comprehensive" },
+          { id: "c", text: "Logical" },
+          { id: "d", text: "Transparent" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Comprehensive planning means all significant options and impacts are considered[cite: 1444].",
+      },
+      {
+        id: "bp-4",
+        question: "A 'transparent' planning process is one where:",
+        options: [
+          { id: "a", text: "No one knows the budget" },
+          { id: "b", text: "Everybody understands how the processes operate" },
+          { id: "c", text: "Only managers see the plan" },
+          { id: "d", text: "The plan is written in code" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Planning should be transparent so everybody involved understands how the processes operate[cite: 1453].",
+      },
+      {
+        id: "bp-5",
+        question:
+          "Which of these is a benefit of planning according to Shapiro (2001)?",
+        options: [
+          { id: "a", text: "It guarantees immediate profit" },
+          { id: "b", text: "It guides prioritizing and decision making" },
+          { id: "c", text: "It eliminates the need for staff" },
+          { id: "d", text: "It allows ignoring the local context" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Planning guides you in prioritising and making decisions[cite: 1458].",
+      },
+      {
+        id: "bp-6",
+        question: "Strategic planning is primarily about:",
+        options: [
+          { id: "a", text: "Day-to-day tasks" },
+          { id: "b", text: "The bigger picture and future vision" },
+          { id: "c", text: "Writing weekly reports" },
+          { id: "d", text: "Fixing machinery" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Strategic planning is about the bigger picture and determining priorities to achieve a future vision[cite: 1468, 1470].",
+      },
+      {
+        id: "bp-7",
+        question:
+          "What type of analysis helps identify internal strengths/weaknesses and external opportunities/threats?",
+        options: [
+          { id: "a", text: "Break-even analysis" },
+          { id: "b", text: "SWOT analysis" },
+          { id: "c", text: "Cash flow forecast" },
+          { id: "d", text: "Step-by-step logic" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A SWOT analysis helps identify strengths, weaknesses, opportunities, and threats[cite: 1478].",
+      },
+      {
+        id: "bp-8",
+        question:
+          "Operational or action planning answers which of these questions?",
+        options: [
+          { id: "a", text: "Why do we exist?" },
+          { id: "b", text: "Who will do it?" },
+          { id: "c", text: "Is the world round?" },
+          { id: "d", text: "Who is the president?" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Operational planning answers questions like 'Who will do it?' and 'How will it be done?'[cite: 1490, 1491].",
+      },
+      {
+        id: "bp-9",
+        question:
+          "When setting up a new organization, you should pay particular attention to:",
+        options: [
+          { id: "a", text: "The color of the office" },
+          { id: "b", text: "The strategic planning phase" },
+          { id: "c", text: "Buying the most expensive cars" },
+          { id: "d", text: "Ignoring the management team" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Particular attention should be paid to the strategic planning phase when setting up a new organization[cite: 1496].",
+      },
+      {
+        id: "bp-10",
+        question:
+          "How often should regular strategic reviews typically be done?",
+        options: [
+          { id: "a", text: "Every 10 years" },
+          { id: "b", text: "Every two years" },
+          { id: "c", text: "Only when the business fails" },
+          { id: "d", text: "Daily" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Regular strategic reviews should be done every two years[cite: 1498].",
+      },
+      {
+        id: "bp-11",
+        question: "Action planning should be left to:",
+        options: [
+          { id: "a", text: "External consultants only" },
+          { id: "b", text: "Responsible projects and units" },
+          { id: "c", text: "The CEO alone" },
+          { id: "d", text: "The government" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Action planning should be left to the responsible projects or units[cite: 1500].",
+      },
+      {
+        id: "bp-12",
+        question:
+          "A project usually differs from an organization's ongoing work because it has a:",
+        options: [
+          { id: "a", text: "Larger budget" },
+          { id: "b", text: "Limited time-span" },
+          { id: "c", text: "Secret mission" },
+          { id: "d", text: "Different name" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A project usually has a limited time-span and specific specified outputs[cite: 1515].",
+      },
+      {
+        id: "bp-13",
+        question:
+          "A business plan is a document that details the business objectives and:",
+        options: [
+          { id: "a", text: "List of all employees' families" },
+          { id: "b", text: "Means of achieving those objectives" },
+          { id: "c", text: "Secrets of the competitors" },
+          { id: "d", text: "A history of world trade" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A business plan details objectives and the means of achieving them[cite: 1523].",
+      },
+      {
+        id: "bp-14",
+        question:
+          "What is an 'externally focused' business plan typically used for?",
+        options: [
+          { id: "a", text: "Daily staff meetings" },
+          { id: "b", text: "Obtaining funding" },
+          { id: "c", text: "Designing a new logo" },
+          { id: "d", text: "Cleaning the factory" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Externally focused plans are usually to obtain funding essential for growth[cite: 1530].",
+      },
+      {
+        id: "bp-15",
+        question: "An 'internally focused' plan might cover:",
+        options: [
+          { id: "a", text: "Bank loan proposals" },
+          { id: "b", text: "Restructuring the organization" },
+          { id: "c", text: "Selling to new countries" },
+          { id: "d", text: "Celebrity marketing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Internally focused plans may cover restructuring, new systems, or product development[cite: 1535].",
+      },
+      {
+        id: "bp-16",
+        question: "Who should ideally prepare the business plan?",
+        options: [
+          { id: "a", text: "Professional advisors alone" },
+          { id: "b", text: "The promoter/owners" },
+          { id: "c", text: "A hired university student" },
+          { id: "d", text: "The bank manager" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The plan should as far as possible be prepared by the promoter(s)[cite: 1550].",
+      },
+      {
+        id: "bp-17",
+        question:
+          "Delegating the business plan to someone who is NOT a key member results in:",
+        options: [
+          { id: "a", text: "A perfect plan" },
+          { id: "b", text: "An inferior plan" },
+          { id: "c", text: "Lower taxes" },
+          { id: "d", text: "Better funding" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Delegating it to someone not a key member will result in an inferior plan[cite: 1552].",
+      },
+      {
+        id: "bp-18",
+        question:
+          "The 'Background of Business' section should include the business name and:",
+        options: [
+          { id: "a", text: "Owner's favorite food" },
+          { id: "b", text: "Business address" },
+          { id: "c", text: "Competitor's home addresses" },
+          { id: "d", text: "The current weather" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Background info includes name, address, email, and type of business[cite: 1560, 1561].",
+      },
+      {
+        id: "bp-19",
+        question:
+          "In the 'Personnel' section, what should be provided for key staff?",
+        options: [
+          { id: "a", text: "Their birth certificates" },
+          { id: "b", text: "Names, positions, and salaries" },
+          { id: "c", text: "A list of their previous pets" },
+          { id: "d", text: "Their bank account pins" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Personnel information should state names, positions, and salaries[cite: 1599].",
+      },
+      {
+        id: "bp-20",
+        question: "A 'contingency plan' for personnel covers what happens if:",
+        options: [
+          { id: "a", text: "They get a promotion" },
+          { id: "b", text: "They are unable to work due to illness" },
+          { id: "c", text: "They go on vacation" },
+          { id: "d", text: "They win the lottery" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A contingency plan is needed for if key personnel are unable to work due to illness or injury[cite: 1602].",
+      },
+      {
+        id: "bp-21",
+        question:
+          "Describing the target market and listing major competitors is part of which section?",
+        options: [
+          { id: "a", text: "Financial considerations" },
+          { id: "b", text: "Business Market" },
+          { id: "c", text: "Background of Business" },
+          { id: "d", text: "Product offering" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Target market description and competitor lists fall under Business Market[cite: 1604, 1606].",
+      },
+      {
+        id: "bp-22",
+        question:
+          "What is a primary purpose of financial projections in a business plan?",
+        options: [
+          { id: "a", text: "To hide the debt" },
+          { id: "b", text: "To establish the profit potential" },
+          { id: "c", text: "To prove you have the best logo" },
+          { id: "d", text: "To list all current employees" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Financial projections establish profit potential and determine capital needs[cite: 1617, 1618].",
+      },
+      {
+        id: "bp-23",
+        question:
+          "Which of these is a common source of capital mentioned in the checklist?",
+        options: [
+          { id: "a", text: "Credit cards only" },
+          { id: "b", text: "Own resources and government grants" },
+          { id: "c", text: "Illegal loans" },
+          { id: "d", text: "Competitor's profits" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Sources include own resources, government grants, and external sources like banks[cite: 1624, 1625, 1626].",
+      },
+      {
+        id: "bp-24",
+        question:
+          "The level of business activity where there is neither profit nor loss is called:",
+        options: [
+          { id: "a", text: "Maximum profit" },
+          { id: "b", text: "Break-even point" },
+          { id: "c", text: "Bankruptcy" },
+          { id: "d", text: "Standard turnover" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Break-even is the level of activity at which a company makes neither a profit nor a loss[cite: 1640].",
+      },
+      {
+        id: "bp-25",
+        question:
+          "To calculate 'contribution' (Step 1), you subtract ____ from project sales.",
+        options: [
+          { id: "a", text: "Fixed costs" },
+          { id: "b", text: "Direct costs (materials and labor)" },
+          { id: "c", text: "Taxes only" },
+          { id: "d", text: "Owner's salary only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Contribution is calculated as Sales less Direct costs (Materials and Labour)[cite: 1652].",
+      },
+      {
+        id: "bp-26",
+        question:
+          "Overheads or indirect costs are considered ____ because they exist regardless of sales.",
+        options: [
+          { id: "a", text: "Variable costs" },
+          { id: "b", text: "Fixed costs" },
+          { id: "c", text: "Hidden costs" },
+          { id: "d", text: "Optional costs" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Overheads exist whether sales are achieved or not and are regarded as fixed costs[cite: 1665].",
+      },
+      {
+        id: "bp-27",
+        question:
+          "To find actual turnover to break even (D), you divide ____ by the contribution margin.",
+        options: [
+          { id: "a", text: "Net profit" },
+          { id: "b", text: "Overheads (C)" },
+          { id: "c", text: "Sales price" },
+          { id: "d", text: "Total units" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Break-even turnover equals overhead divided by contribution margin[cite: 1672, 1673].",
+      },
+      {
+        id: "bp-28",
+        question: "When does profit begin to accumulate for the business?",
+        options: [
+          { id: "a", text: "On the first day of business" },
+          { id: "b", text: "After the break-even point is reached" },
+          { id: "c", text: "When the bank loan is paid" },
+          { id: "d", text: "Only in the fifth year" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Profits accumulate in favour of the business after the break-even point has been reached[cite: 1706].",
+      },
+      {
+        id: "bp-29",
+        question:
+          "A cash flow forecast helps identify if any ____ will be required.",
+        options: [
+          { id: "a", text: "New employees" },
+          { id: "b", text: "Additional finance" },
+          { id: "c", text: "Competitor research" },
+          { id: "d", text: "Legal action" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A cash flow forecast will help identify if any additional finance shall be required[cite: 1717].",
+      },
+      {
+        id: "bp-30",
+        question:
+          "What is the absolute minimum period for a new business cash flow forecast?",
+        options: [
+          { id: "a", text: "One week" },
+          { id: "b", text: "Six months" },
+          { id: "c", text: "One year" },
+          { id: "d", text: "Five years" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A 6-month period should be regarded as an absolute minimum for a cash flow forecast[cite: 1719].",
+      },
+      {
+        id: "bp-31",
+        question:
+          "Receipts from credit sales appear in the forecast in the month of:",
+        options: [
+          { id: "a", text: "The sale" },
+          { id: "b", text: "Actual receipt from debtors" },
+          { id: "c", text: "Inventory purchase" },
+          { id: "d", text: "Tax filing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Receipt from debtors is shown in the actual month of receipt[cite: 1730].",
+      },
+      {
+        id: "bp-32",
+        question: "Payment for purchases on credit is shown in the month of:",
+        options: [
+          { id: "a", text: "The purchase" },
+          { id: "b", text: "The actual payment" },
+          { id: "c", text: "The production" },
+          { id: "d", text: "The inventory count" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Payment should be shown in the month you make the payment[cite: 1732].",
+      },
+      {
+        id: "bp-33",
+        question:
+          "A 'rough copy' with coffee stains and typos tells the reader that:",
+        options: [
+          { id: "a", text: "The entrepreneur works hard" },
+          { id: "b", text: "Management doesn't take planning seriously" },
+          { id: "c", text: "The business is creative" },
+          { id: "d", text: "The printer is broken" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A rough copy tells the reader that management does not take the process seriously[cite: 1789].",
+      },
+      {
+        id: "bp-34",
+        question: "Unsubstantiated assumptions in a business plan can:",
+        options: [
+          { id: "a", text: "Make it look impressive" },
+          { id: "b", text: "Hurt the plan" },
+          { id: "c", text: "Attract more investors" },
+          { id: "d", text: "Replace the need for data" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Unsubstantiated assumptions can hurt a business plan[cite: 1791].",
+      },
+      {
+        id: "bp-35",
+        question: "The term 'blue sky' refers to:",
+        options: [
+          { id: "a", text: "Weather forecasts" },
+          { id: "b", text: "Failure to consider prospective pitfalls" },
+          { id: "c", text: "High profits" },
+          { id: "d", text: "Clear communication" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Too much 'blue sky' is a failure to consider prospective pitfalls[cite: 1792].",
+      },
+      {
+        id: "bp-36",
+        question:
+          "Lenders expect the entrepreneur to have some ____ capital invested.",
+        options: [
+          { id: "a", text: "Debt" },
+          { id: "b", text: "Equity" },
+          { id: "c", text: "Borrowed" },
+          { id: "d", text: "Foreign" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The lender expects the entrepreneur to have some equity capital invested[cite: 1795].",
+      },
+      {
+        id: "bp-37",
+        question:
+          "Bankers look primarily toward ____ for the repayment of loans.",
+        options: [
+          { id: "a", text: "Collateral" },
+          { id: "b", text: "Projected profits and cash flow" },
+          { id: "c", text: "Government grants" },
+          { id: "d", text: "The owner's family" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Bankers look toward projected profits and cash flow for repayment[cite: 1798, 1799].",
+      },
+      {
+        id: "bp-38",
+        question: "Standardization and market information are categorized as:",
+        options: [
+          { id: "a", text: "Physical functions" },
+          { id: "b", text: "Facilitating functions" },
+          { id: "c", text: "Exchange functions" },
+          { id: "d", text: "Administrative functions" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Facilitating functions include financing, standardization, and market information[cite: 1827].",
+      },
+      {
+        id: "bp-39",
+        question:
+          "Planning involves establishing objectives and formulating policies, strategies, and:",
+        options: [
+          { id: "a", text: "Prices" },
+          { id: "b", text: "Tactics" },
+          { id: "c", text: "Advertisements" },
+          { id: "d", text: "Rumors" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Planning involves establishment of objectives and formulation of policies, strategies, and tactics[cite: 1439].",
+      },
+      {
+        id: "bp-40",
+        question: "Logical planning ensures that:",
+        options: [
+          { id: "a", text: "Money is saved" },
+          { id: "b", text: "Each step leads to the next" },
+          { id: "c", text: "Everyone is included" },
+          { id: "d", text: "Results are kept secret" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Planning should be logical, meaning each step leads to the next[cite: 1452].",
+      },
+      {
+        id: "bp-41",
+        question: "Strategic planning helps an organization determine its:",
+        options: [
+          { id: "a", text: "Daily schedule" },
+          { id: "b", text: "Priorities and achieve vision" },
+          { id: "c", text: "Lunch breaks" },
+          { id: "d", text: "Cleaning checklist" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This framework helps determine priorities and achieve future vision[cite: 1470].",
+      },
+      {
+        id: "bp-42",
+        question:
+          "Problem analysis and needs assessment are vitally important in which stage?",
+        options: [
+          { id: "a", text: "The end of business" },
+          { id: "b", text: "Initial strategic planning phase" },
+          { id: "c", text: "Hiring a security guard" },
+          { id: "d", text: "Daily operations only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Work on needs assessment and problem analysis is vitally important in the strategic planning phase[cite: 1497].",
+      },
+      {
+        id: "bp-43",
+        question:
+          "The management team's job is to integrate plans into a/an ____ organisational plan.",
+        options: [
+          { id: "a", text: "Secret" },
+          { id: "b", text: "Coherent" },
+          { id: "c", text: "Random" },
+          { id: "d", text: "Unnecessary" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The management team must integrate plans so the organisational plan is coherent[cite: 1503].",
+      },
+      {
+        id: "bp-44",
+        question:
+          "There must be a/an ____ relationship between a project and its organization.",
+        options: [
+          { id: "a", text: "Distant" },
+          { id: "b", text: "Organic" },
+          { id: "c", text: "Legal only" },
+          { id: "d", text: "Financial only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "There must be an organic relationship between the project and the organization[cite: 1509].",
+      },
+      {
+        id: "bp-45",
+        question:
+          "Projects should not be allowed to become separate '____' unrelated to the organization.",
+        options: [
+          { id: "a", text: "Houses" },
+          { id: "b", text: "Empires" },
+          { id: "c", text: "Businesses" },
+          { id: "d", text: "Offices" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "It is important not to let projects become separate 'empires'[cite: 1520].",
+      },
+      {
+        id: "bp-46",
+        question:
+          "Preparing a business plan draws on knowledge from finance, human resources, and:",
+        options: [
+          { id: "a", text: "Supply chain management" },
+          { id: "b", text: "Geography only" },
+          { id: "c", text: "History only" },
+          { id: "d", text: "Art" },
+        ],
+        correctAnswer: "a",
+        explanation:
+          "Preparation draws on knowledge from finance, HR, intellectual property, and supply chain management[cite: 1536].",
+      },
+      {
+        id: "bp-47",
+        question: "A business plan is primarily a/an ____ tool.",
+        options: [
+          { id: "a", text: "Artistic" },
+          { id: "b", text: "Decision-making" },
+          { id: "c", text: "Storage" },
+          { id: "d", text: "Decorative" },
+        ],
+        correctAnswer: "b",
+        explanation: "Business plans are decision-making tools[cite: 1541].",
+      },
+      {
+        id: "bp-48",
+        question: "The format and content of the plan are determined by the:",
+        options: [
+          { id: "a", text: "Price of paper" },
+          { id: "b", text: "Goals and audience" },
+          { id: "c", text: "Number of pages" },
+          { id: "d", text: "Available clip art" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Content and format are determined by the goals and audience[cite: 1542].",
+      },
+      {
+        id: "bp-49",
+        question:
+          "In the checklist, 'present rent payment' is part of which information group?",
+        options: [
+          { id: "a", text: "Product offering" },
+          { id: "b", text: "Background of the Business" },
+          { id: "c", text: "Financial considerations" },
+          { id: "d", text: "Personnel" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Rent payments are listed under Background of the Business[cite: 1569].",
+      },
+      {
+        id: "bp-50",
+        question: "Owners should be ____ involved in the planning process.",
+        options: [
+          { id: "a", text: "Never" },
+          { id: "b", text: "Very" },
+          { id: "c", text: "Slightly" },
+          { id: "d", text: "Not" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Owners should be very involved in the planning process[cite: 1551].",
+      },
+    ],
+  },
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
