@@ -4949,6 +4949,713 @@ export const quizTopics: Topic[] = [
       },
     ],
   },
+  {
+    id: "human-resource-management-chapter-8",
+    title: "Human Resources Management Practices for Entrepreneurship",
+    description:
+      "Evaluate your understanding of human resource planning, recruitment, selection, compensation, and succession planning within an entrepreneurial framework.",
+    icon: "Users",
+    color: "#ff9800",
+    questions: [
+      {
+        id: "hr-1",
+        question:
+          "Entrepreneurship in the 21st century requires an adequate understanding of which concept to avoid venture failure?",
+        options: [
+          { id: "a", text: "Financial auditing" },
+          { id: "b", text: "Human Resource Planning" },
+          { id: "c", text: "Machine maintenance" },
+          { id: "d", text: "Inventory logistics" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The text states that entrepreneurship in this century requires an adequate understanding of Human Resource Planning[cite: 4886].",
+      },
+      {
+        id: "hr-2",
+        question:
+          "An entrepreneur is described as a passionate and powerful resource that:",
+        options: [
+          { id: "a", text: "Follows existing orders" },
+          { id: "b", text: "Initiates ideas" },
+          { id: "c", text: "Avoids all risks" },
+          { id: "d", text: "Focuses only on charity" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "An entrepreneur is a passionate and powerful resource in a business setting that initiates ideas[cite: 4889].",
+      },
+      {
+        id: "hr-3",
+        question:
+          "What is the primary motive behind the commitment of providing products or services in a business sense?",
+        options: [
+          { id: "a", text: "Social status only" },
+          { id: "b", text: "Gaining profit" },
+          { id: "c", text: "Family tradition" },
+          { id: "d", text: "Legal requirement" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "It is a commitment for providing products or services to people that has behind it the motive of gaining profit[cite: 4891].",
+      },
+      {
+        id: "hr-4",
+        question:
+          "According to Flippo (1984), what is the basic goal of Human Resource Planning?",
+        options: [
+          { id: "a", text: "To record past failures" },
+          {
+            id: "b",
+            text: "To predict the future and avoid anticipated problems",
+          },
+          { id: "c", text: "To increase machine speed" },
+          { id: "d", text: "To reduce employee salaries" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The basic goal of human resource planning is to predict the future and implement programmes to avoid anticipated problems[cite: 4899].",
+      },
+      {
+        id: "hr-5",
+        question:
+          "Recruitment is defined in the text as a process that starts with ____ and ends with placement.",
+        options: [
+          { id: "a", text: "Training" },
+          { id: "b", text: "Selection" },
+          { id: "c", text: "Resignation" },
+          { id: "d", text: "Advertisement" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Recruitment forms a step in the process which starts with selection and ends with the placement of the candidate[cite: 4903].",
+      },
+      {
+        id: "hr-6",
+        question: "How do Mamoria and Gankar (2002) view recruitment?",
+        options: [
+          { id: "a", text: "As a legal burden" },
+          { id: "b", text: "As a form of competition" },
+          { id: "c", text: "As a purely social activity" },
+          { id: "d", text: "As a random selection" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Mamoria and Gankar (2002) opine that recruitment is a form of competition to identify and hire the most qualified people[cite: 4905].",
+      },
+      {
+        id: "hr-7",
+        question:
+          "Which of these is an INTERNAL factor that affects organizational recruitment?",
+        options: [
+          { id: "a", text: "Labour market supply" },
+          { id: "b", text: "Age composition of existing force" },
+          { id: "c", text: "External cultural factors" },
+          { id: "d", text: "Political legislation" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Internal factors include the age composition of the existing working force[cite: 4919].",
+      },
+      {
+        id: "hr-8",
+        question:
+          "Cultural checks, such as limitations on recruiting women for certain jobs, are considered ____ factors.",
+        options: [
+          { id: "a", text: "Internal" },
+          { id: "b", text: "External" },
+          { id: "c", text: "Financial" },
+          { id: "d", text: "Technical" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "External cultural factors may exert considerable checks on recruitment, such as gender-based roles in industry [cite: 4927-4928].",
+      },
+      {
+        id: "hr-9",
+        question:
+          "Selection is the process of choosing people by assessing information to match them with:",
+        options: [
+          { id: "a", text: "Their family background" },
+          { id: "b", text: "Job requirements" },
+          { id: "c", text: "The company's logo" },
+          { id: "d", text: "Competitor salaries" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Selection is the process of choosing people by obtaining and assessing information with a view to matching these with job requirements[cite: 4937].",
+      },
+      {
+        id: "hr-10",
+        question:
+          "What is the purpose of preliminary screening in the selection process?",
+        options: [
+          { id: "a", text: "To increase the application pool" },
+          {
+            id: "b",
+            text: "To eliminate applicants who do not meet basic qualifications",
+          },
+          { id: "c", text: "To offer final job contracts" },
+          { id: "d", text: "To conduct physical exams" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Scrutiny is done by the personnel department to eliminate those applicants who do not meet required qualifications or technical skills[cite: 4941].",
+      },
+      {
+        id: "hr-11",
+        question:
+          "Which device is used for getting preliminary information and aids in indicating areas for interview discussion?",
+        options: [
+          { id: "a", text: "Selection test" },
+          { id: "b", text: "Application Blank (Form)" },
+          { id: "c", text: "Physical exam" },
+          { id: "d", text: "Exit interview" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "An application blank is a traditional device for getting information and aids the interview by indicating areas of interest [cite: 4942-4943].",
+      },
+      {
+        id: "hr-12",
+        question:
+          "What information can Selection Tests provide that cannot be known by application forms alone?",
+        options: [
+          { id: "a", text: "Home address" },
+          { id: "b", text: "Aptitude and personality" },
+          { id: "c", text: "Educational history" },
+          { id: "d", text: "Previous job titles" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Selection tests may give information about aptitude, interest, and personality, which cannot be known by application forms[cite: 4947].",
+      },
+      {
+        id: "hr-13",
+        question:
+          "In selection, the formal in-depth conversation to evaluate suitability is called the:",
+        options: [
+          { id: "a", text: "Selection Test" },
+          { id: "b", text: "Interview" },
+          { id: "c", text: "Preliminary Screening" },
+          { id: "d", text: "Audit" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The interviewer does a formal in-depth conversation with the applicant to evaluate his suitability[cite: 4950].",
+      },
+      {
+        id: "hr-14",
+        question: "Why is Background Investigation performed?",
+        options: [
+          { id: "a", text: "To increase costs" },
+          { id: "b", text: "To confirm the claims of potential employees" },
+          { id: "c", text: "To hire relatives" },
+          { id: "d", text: "To check market trends" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Background investigation is needed to confirm the claims of potential employees, including contacting former employers [cite: 4953-4954].",
+      },
+      {
+        id: "hr-15",
+        question: "When should the candidate undergo a physical examination?",
+        options: [
+          { id: "a", text: "Before the application is submitted" },
+          {
+            id: "b",
+            text: "After the selection decision but before the job offer",
+          },
+          { id: "c", text: "Only after five years of service" },
+          { id: "d", text: "During the first recruitment stage" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "After the selection decision and before the job offer is made, the candidate is required to undergo physical fitness test[cite: 4960].",
+      },
+      {
+        id: "hr-16",
+        question: "The final employment decision is usually formalized in an:",
+        options: [
+          { id: "a", text: "Application form" },
+          { id: "b", text: "Appointment letter" },
+          { id: "c", text: "Audit report" },
+          { id: "d", text: "Reference check" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The management offers employment in the form of an appointment letter mentioning the post and rank[cite: 4971].",
+      },
+      {
+        id: "hr-17",
+        question:
+          "Who should conduct a periodic audit to evaluate the effectiveness of the selection process?",
+        options: [
+          { id: "a", text: "The HR Director" },
+          { id: "b", text: "Independent people outside the HR department" },
+          { id: "c", text: "The new employees" },
+          { id: "d", text: "Government officials only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A periodic audit, conducted by people who work independently of the human resource department, will evaluate effectiveness[cite: 4973].",
+      },
+      {
+        id: "hr-18",
+        question:
+          "Placement consists of matching the new employee's ability with job demands, offering, and:",
+        options: [
+          { id: "a", text: "Family heritage" },
+          { id: "b", text: "Imposed strain/working conditions" },
+          { id: "c", text: "Competitor secrets" },
+          { id: "d", text: "Legal litigation" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Placement matches what the employee can do with job demands and what it imposes in strain and working conditions[cite: 4980].",
+      },
+      {
+        id: "hr-19",
+        question: "Employee training is a process of learning a sequence of:",
+        options: [
+          { id: "a", text: "Random actions" },
+          { id: "b", text: "Programmed behaviour" },
+          { id: "c", text: "Leisure activities" },
+          { id: "d", text: "Investment tactics" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Training is a process of learning a sequence of programmed behaviour[cite: 4983].",
+      },
+      {
+        id: "hr-20",
+        question: "What is a key benefit of training regarding management?",
+        options: [
+          { id: "a", text: "It requires more managers" },
+          { id: "b", text: "Less supervision is needed" },
+          { id: "c", text: "It eliminates the CEO" },
+          { id: "d", text: "It stops all communication" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A well-trained employee will be well acquainted with the job and will need less supervision[cite: 4995].",
+      },
+      {
+        id: "hr-21",
+        question:
+          "Training reduces the chances of errors and proficiency prevents ____ on the job.",
+        options: [
+          { id: "a", text: "Salaries" },
+          { id: "b", text: "Accidents" },
+          { id: "c", text: "Promotions" },
+          { id: "d", text: "Holidays" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The more trained an employee is, the less are the chances of committing accidents in job[cite: 4998].",
+      },
+      {
+        id: "hr-22",
+        question:
+          "Which type of training is considered most effective for vocational work?",
+        options: [
+          { id: "a", text: "Off-the-job training" },
+          { id: "b", text: "On-the-job training" },
+          { id: "c", text: "Self-study only" },
+          { id: "d", text: "External workshops" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "On-the-job training has a general reputation as most effective for vocational work[cite: 5006].",
+      },
+      {
+        id: "hr-23",
+        question: "Off-the-job training is more effective for inculcating:",
+        options: [
+          { id: "a", text: "Manual speed" },
+          { id: "b", text: "Concepts and ideas" },
+          { id: "c", text: "Physical strength" },
+          { id: "d", text: "Machine repairs" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This type of training has proven more effective in inculcating concepts and ideas[cite: 5009].",
+      },
+      {
+        id: "hr-24",
+        question:
+          "The objective of a sound compensation system is to establish and maintain a/an:",
+        options: [
+          { id: "a", text: "Unequal system" },
+          { id: "b", text: "Equitable rewards system" },
+          { id: "c", text: "Secret pay structure" },
+          { id: "d", text: "Minimal debt system" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The basic purpose or objective of sound compensation is to establish and maintain an equitable rewards system[cite: 5016].",
+      },
+      {
+        id: "hr-25",
+        question: "Paying employees according to job requirements eliminates:",
+        options: [
+          { id: "a", text: "Skilled labor" },
+          { id: "b", text: "Inequalities" },
+          { id: "c", text: "Promotions" },
+          { id: "d", text: "Profit" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Employees are paid according to requirements of their jobs... this eliminates inequalities [cite: 5032-5033].",
+      },
+      {
+        id: "hr-26",
+        question:
+          "Compensation planning is influenced by the firm's prosperity, also known as:",
+        options: [
+          { id: "a", text: "Legislation" },
+          { id: "b", text: "Ability to Pay" },
+          { id: "c", text: "Supply of labour" },
+          { id: "d", text: "Worker philosophy" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Ability to pay is based on the firm's prosperity[cite: 5048].",
+      },
+      {
+        id: "hr-27",
+        question:
+          "Which term refers to the monthly rate of pay irrespective of hours worked?",
+        options: [
+          { id: "a", text: "Wages" },
+          { id: "b", text: "Salary" },
+          { id: "c", text: "Incentive" },
+          { id: "d", text: "Bonus" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Salary refers to monthly rate of pay irrespective of the number of hours worked[cite: 5052].",
+      },
+      {
+        id: "hr-28",
+        question:
+          "Payments by results, such as those based on sales or profit, are called:",
+        options: [
+          { id: "a", text: "Wages" },
+          { id: "b", text: "Incentives" },
+          { id: "c", text: "Fringe benefits" },
+          { id: "d", text: "Salaries" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Incentives are also known as payment by results and depend upon productivity, sales, or profit [cite: 5058-5059].",
+      },
+      {
+        id: "hr-29",
+        question: "Provident fund, medical care, and uniforms are examples of:",
+        options: [
+          { id: "a", text: "Wages" },
+          { id: "b", text: "Fringe Benefits" },
+          { id: "c", text: "Non-monetary benefits" },
+          { id: "d", text: "Core salary" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Fringe Benefits are given in forms such as provident fund, medical care, canteen, uniform etc[cite: 5060].",
+      },
+      {
+        id: "hr-30",
+        question:
+          "Performance appraisal is the systematic assessment of an individual's job performance and:",
+        options: [
+          { id: "a", text: "Personal wealth" },
+          { id: "b", text: "Potential for development" },
+          { id: "c", text: "Family background" },
+          { id: "d", text: "Political views" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Performance appraisal is the assessment of performance on the job and potential for development in that job[cite: 5063].",
+      },
+      {
+        id: "hr-31",
+        question: "The appraisal is systematic when it remove human:",
+        options: [
+          { id: "a", text: "Skills" },
+          { id: "b", text: "Biases and prejudices" },
+          { id: "c", text: "Communication" },
+          { id: "d", text: "Potential" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Its important aspect is that it attempts at precise measurement by trying to remove human biases and prejudices[cite: 5068].",
+      },
+      {
+        id: "hr-32",
+        question:
+          "Which method ranks employees from worst to best based on personality traits?",
+        options: [
+          { id: "a", text: "Grading Method" },
+          { id: "b", text: "Ranking Method" },
+          { id: "c", text: "Check-list Method" },
+          { id: "d", text: "Paired Comparison" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "By the ranking method, the employee is ranked from highest to lowest or from worst to best [cite: 5085-5086].",
+      },
+      {
+        id: "hr-33",
+        question:
+          "In the Paired Comparison method, the rater ticks names on slips to determine:",
+        options: [
+          { id: "a", text: "Salaries" },
+          { id: "b", text: "Who is better between two" },
+          { id: "c", text: "Who should be fired" },
+          { id: "d", text: "Office location" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The rater puts a tick mark next to those employees whom he considers to be the better of the two[cite: 5088].",
+      },
+      {
+        id: "hr-34",
+        question:
+          "A major limitation of the Grading Method is that raters may rate many employees on the:",
+        options: [
+          { id: "a", text: "Worst side" },
+          { id: "b", text: "Better side" },
+          { id: "c", text: "Random side" },
+          { id: "d", text: "Alphabetical side" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "One limitation of this method is that the rater may rate many employees on the better side of their performance[cite: 5093].",
+      },
+      {
+        id: "hr-35",
+        question:
+          "The Check-list Method consists of a series of questions related to the:",
+        options: [
+          { id: "a", text: "Competitor" },
+          { id: "b", text: "Appraisee" },
+          { id: "c", text: "Customer" },
+          { id: "d", text: "Supplier" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The evaluator is provided with a report which consists of series of questions related to the appraisee[cite: 5094].",
+      },
+      {
+        id: "hr-36",
+        question: "The first step in the Performance Appraisal process is:",
+        options: [
+          { id: "a", text: "Measurement of performance" },
+          { id: "b", text: "Establishment of Performance Standards" },
+          { id: "c", text: "Discussion with employee" },
+          { id: "d", text: "Corrective action" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The process begins by establishing performance standards, i.e., what is expected in terms of output[cite: 5098].",
+      },
+      {
+        id: "hr-37",
+        question: "Communication in performance appraisal is described as a:",
+        options: [
+          { id: "a", text: "One-way street" },
+          { id: "b", text: "Two-way street" },
+          { id: "c", text: "Secret path" },
+          { id: "d", text: "Waste of time" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Communication is said to be a two-way street; passing information to a subordinate doesn't mean work is done[cite: 5102].",
+      },
+      {
+        id: "hr-38",
+        question:
+          "Personal observation, statistical reports, and oral reports are used to:",
+        options: [
+          { id: "a", text: "Set standards" },
+          { id: "b", text: "Measure actual performance" },
+          { id: "c", text: "Fire staff" },
+          { id: "d", text: "Calculate taxes" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Measurement is done from personal observation, statistical reports, oral reports, and written reports[cite: 5103].",
+      },
+      {
+        id: "hr-39",
+        question:
+          "Which corrective action gets to the source of deviation to adjust differences permanently?",
+        options: [
+          { id: "a", text: "Instant action" },
+          { id: "b", text: "Basic action" },
+          { id: "c", text: "Random action" },
+          { id: "d", text: "Temporary action" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Basic corrective action gets to the source from where deviation has taken place to adjust differences permanently[cite: 5119].",
+      },
+      {
+        id: "hr-40",
+        question:
+          "Discipline is used in organizations to handle human weaknesses and control:",
+        options: [
+          { id: "a", text: "Financial profit" },
+          { id: "b", text: "Unethical behaviours" },
+          { id: "c", text: "Legal patents" },
+          { id: "d", text: "Market trends" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Discipline is a good way of checking and controlling unethical behaviours among personnel[cite: 5124].",
+      },
+      {
+        id: "hr-41",
+        question:
+          "Uniform discipline application across all staff categories requires ____ from the entrepreneur.",
+        options: [
+          { id: "a", text: "Money" },
+          { id: "b", text: "Courage" },
+          { id: "c", text: "Silence" },
+          { id: "d", text: "Anger" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Same discipline should apply to all categories once a borderline is crossed, which calls for courage[cite: 5128].",
+      },
+      {
+        id: "hr-42",
+        question:
+          "Which of these is NOT listed as a way of discipline in the text?",
+        options: [
+          { id: "a", text: "Suspension" },
+          { id: "b", text: "Cash reward" },
+          { id: "c", text: "Total dismissal" },
+          { id: "d", text: "Loss of promotion" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Ways of discipline include suspension, dismissal, and loss of promotion, not cash rewards [cite: 5130-5141].",
+      },
+      {
+        id: "hr-43",
+        question:
+          "Succession planning addresses the ability of the venture to continue if the ____ is not around.",
+        options: [
+          { id: "a", text: "Banker" },
+          { id: "b", text: "Brain behind the venture" },
+          { id: "c", text: "Competitor" },
+          { id: "d", text: "Youngest employee" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Succession planning is necessary if the 'brain behind the venture' is no longer around[cite: 5147].",
+      },
+      {
+        id: "hr-44",
+        question:
+          "A succession plan should be communicated to everyone and probably documented with:",
+        options: [
+          { id: "a", text: "The neighbors" },
+          { id: "b", text: "Company lawyers" },
+          { id: "c", text: "The police" },
+          { id: "d", text: "The tax office" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The plan is documented and probably kept with the company lawyers[cite: 4149].",
+      },
+      {
+        id: "hr-45",
+        question: "In succession planning, the first step is to:",
+        options: [
+          { id: "a", text: "Identify competencies" },
+          { id: "b", text: "Identify critical positions" },
+          { id: "c", text: "Document the plan" },
+          { id: "d", text: "Evaluate effectiveness" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Step 1 of the succession planning process is to identify critical positions[cite: 5155].",
+      },
+      {
+        id: "hr-46",
+        question:
+          "Position profiling helps employees understand key responsibilities and required:",
+        options: [
+          { id: "a", text: "Hobbies" },
+          { id: "b", text: "Competencies" },
+          { id: "c", text: "Wealth status" },
+          { id: "d", text: "Home locations" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Position profiling helps employees understand technical and behavioural competencies required[cite: 5160].",
+      },
+      {
+        id: "hr-47",
+        question: "Developing internal talent pools is a part of:",
+        options: [
+          { id: "a", text: "Discipline" },
+          { id: "b", text: "Succession management strategies" },
+          { id: "c", text: "Orientation" },
+          { id: "d", text: "Background investigation" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Strategies include developing internal talent pools, on boarding, and recruitment[cite: 5162].",
+      },
+      {
+        id: "hr-48",
+        question:
+          "A mechanism for clearly defining timelines, roles, and responsibilities in succession is the:",
+        options: [
+          { id: "a", text: "Interview slip" },
+          { id: "b", text: "Action plan" },
+          { id: "c", text: "Reference check" },
+          { id: "d", text: "Medical report" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The succession planning action plan provides a mechanism for defining timelines and roles[cite: 5166].",
+      },
+      {
+        id: "hr-49",
+        question: "The final stage of the succession planning process is to:",
+        options: [
+          { id: "a", text: "Identify positions" },
+          { id: "b", text: "Evaluate Effectiveness" },
+          { id: "c", text: "Profile competencies" },
+          { id: "d", text: "Hire externally" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The final stage is to evaluate effectiveness by monitoring workforce data and making adjustments[cite: 5169].",
+      },
+      {
+        id: "hr-50",
+        question:
+          "What determines success in entrepreneurship regarding long-term survival?",
+        options: [
+          { id: "a", text: "Having the most machines" },
+          {
+            id: "b",
+            text: "Ability of the venture to continue without the founder",
+          },
+          { id: "c", text: "Ignoring all uncertainties" },
+          { id: "d", text: "Eliminating HR planning" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A major factor that determines success is the ability of the venture to continue irrespective of whether the brain behind it is around[cite: 5147].",
+      },
+    ],
+  },
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
