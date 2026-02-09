@@ -2860,6 +2860,615 @@ export const quizTopics: Topic[] = [
       },
     ],
   },
+  {
+  "id": "entrepreneurship-marketing-validation-chapter-5",
+  "title": "Marketing and Idea Validation",
+  "description": "Test your knowledge on marketing functions, customer markets, product classification, and the strategic process of idea validation.",
+  "icon": "Megaphone",
+  "color": "#e91e63",
+  "questions": [
+    {
+      "id": "mv-1",
+      "question": "Concerted effort is required on investigating the likely market for an intended product to ensure its:",
+      "options": [
+        { "id": "a", "text": "Design aesthetic" },
+        { "id": "b", "text": "Commercial success tendencies" },
+        { "id": "c", "text": "Legal registration only" },
+        { "id": "d", "text": "Storage capacity" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Investigation is required to ensure the product has commercial success tendencies[cite: 1069, 1070]."
+    },
+    {
+      "id": "mv-2",
+      "question": "According to the text, a business-oriented person must prepare for failure not just in terms of finance but also as regards:",
+      "options": [
+        { "id": "a", "text": "Infrastructure" },
+        { "id": "b", "text": "Social media" },
+        { "id": "c", "text": "Emotion" },
+        { "id": "d", "text": "Politics" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "A business-oriented person must prepare for failure emotionally as well as financially[cite: 1075]."
+    },
+    {
+      "id": "mv-3",
+      "question": "Which of these is a distinguishing feature of services compared to products?",
+      "options": [
+        { "id": "a", "text": "Visibility" },
+        { "id": "b", "text": "Intangibility" },
+        { "id": "c", "text": "Durability" },
+        { "id": "d", "text": "Separability" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Distinguishing features of services include intangibility, variability, inseparability, and simultaneity[cite: 1089, 1090]."
+    },
+    {
+      "id": "mv-4",
+      "question": "In the context of services, 'intangibility' means they:",
+      "options": [
+        { "id": "a", "text": "Can be stored for years" },
+        { "id": "b", "text": "Can be seen but not touched" },
+        { "id": "c", "text": "Can neither be held physically nor seen" },
+        { "id": "d", "text": "Are only performed by machines" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Intangibility characterizes services as they can neither be held physically nor seen[cite: 1090]."
+    },
+    {
+      "id": "mv-5",
+      "question": "Simultaneity in services means that demand and supply happen:",
+      "options": [
+        { "id": "a", "text": "At different locations" },
+        { "id": "b", "text": "In two different years" },
+        { "id": "c", "text": "At the same time" },
+        { "id": "d", "text": "Only when the customer sleeps" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Demand and supply of services happen simultaneously[cite: 1091]."
+    },
+    {
+      "id": "mv-6",
+      "question": "Who defined the entrepreneur as an innovator who brings new products or services into the economy?",
+      "options": [
+        { "id": "a", "text": "McClelland" },
+        { "id": "b", "text": "Schumpeter" },
+        { "id": "c", "text": "Young" },
+        { "id": "d", "text": "Hoselitz" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Schumpeter (1934) sees the entrepreneur as an innovator bringing new products or services into the economy[cite: 1100]."
+    },
+    {
+      "id": "mv-7",
+      "question": "Which theory emphasizes that religion has a large impact on entrepreneurial development?",
+      "options": [
+        { "id": "a", "text": "Theory viii" },
+        { "id": "b", "text": "Theory ix" },
+        { "id": "c", "text": "Theory iv" },
+        { "id": "d", "text": "Theory i" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Theory ix states that religion has a large impact on entrepreneurial development[cite: 1115]."
+    },
+    {
+      "id": "mv-8",
+      "question": "Drucker (1973) argues that the aim of marketing is to know the customer so well that the product:",
+      "options": [
+        { "id": "a", "text": "Becomes more expensive" },
+        { "id": "b", "text": "Fits him and sells itself" },
+        { "id": "c", "text": "Needs aggressive advertising" },
+        { "id": "d", "text": "Is always available in blue" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The aim is to know the customer so well that the product fits him and sells itself[cite: 1120]."
+    },
+    {
+      "id": "mv-9",
+      "question": "In marketing terms, 'wants' are basic human requirements directed to:",
+      "options": [
+        { "id": "a", "text": "Specific objects that satisfy a need" },
+        { "id": "b", "text": "General survival only" },
+        { "id": "c", "text": "Invisible entities" },
+        { "id": "d", "text": "The government for help" }
+      ],
+      "correctAnswer": "a",
+      "explanation": "A need becomes a want when it is directed to specific objects that might satisfy the need[cite: 1125]."
+    },
+    {
+      "id": "mv-10",
+      "question": "Demands are wants for specific products backed by:",
+      "options": [
+        { "id": "a", "text": "Government approval" },
+        { "id": "b", "text": "Ability to pay" },
+        { "id": "c", "text": "High education" },
+        { "id": "d", "text": "A physical market location" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Demands are wants for specific product backed by an ability to pay[cite: 1128]."
+    },
+    {
+      "id": "mv-11",
+      "question": "In the shoe industry, 'youth market' is an example of which type of market?",
+      "options": [
+        { "id": "a", "text": "Geographic" },
+        { "id": "b", "text": "Need market" },
+        { "id": "c", "text": "Demographic market" },
+        { "id": "d", "text": "Labour market" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "The youth market is given as an example of a demographic market[cite: 1135]."
+    },
+    {
+      "id": "mv-12",
+      "question": "Which market consists of professional buyers skilled in evaluating competitive offerings to resell them at a profit?",
+      "options": [
+        { "id": "a", "text": "Consumer Markets" },
+        { "id": "b", "text": "Business Markets" },
+        { "id": "c", "text": "Voter Markets" },
+        { "id": "d", "text": "Global Markets" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Business markets consist of well trained professional buyers who buy goods to make or resell to others at a profit[cite: 1144, 1145]."
+    },
+    {
+      "id": "mv-13",
+      "question": "When selling to 'Global Markets,' entrepreneurs must decide on entries such as joint ventures, contract manufacturing, or:",
+      "options": [
+        { "id": "a", "text": "Giving products away for free" },
+        { "id": "b", "text": "Solo manufacturer" },
+        { "id": "c", "text": "Buying a whole country" },
+        { "id": "d", "text": "Ignoring local culture" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Ways to enter include being an exporter, licenser, joint venture partner, contract manufacturer, or solo manufacturer[cite: 1147]."
+    },
+    {
+      "id": "mv-14",
+      "question": "Government purchasing normally calls for ____, with the lowest one being favoured.",
+      "options": [
+        { "id": "a", "text": "Advertisements" },
+        { "id": "b", "text": "Bids" },
+        { "id": "c", "text": "Phone calls" },
+        { "id": "d", "text": "Lotteries" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Government purchasing normally calls for bids, with the lowest bid being favoured[cite: 1152]."
+    },
+    {
+      "id": "mv-15",
+      "question": "Which marketing entity involves professionals like accountants, bankers, and software programmers?",
+      "options": [
+        { "id": "a", "text": "Goods" },
+        { "id": "b", "text": "Services" },
+        { "id": "c", "text": "Events" },
+        { "id": "d", "text": "Properties" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Services include the work of professionals such as accountants, bankers, lawyers, and software programmers[cite: 1155]."
+    },
+    {
+      "id": "mv-16",
+      "question": "The Olympics and World Cup are prime examples of:",
+      "options": [
+        { "id": "a", "text": "Property marketing" },
+        { "id": "b", "text": "Experience marketing" },
+        { "id": "c", "text": "Event marketing" },
+        { "id": "d", "text": "Celebrity marketing" }
+      ],
+      "correctAnswer": "c",
+      "explanation": "Global sporting events such as Olympic and World cup are good examples of event marketing[cite: 1158]."
+    },
+    {
+      "id": "mv-17",
+      "question": "Climbing Mount Everest or attending a live band concert are examples of:",
+      "options": [
+        { "id": "a", "text": "Information marketing" },
+        { "id": "b", "text": "Experiential marketing" },
+        { "id": "c", "text": "Business marketing" },
+        { "id": "d", "text": "Commodity marketing" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "By orchestrating several services and goods, firms create and market experiences, also known as experiential marketing[cite: 1160, 1161]."
+    },
+    {
+      "id": "mv-18",
+      "question": "In celebrity marketing, each person is advised to become a/an:",
+      "options": [
+        { "id": "a", "text": "Employee" },
+        { "id": "b", "text": "Brand" },
+        { "id": "c", "text": "Agent" },
+        { "id": "d", "text": "Mystery" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "In marketing, each person is advised to become a 'brand'[cite: 1168]."
+    },
+    {
+      "id": "mv-19",
+      "question": "Economic development specialists and real estate agents are primarily involved in ____ marketing.",
+      "options": [
+        { "id": "a", "text": "Idea" },
+        { "id": "b", "text": "Place" },
+        { "id": "c", "text": "Person" },
+        { "id": "d", "text": "Organization" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Place marketers include economic development specialists and real estate agents wooing people to such places[cite: 1171]."
+    },
+    {
+      "id": "mv-20",
+      "question": "Which of these is a Nigerian example of 'Place' marketing cited in the text?",
+      "options": [
+        { "id": "a", "text": "University of Ilorin" },
+        { "id": "b", "text": "Obudu Ranch" },
+        { "id": "c", "text": "Jide Taiwo and Associates" },
+        { "id": "d", "text": "Dangote Group" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Obudu Ranch, Ikogosi Warm Spring, and Owu Fall are examples of such places in Nigeria[cite: 1172]."
+    },
+    {
+      "id": "mv-21",
+      "question": "Financial property marketing involves the sale of stocks and:",
+      "options": [
+        { "id": "a", "text": "Houses" },
+        { "id": "b", "text": "Bonds" },
+        { "id": "c", "text": "Cars" },
+        { "id": "d", "text": "Furniture" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Financial property includes stocks and bonds[cite: 1174]."
+    },
+    {
+      "id": "mv-22",
+      "question": "The University of Ilorin has built a unique image (Organization marketing) partly due to its:",
+      "options": [
+        { "id": "a", "text": "Location in Lagos" },
+        { "id": "b", "text": "Uninterrupted academic calendar" },
+        { "id": "c", "text": "High student fees" },
+        { "id": "d", "text": "Low staff number" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The university built a good image because of its uninterrupted academic calendar for the past twenty years[cite: 1179]."
+    },
+    {
+      "id": "mv-23",
+      "question": "Management consulting firms primarily sell their ____ to companies.",
+      "options": [
+        { "id": "a", "text": "Physical machines" },
+        { "id": "b", "text": "Ideas" },
+        { "id": "c", "text": "Real estate" },
+        { "id": "d", "text": "Livestock" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Management consulting firms sell their ideas to companies and are paid for these services[cite: 1186]."
+    },
+    {
+      "id": "mv-24",
+      "question": "Which marketing function category includes buying, assembling, and selling?",
+      "options": [
+        { "id": "a", "text": "Physical function" },
+        { "id": "b", "text": "Exchange function" },
+        { "id": "c", "text": "Facilitating function" },
+        { "id": "d", "text": "Climatic function" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The exchange function brings about changes in ownership and includes buying, assembling, and selling[cite: 1193]."
+    },
+    {
+      "id": "mv-25",
+      "question": "Storage and transportation are part of which marketing function?",
+      "options": [
+        { "id": "a", "text": "Exchange" },
+        { "id": "b", "text": "Physical function" },
+        { "id": "c", "text": "Facilitating" },
+        { "id": "d", "text": "Social" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The physical function is the physical transfer of products via storage and transportation[cite: 1194]."
+    },
+    {
+      "id": "mv-26",
+      "question": "Facilitating functions like financing and risk-bearing help perform:",
+      "options": [
+        { "id": "a", "text": "Only storage" },
+        { "id": "b", "text": "Other marketing functions" },
+        { "id": "c", "text": "Only transportation" },
+        { "id": "d", "text": "Global manufacturing" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Facilitating functions are supporting activities that contribute to the performance of other marketing functions[cite: 1197]."
+    },
+    {
+      "id": "mv-27",
+      "question": "Beer, bread, and toothpaste are examples of which product category?",
+      "options": [
+        { "id": "a", "text": "Durable goods" },
+        { "id": "b", "text": "Nondurable goods" },
+        { "id": "c", "text": "Unsought goods" },
+        { "id": "d", "text": "Capital items" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Nondurable goods are tangible goods consumed quickly and frequently, such as beer, bread, and toothpaste[cite: 1204]."
+    },
+    {
+      "id": "mv-28",
+      "question": "Consumer convenience goods are further divided into staples, impulse goods, and:",
+      "options": [
+        { "id": "a", "text": "Specialty goods" },
+        { "id": "b", "text": "Emergency goods" },
+        { "id": "c", "text": "Industrial goods" },
+        { "id": "d", "text": "Capital items" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Convenience goods are further divided into staples, impulse, and emergency goods[cite: 1207]."
+    },
+    {
+      "id": "mv-29",
+      "question": "Magazines and yoghurt are examples of ____ goods because they are bought without planning.",
+      "options": [
+        { "id": "a", "text": "Staple" },
+        { "id": "b", "text": "Impulse" },
+        { "id": "c", "text": "Emergency" },
+        { "id": "d", "text": "Specialty" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Impulse goods are purchased without planning or search effort, such as magazines and yoghurt[cite: 1209]."
+    },
+    {
+      "id": "mv-30",
+      "question": "Umbrellas during a rainy season are considered ____ goods.",
+      "options": [
+        { "id": "a", "text": "Impulse" },
+        { "id": "b", "text": "Emergency" },
+        { "id": "c", "text": "Unsought" },
+        { "id": "d", "text": "Durable" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Emergency goods are purchased when there is an urgent need, like buying an umbrella during rainy seasons[cite: 1210]."
+    },
+    {
+      "id": "mv-31",
+      "question": "Furniture and used cars are ____ goods because consumers compare them on price and suitability.",
+      "options": [
+        { "id": "a", "text": "Convenience" },
+        { "id": "b", "text": "Shopping" },
+        { "id": "c", "text": "Unsought" },
+        { "id": "d", "text": "Industrial" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Shopping goods are compared by consumers in terms of suitability, quality, price, and style[cite: 1212]."
+    },
+    {
+      "id": "mv-32",
+      "question": "Life insurance and cemetery plots are categorized as ____ goods.",
+      "options": [
+        { "id": "a", "text": "Specialty" },
+        { "id": "b", "text": "Unsought" },
+        { "id": "c", "text": "Staple" },
+        { "id": "d", "text": "Capital" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Unsought goods are those consumers do not normally think of buying, like life insurance and cemetery plots[cite: 1220, 1221]."
+    },
+    {
+      "id": "mv-33",
+      "question": "Crude petroleum and lumber are examples of which type of industrial material?",
+      "options": [
+        { "id": "a", "text": "Capital items" },
+        { "id": "b", "text": "Raw materials (natural products)" },
+        { "id": "c", "text": "Business services" },
+        { "id": "d", "text": "Component parts" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Raw materials can be natural products such as lumber and crude petroleum[cite: 1225]."
+    },
+    {
+      "id": "mv-34",
+      "question": "Capital items include long-lasting goods like heavy equipment and:",
+      "options": [
+        { "id": "a", "text": "Writing paper" },
+        { "id": "b", "text": "Installations (buildings)" },
+        { "id": "c", "text": "Lubricants" },
+        { "id": "d", "text": "Soap" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Capital items include installations (buildings) and heavy equipment[cite: 1228, 1229]."
+    },
+    {
+      "id": "mv-35",
+      "question": "Window cleaning and copier repair fall under industrial:",
+      "options": [
+        { "id": "a", "text": "Materials" },
+        { "id": "b", "text": "Business services" },
+        { "id": "c", "text": "Installations" },
+        { "id": "d", "text": "Convenience goods" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Business services include maintenance and repair services such as window cleaning and copier repair[cite: 1232]."
+    },
+    {
+      "id": "mv-36",
+      "question": "The 4Ps of the marketing mix are Product, Price, Place, and:",
+      "options": [
+        { "id": "a", "text": "Profit" },
+        { "id": "b", "text": "Promotion" },
+        { "id": "c", "text": "People" },
+        { "id": "d", "text": "Packaging" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The 4Ps are product, price, place, and promotion[cite: 1246]."
+    },
+    {
+      "id": "mv-37",
+      "question": "According to the 4Cs model, 'Place' in the marketing mix represents the customer's:",
+      "options": [
+        { "id": "a", "text": "Solution" },
+        { "id": "b", "text": "Convenience (accessibility)" },
+        { "id": "c", "text": "Cost" },
+        { "id": "d", "text": "Communication" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Place offers convenience or accessibility of the product to consumers[cite: 1249]."
+    },
+    {
+      "id": "mv-38",
+      "question": "Small businesses are called different names; MSMEs stands for:",
+      "options": [
+        { "id": "a", "text": "Main System of Marketing Entities" },
+        { "id": "b", "text": "Micro, Small and Medium Enterprises" },
+        { "id": "c", "text": "Managerial Skills for Modern Engineers" },
+        { "id": "d", "text": "Multiple Small and Major Exports" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The text lists MSMEs as Micro, Small and Medium Enterprises[cite: 1252]."
+    },
+    {
+      "id": "mv-39",
+      "question": "The Central Bank of Nigeria (2013) defines SMEs as establishments with base capital (excluding land) between:",
+      "options": [
+        { "id": "a", "text": "N1 million and N10 million" },
+        { "id": "b", "text": "N5 million and N500 million" },
+        { "id": "c", "text": "N100 million and N1 billion" },
+        { "id": "d", "text": "N50,000 and N500,000" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "SMEs are defined as establishment with base capital between N5 million and N500 million[cite: 1256]."
+    },
+    {
+      "id": "mv-40",
+      "question": "Under the same definition, an SME in Nigeria employs between:",
+      "options": [
+        { "id": "a", "text": "1 and 5 staff" },
+        { "id": "b", "text": "11 and 200 staff" },
+        { "id": "c", "text": "500 and 1000 staff" },
+        { "id": "d", "text": "Any number of staff" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "SMEs in Nigeria are those employing between 11 and 200 staff[cite: 1256]."
+    },
+    {
+      "id": "mv-41",
+      "question": "Cybercafés and pure water production are identified as ____ businesses to be avoided.",
+      "options": [
+        { "id": "a", "text": "Growth" },
+        { "id": "b", "text": "Dying" },
+        { "id": "c", "text": "Illegal" },
+        { "id": "d", "text": "Specialty" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The entrepreneur should be careful not to go into 'dying' businesses like cybercafé and pure water production[cite: 1283]."
+    },
+    {
+      "id": "mv-42",
+      "question": "Idea validation is the process of checking the validity of an idea ____ converting it to a sellable product.",
+      "options": [
+        { "id": "a", "text": "After" },
+        { "id": "b", "text": "Before" },
+        { "id": "c", "text": "Instead of" },
+        { "id": "d", "text": "By never" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Idea validation involves checking the validity of an idea before converting it to a product[cite: 1285]."
+    },
+    {
+      "id": "mv-43",
+      "question": "The essence of validation is to ensure that a ____ is available for the planned product.",
+      "options": [
+        { "id": "a", "text": "Bank loan" },
+        { "id": "b", "text": "Ready market" },
+        { "id": "c", "text": "Supplier" },
+        { "id": "d", "text": "Tax refund" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The validation effort ensures that a ready market is available[cite: 1290]."
+    },
+    {
+      "id": "mv-44",
+      "question": "Opportunity recognition achieves profit potential through commencing a fresh enterprise or ____ an existing one.",
+      "options": [
+        { "id": "a", "text": "Selling" },
+        { "id": "b", "text": "Restructuring and rejuvenating" },
+        { "id": "c", "text": "Closing" },
+        { "id": "d", "text": "Ignoring" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Profit potential is achieved through fresh business or restructuring/rejuvenating existing ventures[cite: 1298, 1299]."
+    },
+    {
+      "id": "mv-45",
+      "question": "One's previous occupations or environment can be a source of ideas; this is called:",
+      "options": [
+        { "id": "a", "text": "Hobby" },
+        { "id": "b", "text": "Prior Experience" },
+        { "id": "c", "text": "Market Research" },
+        { "id": "d", "text": "Social Network" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Prior experience in previous occupations or environments is a source of entrepreneurial ideas[cite: 1317]."
+    },
+    {
+      "id": "mv-46",
+      "question": "When scanning for opportunities, government minimum wage and taxes are part of:",
+      "options": [
+        { "id": "a", "text": "Climatic conditions" },
+        { "id": "b", "text": "Government regulations" },
+        { "id": "c", "text": "Hobby interest" },
+        { "id": "d", "text": "Social networks" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "Regulations include political and economic factors like minimum wage and taxes[cite: 1342, 1345]."
+    },
+    {
+      "id": "mv-47",
+      "question": "The mass advocacy for solar-powered cars due to global warming is an example of a/an ____ influence.",
+      "options": [
+        { "id": "a", "text": "Legal" },
+        { "id": "b", "text": "Climatic condition" },
+        { "id": "c", "text": "Individual" },
+        { "id": "d", "text": "Religious" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The influence of global warming on the automobile industry demonstrates climatic change affecting survival[cite: 1364, 1366]."
+    },
+    {
+      "id": "mv-48",
+      "question": "During brainstorming, an innovator should provide ____ innovative ideas to solving a problem.",
+      "options": [
+        { "id": "a", "text": "One hundred" },
+        { "id": "b", "text": "At most five" },
+        { "id": "c", "text": "No" },
+        { "id": "d", "text": "Only expensive" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "At most, five innovative ideas to solving a problem should be enough to avoid confusing clients[cite: 1374]."
+    },
+    {
+      "id": "mv-49",
+      "question": "In the step of Objectivity, entrepreneurs are advised NOT to seek assistance from ____ in validating their idea.",
+      "options": [
+        { "id": "a", "text": "Industry experts" },
+        { "id": "b", "text": "Relatives" },
+        { "id": "c", "text": "Bank managers" },
+        { "id": "d", "text": "Consultants" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The entrepreneur is not expected to seek the assistance of relatives because of possible pity or love[cite: 1376, 1381]."
+    },
+    {
+      "id": "mv-50",
+      "question": "A marketing survey for idea validation should select about how many objective individuals?",
+      "options": [
+        { "id": "a", "text": "Five hundred" },
+        { "id": "b", "text": "Not more than fifteen" },
+        { "id": "c", "text": "Two only" },
+        { "id": "d", "text": "The entire city" }
+      ],
+      "correctAnswer": "b",
+      "explanation": "The entrepreneur is expected to select not more than fifteen objective and unbiased individuals[cite: 1385, 1386]."
+    }
+  ]
+}
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
