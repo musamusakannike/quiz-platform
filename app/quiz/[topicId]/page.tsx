@@ -18,12 +18,26 @@ export default function QuizPage() {
   const topic = getTopicById(topicId);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
+  const [shuffledOptionsMap, setShuffledOptionsMap] = useState<Record<number, Option[]>>({});
   const [isComplete, setIsComplete] = useState(false);
-  const [shuffledOptions, setShuffledOptions] = useState<Option[]>([]);
-  const [isCorrect, setIsCorrect] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+
+  // Derived state
+  const currentQuestion = topic?.questions[currentQuestionIndex];
+  const selectedAnswer = userAnswers[currentQuestionIndex] || null;
+  const isCorrect = currentQuestion?.correctAnswer === selectedAnswer;
+  const shuffledOptions = shuffledOptionsMap[currentQuestionIndex] || [];
+  
+  const score = Object.keys(userAnswers).reduce((acc, key) => {
+    const idx = parseInt(key);
+    const answer = userAnswers[idx];
+    const question = topic?.questions[idx];
+    if (question && question.correctAnswer === answer) {
+      return acc + 1;
+    }
+    return acc;
+  }, 0);
 
   const questionRef = useRef<HTMLDivElement>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
@@ -35,10 +49,13 @@ export default function QuizPage() {
 
   // Initialize shuffled options for current question
   useEffect(() => {
-    if (topic && topic.questions[currentQuestionIndex]) {
-      setShuffledOptions(shuffleOptions(topic.questions[currentQuestionIndex].options));
+    if (topic && currentQuestion && !shuffledOptionsMap[currentQuestionIndex]) {
+      setShuffledOptionsMap(prev => ({
+        ...prev,
+        [currentQuestionIndex]: shuffleOptions(currentQuestion.options)
+      }));
     }
-  }, [topic, currentQuestionIndex]);
+  }, [topic, currentQuestionIndex, currentQuestion, shuffledOptionsMap]);
 
   // Animate question on change
   useEffect(() => {
@@ -65,50 +82,40 @@ export default function QuizPage() {
   const handleSelectAnswer = useCallback((optionId: string) => {
     if (selectedAnswer !== null || !topic) return;
 
-    const currentQuestion = topic.questions[currentQuestionIndex];
-    const correct = optionId === currentQuestion.correctAnswer;
-
-    setSelectedAnswer(optionId);
-    setIsCorrect(correct);
-
-    if (correct) {
-      setScore((prev) => prev + 1);
-    }
+    setUserAnswers(prev => ({
+      ...prev,
+      [currentQuestionIndex]: optionId
+    }));
   }, [selectedAnswer, topic, currentQuestionIndex]);
 
   const handleNext = useCallback(() => {
     if (!topic) return;
 
-    setSelectedAnswer(null);
-
     if (currentQuestionIndex < topic.questions.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
     } else {
       setIsComplete(true);
     }
   }, [topic, currentQuestionIndex]);
+
+  const handlePrevious = useCallback(() => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex((prev) => prev - 1);
+    }
+  }, [currentQuestionIndex]);
 
   const handleSkip = useCallback(() => {
-    if (!topic) return;
-
-    // Treat skip as not answering correctly (score doesn't increase)
-    setSelectedAnswer(null);
-
-    if (currentQuestionIndex < topic.questions.length - 1) {
-      setCurrentQuestionIndex((prev) => prev + 1);
-    } else {
-      setIsComplete(true);
-    }
-  }, [topic, currentQuestionIndex]);
+    handleNext();
+  }, [handleNext]);
 
   const handleRestart = useCallback(() => {
     setCurrentQuestionIndex(0);
-    setScore(0);
-    setSelectedAnswer(null);
+    setUserAnswers({});
+    setShuffledOptionsMap({});
     setIsComplete(false);
   }, []);
 
-  if (!topic) {
+  if (!topic || !currentQuestion) {
     return (
       <div className="app-container">
         <main className="main-content centered">
@@ -134,7 +141,7 @@ export default function QuizPage() {
     );
   }
 
-  const currentQuestion: Question = topic.questions[currentQuestionIndex];
+
   const isLastQuestion = currentQuestionIndex === topic.questions.length - 1;
 
   return (
@@ -174,14 +181,50 @@ export default function QuizPage() {
           ))}
         </div>
 
-        {/* Skip Button */}
+        {/* Navigation Buttons */}
         {!selectedAnswer && (
-          <div className="skip-container">
-            <button className="skip-button" onClick={handleSkip}>
-              Skip Question
-              <SkipForward size={18} />
+          <div className="navigation-actions">
+            <button 
+              className="prev-button" 
+              onClick={handlePrevious}
+              disabled={currentQuestionIndex === 0}
+              style={{ visibility: currentQuestionIndex === 0 ? 'hidden' : 'visible' }}
+            >
+              <ArrowLeft size={18} />
+              Previous
             </button>
+            
+            <div className="skip-button-wrapper">
+              <button className="skip-button" onClick={handleSkip}>
+                Skip Question
+                <SkipForward size={18} />
+              </button>
+            </div>
           </div>
+        )}
+        
+        {/* If selected answer, we show previous button in a separate flexible container if needed, 
+            but standard design is usually to hide navigation when reviewing feedback, 
+            except next. However, user might want to go back even after answering? 
+            Let's add it above or below feedback? 
+            
+            The current UI structure has feedback-panel appearing. 
+            Inside feedback panel is 'Next'. 
+            If I want 'Previous' available even after answering: 
+            I should put it outside the condition OR replicate it. 
+        */}
+        {selectedAnswer && (
+           <div className="navigation-actions" style={{ marginBottom: '1rem', justifyContent: 'flex-start' }}>
+              <button 
+                className="prev-button" 
+                onClick={handlePrevious}
+                disabled={currentQuestionIndex === 0}
+                style={{ visibility: currentQuestionIndex === 0 ? 'hidden' : 'visible' }}
+              >
+                <ArrowLeft size={18} />
+                Previous
+              </button>
+           </div>
         )}
 
         {/* Inline Feedback Panel */}
