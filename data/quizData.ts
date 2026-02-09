@@ -5656,6 +5656,715 @@ export const quizTopics: Topic[] = [
       },
     ],
   },
+  {
+    id: "electronic-commerce-chapter-9",
+    title: "Introduction to Electronic Commerce",
+    description:
+      "Test your knowledge on e-commerce definitions, business models, electronic payment systems, and cybersecurity requirements.",
+    icon: "ShoppingCart",
+    color: "#673ab7",
+    questions: [
+      {
+        id: "ec-1",
+        question:
+          "E-commerce is simply defined as the trading of goods and services over the:",
+        options: [
+          { id: "a", text: "Local radio frequency" },
+          { id: "b", text: "Internet using IT infrastructures" },
+          { id: "c", text: "Physical marketplace only" },
+          { id: "d", text: "Television network" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "E-commerce can be simply seen as the trading of goods and services over the Internet using information technology infrastructures[cite: 5677].",
+      },
+      {
+        id: "ec-2",
+        question:
+          "Historically, the earliest form of electronic communication for orders and invoices (1948-1949) was known as:",
+        options: [
+          { id: "a", text: "The World Wide Web" },
+          { id: "b", text: "Electronic Data Interchange (EDI)" },
+          { id: "c", text: "Social Media Marketing" },
+          { id: "d", text: "Cloud Computing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "In 1948-1949, orders and invoices were exchanged using telex in a system called Electronic Data Interchange (EDI) [cite: 5693-5694].",
+      },
+      {
+        id: "ec-3",
+        question:
+          "Which EDI standard was developed by the American National Standard Institute (ANSI)?",
+        options: [
+          { id: "a", text: "EDIFACT" },
+          { id: "b", text: "X.12" },
+          { id: "c", text: "TCP/IP" },
+          { id: "d", text: "HTML5" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The X.12 standard was developed by the American National Standard Institute (ANSI)[cite: 5699].",
+      },
+      {
+        id: "ec-4",
+        question:
+          "The proliferation of the Internet and World Wide Web (WWW) as a medium for e-commerce occurred in the early:",
+        options: [
+          { id: "a", text: "1970s" },
+          { id: "b", text: "1990s (1991-1993)" },
+          { id: "c", text: "1950s" },
+          { id: "d", text: "2010s" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "E-commerce found a veritable medium with the advent of the Internet and WWW in 1991-1993[cite: 5701].",
+      },
+      {
+        id: "ec-5",
+        question:
+          "Which of these companies is NOT cited as a notable business built on e-commerce models?",
+        options: [
+          { id: "a", text: "Amazon" },
+          { id: "b", text: "eBay" },
+          { id: "c", text: "Alibaba" },
+          { id: "d", text: "General Electric" },
+        ],
+        correctAnswer: "d",
+        explanation:
+          "Notable businesses built on e-commerce models include Amazon, eBay, and Alibaba[cite: 5703].",
+      },
+      {
+        id: "ec-6",
+        question:
+          "The feature 'Ubiquity' in e-commerce means that trading can be conducted:",
+        options: [
+          { id: "a", text: "Only in urban centers" },
+          { id: "b", text: "Anywhere and at any time" },
+          { id: "c", text: "Only during business hours" },
+          { id: "d", text: "Strictly face-to-face" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Ubiquity means transacting parties can be located anywhere and it can be done at any time[cite: 5717].",
+      },
+      {
+        id: "ec-7",
+        question:
+          "Standardization in e-commerce refers to achieving ____ in transaction processing.",
+        options: [
+          { id: "a", text: "Diversity" },
+          { id: "b", text: "Uniformity" },
+          { id: "c", text: "Complexity" },
+          { id: "d", text: "Manual approval" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Standardization refers to some level of uniformity in the way transactions are created, accessed, and processed[cite: 5726].",
+      },
+      {
+        id: "ec-8",
+        question:
+          "One advantage of e-commerce for businesses is that it facilitates ____ transactions.",
+        options: [
+          { id: "a", text: "Cash-only" },
+          { id: "b", text: "Paperless" },
+          { id: "c", text: "Slower" },
+          { id: "d", text: "Manual" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "E-commerce entrenches paperless transactions[cite: 5754].",
+      },
+      {
+        id: "ec-9",
+        question:
+          "Accessing other consumers' opinions on products is an advantage group for:",
+        options: [
+          { id: "a", text: "The Government" },
+          { id: "b", text: "Consumers" },
+          { id: "c", text: "Manufacturing firms" },
+          { id: "d", text: "Law enforcement" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Access to other consumers' opinions is an advantage provided to consumers[cite: 5757, 5767].",
+      },
+      {
+        id: "ec-10",
+        question:
+          "How does e-commerce benefit society regarding environmental issues?",
+        options: [
+          { id: "a", text: "It increases forest use" },
+          { id: "b", text: "Reduction of movement and road traffic" },
+          { id: "c", text: "By increasing air pollution" },
+          { id: "d", text: "By encouraging more street markets" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Society benefits from the reduction of movement, which in turn reduces road traffic and air pollution[cite: 5774].",
+      },
+      {
+        id: "ec-11",
+        question:
+          "Initial cost of setup and security threats are categorized as e-commerce:",
+        options: [
+          { id: "a", text: "Features" },
+          { id: "b", text: "Disadvantages" },
+          { id: "c", text: "Models" },
+          { id: "d", text: "Platforms" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Security threats and initial cost of setup are listed as notable disadvantages [cite: 5786-5790].",
+      },
+      {
+        id: "ec-12",
+        question:
+          "Which e-commerce model involves companies selling or buying from other companies?",
+        options: [
+          { id: "a", text: "B2C" },
+          { id: "b", text: "B2B" },
+          { id: "c", text: "C2B" },
+          { id: "d", text: "C2C" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Business-to-Business (B2B) involves transactions between businesses over a computer network [cite: 5798-5799].",
+      },
+      {
+        id: "ec-13",
+        question:
+          "In a B2B model, wholesalers typically buy in bulk from a producing company and sell to the:",
+        options: [
+          { id: "a", text: "Wholesaler's rival" },
+          { id: "b", text: "Consumer" },
+          { id: "c", text: "Raw material supplier" },
+          { id: "d", text: "Government" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The B2B model often involves a producing company and wholesalers who then sell to consumers [cite: 5802-5803].",
+      },
+      {
+        id: "ec-14",
+        question:
+          "Which model involves direct transactions between businesses and consumers without intermediaries?",
+        options: [
+          { id: "a", text: "C2C" },
+          { id: "b", text: "B2C" },
+          { id: "c", text: "G2C" },
+          { id: "d", text: "B2G" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Business-to-Consumer (B2C) involves direct transaction without any wholesale intermediary [cite: 5819-5820].",
+      },
+      {
+        id: "ec-15",
+        question:
+          "Consumer-to-Business (C2B) is unique because transactions are at the instance of the:",
+        options: [
+          { id: "a", text: "Manufacturer" },
+          { id: "b", text: "Consumer" },
+          { id: "c", text: "Retailer" },
+          { id: "d", text: "Wholesaler" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "In the C2B model, the transactions are at the instance of the consumer, who posts products/services for companies to bid on [cite: 5835-5836].",
+      },
+      {
+        id: "ec-16",
+        question:
+          "Posting one's car or house for sale to another individual on an e-commerce site is an example of:",
+        options: [
+          { id: "a", text: "B2C" },
+          { id: "b", text: "C2C" },
+          { id: "c", text: "G2B" },
+          { id: "d", text: "B2B" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Consumer-to-Consumer (C2C) provides a platform for consumers to conduct business with another consumer, such as selling cars or houses [cite: 5847-5850].",
+      },
+      {
+        id: "ec-17",
+        question:
+          "E-governance is an approach to governance that uses ____ to provide services.",
+        options: [
+          { id: "a", text: "Physical offices" },
+          { id: "b", text: "Electronic media like the Internet" },
+          { id: "c", text: "Manual filing systems" },
+          { id: "d", text: "Radio broadcasts only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "E-governance encompasses the use of electronic media such as the Internet by governments to provide services [cite: 5860-5861].",
+      },
+      {
+        id: "ec-18",
+        question:
+          "Issuance of passports, birth certificates, and business registration fall under which governance model?",
+        options: [
+          { id: "a", text: "B2G" },
+          { id: "b", text: "G2C" },
+          { id: "c", text: "C2B" },
+          { id: "d", text: "B2B" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The Government-to-Citizen (G2C) model is designed for services such as passports and business registration [cite: 5885-5888].",
+      },
+      {
+        id: "ec-19",
+        question:
+          "Which of these is NOT listed as an electronic payment method?",
+        options: [
+          { id: "a", text: "Electronic cash (e-cash)" },
+          { id: "b", text: "Physical gold trade" },
+          { id: "c", text: "Electronic fund transfer (EFT)" },
+          { id: "d", text: "Smart card" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Electronic payment methods include EFT, e-cash, credit/debit cards, and smart cards[cite: 5900].",
+      },
+      {
+        id: "ec-20",
+        question:
+          "Electronic Fund Transfer (EFT) can be conducted through banking applications or via a/an:",
+        options: [
+          { id: "a", text: "Vending machine" },
+          { id: "b", text: "Automatic Teller Machine (ATM)" },
+          { id: "c", text: "Post office" },
+          { id: "d", text: "Landline phone" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "EFT can be conducted via Internet banking, mobile devices, or an automatic teller machine (ATM)[cite: 5907, 5910].",
+      },
+      {
+        id: "ec-21",
+        question:
+          "E-Cash is based on a cryptographic system of information security called:",
+        options: [
+          { id: "a", text: "Analog signature" },
+          { id: "b", text: "Digital signature" },
+          { id: "c", text: "Manual password" },
+          { id: "d", text: "Physical stamp" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "E-cash is based on digital signature, a cryptographic system involving two numeric keys [cite: 5918-5919].",
+      },
+      {
+        id: "ec-22",
+        question:
+          "In e-cash, the use of two numeric keys includes one for encoding and the other for:",
+        options: [
+          { id: "a", text: "Printing" },
+          { id: "b", text: "Decoding" },
+          { id: "c", text: "Storing" },
+          { id: "d", text: "Deleting" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Digital signature involves two numeric keys: one for encoding and the other for decoding[cite: 5919].",
+      },
+      {
+        id: "ec-23",
+        question:
+          "What is the main difference between a credit card and a debit card?",
+        options: [
+          { id: "a", text: "The color of the card" },
+          {
+            id: "b",
+            text: "Credit cards allow purchase irrespective of available bank funds",
+          },
+          { id: "c", text: "Only debit cards have numbers" },
+          { id: "d", text: "Debit cards don't use magnetic strips" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The owner of a credit card can make purchases irrespective of the availability of funds, unlike a debit card [cite: 5942-5943].",
+      },
+      {
+        id: "ec-24",
+        question:
+          "Which card contains an embedded microprocessor chip instead of just a magnetic strip?",
+        options: [
+          { id: "a", text: "Traditional credit card" },
+          { id: "b", text: "Smart card" },
+          { id: "c", text: "Paper card" },
+          { id: "d", text: "Standard debit card" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A smart card has an embedded small microprocessor chip[cite: 5953].",
+      },
+      {
+        id: "ec-25",
+        question:
+          "Which of these is NOT listed as a notable e-commerce platform?",
+        options: [
+          { id: "a", text: "Shopify" },
+          { id: "b", text: "WooCommerce" },
+          { id: "c", text: "Microsoft Word" },
+          { id: "d", text: "Squarespace" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Notable platforms include WooCommerce, Wix, Shopify, Adobe Commerce, BigCommerce, and Squarespace [cite: 5963-5974].",
+      },
+      {
+        id: "ec-26",
+        question:
+          "Jumia, Konga, and Payporte are examples of successful ____ in Nigeria.",
+        options: [
+          { id: "a", text: "Hardware manufacturers" },
+          { id: "b", text: "E-commerce companies" },
+          { id: "c", text: "Security agencies" },
+          { id: "d", text: "Education platforms" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Jumia, Konga, and Payporte are listed among successful e-commerce companies [cite: 5995-6002].",
+      },
+      {
+        id: "ec-27",
+        question:
+          "Unauthorised disclosure of data via the Internet is referred to as which security threat?",
+        options: [
+          { id: "a", text: "Integrity threat" },
+          { id: "b", text: "Confidentiality threat" },
+          { id: "c", text: "Availability threat" },
+          { id: "d", text: "Trojan horse" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Confidentiality threat is the unauthorised disclosure of data/information via the internet [cite: 6014-6015].",
+      },
+      {
+        id: "ec-28",
+        question:
+          "Which threat involves rendering web servers unreachable (Denial of Service)?",
+        options: [
+          { id: "a", text: "Confidentiality threat" },
+          { id: "b", text: "Availability threat" },
+          { id: "c", text: "Integrity threat" },
+          { id: "d", text: "Authentication threat" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Availability threat, also known as denial of service, involves rendering web servers unreachable [cite: 6021-6022].",
+      },
+      {
+        id: "ec-29",
+        question:
+          "The verification of the identity of a system or user is called:",
+        options: [
+          { id: "a", text: "Authorization" },
+          { id: "b", text: "Authentication" },
+          { id: "c", text: "Integrity" },
+          { id: "d", text: "Encryption" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Authentication is the verification of the identity of a system or user[cite: 6030].",
+      },
+      {
+        id: "ec-30",
+        question:
+          "The ability not to deny the conduct of a task or function is known as:",
+        options: [
+          { id: "a", text: "Confidentiality" },
+          { id: "b", text: "Non-repudiation" },
+          { id: "c", text: "Authentication" },
+          { id: "d", text: "Authorization" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Non-repudiation is the ability not to deny the authorization or conduct of a task or function [cite: 6044-6045].",
+      },
+      {
+        id: "ec-31",
+        question:
+          "Cryptography implement security through implementation of which two processes?",
+        options: [
+          { id: "a", text: "Buying and Selling" },
+          { id: "b", text: "Encryption and Decryption" },
+          { id: "c", text: "Login and Logout" },
+          { id: "d", text: "Uploading and Downloading" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Cryptography implementation implementation of security requirements using encryption and decryption[cite: 6052].",
+      },
+      {
+        id: "ec-32",
+        question: "In cryptography, readable data is referred to as:",
+        options: [
+          { id: "a", text: "Ciphertext" },
+          { id: "b", text: "Plaintext" },
+          { id: "c", text: "Encrypted text" },
+          { id: "d", text: "Digital signature" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The readable data is referred to as plaintext[cite: 6053].",
+      },
+      {
+        id: "ec-33",
+        question:
+          "Which type of algorithm requires a SINGLE secret key for both encryption and decryption?",
+        options: [
+          { id: "a", text: "Asymmetric algorithm" },
+          { id: "b", text: "Symmetric algorithm" },
+          { id: "c", text: "Public key algorithm" },
+          { id: "d", text: "RSA" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Symmetric algorithm is a type of cryptographic algorithm that requires a single secret key for both encryption and decryption[cite: 6064].",
+      },
+      {
+        id: "ec-34",
+        question: "Which of these is a notable symmetric algorithm?",
+        options: [
+          { id: "a", text: "RSA" },
+          { id: "b", text: "AES (Advanced Encryption Standard)" },
+          { id: "c", text: "Elliptic Curve Cryptography" },
+          { id: "d", text: "ElGamal" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Notable symmetric algorithms include DES, AES, Blowfish, and RC4[cite: 6077].",
+      },
+      {
+        id: "ec-35",
+        question: "Asymmetric cryptography is also known as:",
+        options: [
+          { id: "a", text: "Private key cryptography" },
+          { id: "b", text: "Public key cryptography" },
+          { id: "c", text: "Single key cryptography" },
+          { id: "d", text: "Analog cryptography" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Asymmetric cryptography is also known as the public key cryptography[cite: 6083].",
+      },
+      {
+        id: "ec-36",
+        question:
+          "Data encrypted using a public key can only be decrypted using the corresponding:",
+        options: [
+          { id: "a", text: "Public key" },
+          { id: "b", text: "Private key" },
+          { id: "c", text: "Common password" },
+          { id: "d", text: "Standard key" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Data encrypted using the public key can only be decrypted using the private key[cite: 6085].",
+      },
+      {
+        id: "ec-37",
+        question:
+          "Which of these is a typical example of an asymmetric algorithm?",
+        options: [
+          { id: "a", text: "Blowfish" },
+          { id: "b", text: "RSA (Rivest Shamir Adleman)" },
+          { id: "c", text: "DES" },
+          { id: "d", text: "AES" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Typical examples of asymmetric algorithms include RSA, ECC, ElGamal, and Digital Signature[cite: 6100].",
+      },
+      {
+        id: "ec-38",
+        question:
+          "A network traffic control system that allows or disallows traffic based on predefined rules is a:",
+        options: [
+          { id: "a", text: "Hard drive" },
+          { id: "b", text: "Firewall" },
+          { id: "c", text: "Server" },
+          { id: "d", text: "Modem" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Firewall is a network traffic control system that determines which incoming and outgoing network traffic should be allowed[cite: 6105].",
+      },
+      {
+        id: "ec-39",
+        question:
+          "Computer viruses, worms, and Trojan horses are collectively known as:",
+        options: [
+          { id: "a", text: "Helpful codes" },
+          { id: "b", text: "Malicious codes" },
+          { id: "c", text: "Plaintext codes" },
+          { id: "d", text: "Standard ciphers" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Computer viruses, worms, and trojan horses are computer programs that carry out malicious tasks [cite: 6009-6010].",
+      },
+      {
+        id: "ec-40",
+        question:
+          "Unintentional alteration of data during transmission is a threat to data:",
+        options: [
+          { id: "a", text: "Ubiquity" },
+          { id: "b", text: "Integrity" },
+          { id: "c", text: "Reach" },
+          { id: "d", text: "Encryption" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Integrity threat entails the alteration of data/information intentionally or unintentionally during transmission[cite: 6017, 6019].",
+      },
+      {
+        id: "ec-41",
+        question: "B2G stands for which e-governance business model?",
+        options: [
+          { id: "a", text: "Bank-to-Government" },
+          { id: "b", text: "Business-to-Government" },
+          { id: "c", text: "Board-to-Government" },
+          { id: "d", text: "Buyer-to-Government" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Figure 5 and the text describe the Business-to-Government (B2G) model[cite: 5866, 5876].",
+      },
+      {
+        id: "ec-42",
+        question:
+          "Which feature allow consumers to compare prices and reduces movement to only shipment?",
+        options: [
+          { id: "a", text: "Global reach" },
+          { id: "b", text: "Cost reduction" },
+          { id: "c", text: "Ubiquity" },
+          { id: "d", text: "Security" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Cost reduction allow consumers to compare prices and reduce movement to only shipment [cite: 5720-5722].",
+      },
+      {
+        id: "ec-43",
+        question:
+          "Which EDI standard was developed by a UN working party for international trade facilitation?",
+        options: [
+          { id: "a", text: "ANSI X.12" },
+          { id: "b", text: "EDIFACT" },
+          { id: "c", text: "IEEE 802.11" },
+          { id: "d", text: "HTTPS" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "EDIFACT was developed by the UN's ECE working party for the facilitation of international trade procedure[cite: 5699].",
+      },
+      {
+        id: "ec-44",
+        question:
+          "Ensuring a system or user is assigned to perform a given role and tasks is called:",
+        options: [
+          { id: "a", text: "Authentication" },
+          { id: "b", text: "Authorization" },
+          { id: "c", text: "Standardization" },
+          { id: "d", text: "Non-repudiation" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Authorization is ensuring that a system or user is assigned and allowed to perform some given role and associated tasks [cite: 6033-6034].",
+      },
+      {
+        id: "ec-45",
+        question:
+          "Firewalls keep potential and unwanted traffic out while allowing ____ traffic to access services.",
+        options: [
+          { id: "a", text: "Any" },
+          { id: "b", text: "Valid and legit" },
+          { id: "c", text: "Malicious" },
+          { id: "d", text: "All" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A firewall forms a filter that keeps unwanted traffic out and allows valid and legit traffic to access data[cite: 6106].",
+      },
+      {
+        id: "ec-46",
+        question:
+          "Encryption transforms plaintext into an unreadable form called:",
+        options: [
+          { id: "a", text: "Standard text" },
+          { id: "b", text: "Ciphertext" },
+          { id: "c", text: "Clear text" },
+          { id: "d", text: "Digital signatures" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The transformation of readable data results in an unreadable form referred to as ciphertext [cite: 6052-6053].",
+      },
+      {
+        id: "ec-47",
+        question:
+          "Which of these is NOT a group category for e-commerce advantages according to the text?",
+        options: [
+          { id: "a", text: "Businesses" },
+          { id: "b", text: "Competitors" },
+          { id: "c", text: "Consumers" },
+          { id: "d", text: "Society" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The advantages of e-commerce are grouped into three: to businesses, to consumers, and to society[cite: 5729].",
+      },
+      {
+        id: "ec-48",
+        question:
+          "What is the denominator for all definitions of e-commerce according to the text?",
+        options: [
+          { id: "a", text: "Low prices" },
+          { id: "b", text: "Use of the Internet to carry out trade" },
+          { id: "c", text: "High speed" },
+          { id: "d", text: "Physical stores" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The common denominator of all definitions of e-commerce is the use of the Internet to carry out trade[cite: 5690].",
+      },
+      {
+        id: "ec-49",
+        question:
+          "The G2B model differs from B2G because the communication is initiated by the:",
+        options: [
+          { id: "a", text: "Business" },
+          { id: "b", text: "Government" },
+          { id: "c", text: "Customer" },
+          { id: "d", text: "Bank" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "G2B is like B2G except that the initiation of the communication is the government[cite: 5878].",
+      },
+      {
+        id: "ec-50",
+        question:
+          "In a symmetric algorithm, if you lose the secret key, can you decrypt the data?",
+        options: [
+          { id: "a", text: "Yes, with a public key" },
+          { id: "b", text: "No, the same secret key is required" },
+          { id: "c", text: "Yes, by calling the bank" },
+          { id: "d", text: "Yes, it decrypts automatically" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A symmetric algorithm requires a single secret key for both encryption and decryption[cite: 6064].",
+      },
+    ],
+  },
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
