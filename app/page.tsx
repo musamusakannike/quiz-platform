@@ -8,7 +8,7 @@ export default function Home() {
     <div className="app-container">
       <main className="main-content">
         <header className="page-header">
-          <h1 className="page-title">Quiz Master</h1>
+          <h1 className="page-title">ENT 211 QUIZ</h1>
           <p className="page-subtitle">
             Test your knowledge across different topics
           </p>
