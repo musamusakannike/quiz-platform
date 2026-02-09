@@ -1439,6 +1439,714 @@ export const quizTopics: Topic[] = [
       },
     ],
   },
+  {
+    id: "innovation-and-employability-chapter-3",
+    title: "Innovation and Employability",
+    description:
+      "Test your knowledge on the nexus between innovation, economic diversification, and graduate employability in the Nigerian context.",
+    icon: "TrendingUp",
+    color: "#9c27b0",
+    questions: [
+      {
+        id: "ie-1",
+        question:
+          "Which sector has historically been the main driver of Nigeria's economy and government revenue?",
+        options: [
+          { id: "a", text: "Agriculture" },
+          { id: "b", text: "Manufacturing" },
+          { id: "c", text: "Oil and gas" },
+          { id: "d", text: "Information technology" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Nigeria's economy is heavily reliant on the oil and gas sector[cite: 497].",
+      },
+      {
+        id: "ie-2",
+        question:
+          "What primary reason is given for the need for economic diversification in Nigeria?",
+        options: [
+          { id: "a", text: "The lack of human capital" },
+          { id: "b", text: "Volatility of global oil prices" },
+          { id: "c", text: "A decline in the services sector" },
+          { id: "d", text: "Excessive agricultural output" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The volatility of global oil prices and external shocks underscore the need for economic diversification[cite: 498].",
+      },
+      {
+        id: "ie-3",
+        question: "How does Joseph Schumpeter describe innovation?",
+        options: [
+          { id: "a", text: "Only the creation of new technology" },
+          { id: "b", text: "A process without any newness" },
+          {
+            id: "c",
+            text: "The introduction of a good or significant improvement of an existing one",
+          },
+          { id: "d", text: "Purely academic research" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Schumpeter's description includes the introduction of a good, significant improvement, new production methods, or new organization types[cite: 502].",
+      },
+      {
+        id: "ie-4",
+        question:
+          "Innovation is considered the successful implementation of creative ideas that provide:",
+        options: [
+          { id: "a", text: "No change to the organization" },
+          { id: "b", text: "Added value and novelty" },
+          { id: "c", text: "Lower production costs only" },
+          { id: "d", text: "Immediate government funding" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Innovation is defined as a process providing added value and a degree of novelty[cite: 507].",
+      },
+      {
+        id: "ie-5",
+        question:
+          "According to the text, what is the typical starting point for an innovation?",
+        options: [
+          { id: "a", text: "Commercialization" },
+          { id: "b", text: "Distribution" },
+          { id: "c", text: "Invention" },
+          { id: "d", text: "Marketing" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The text states it is safe to say that an innovation's starting point normally is an invention followed by exploitation[cite: 508].",
+      },
+      {
+        id: "ie-6",
+        question:
+          "Without successful ____, an invention cannot become an innovation.",
+        options: [
+          { id: "a", text: "Categorization" },
+          { id: "b", text: "Commercialization" },
+          { id: "c", text: "Documentation" },
+          { id: "d", text: "Regulation" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Without successful commercialization, an invention cannot become an innovation[cite: 509].",
+      },
+      {
+        id: "ie-7",
+        question:
+          "It is estimated that more than ____ of economic growth derives from technological progress.",
+        options: [
+          { id: "a", text: "40%" },
+          { id: "b", text: "50%" },
+          { id: "c", text: "60%" },
+          { id: "d", text: "80%" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "It is estimated that more than 60% of economic growth derives from technological progress[cite: 510].",
+      },
+      {
+        id: "ie-8",
+        question: "The ILO defines employability as being related to:",
+        options: [
+          { id: "a", text: "Staying in one job for life" },
+          { id: "b", text: "Portable competencies and qualifications" },
+          { id: "c", text: "The number of degrees held" },
+          { id: "d", text: "Government job placement only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The ILO relates employability to portable competencies and qualifications that enhance an individual's capacity to secure and retain work[cite: 512].",
+      },
+      {
+        id: "ie-9",
+        question: "What exacerbates the youth unemployment crisis in Nigeria?",
+        options: [
+          { id: "a", text: "Too much oil revenue" },
+          { id: "b", text: "A lack of higher education qualifications" },
+          {
+            id: "c",
+            text: "A skills mismatch between graduates and the labor market",
+          },
+          { id: "d", text: "The absence of a young population" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The mismatch between skills possessed by graduates and labor market demands exacerbates the issue[cite: 516].",
+      },
+      {
+        id: "ie-10",
+        question: "The 'Fourth Industrial Revolution' demands proficiency in:",
+        options: [
+          { id: "a", text: "Traditional farming tools" },
+          { id: "b", text: "Handwritten accounting" },
+          { id: "c", text: "Digital technologies and data analysis" },
+          { id: "d", text: "Manual labor only" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The evolving job market increasingly demands proficiency in digital technologies, data analysis, and automation[cite: 519].",
+      },
+      {
+        id: "ie-11",
+        question:
+          "To succeed in entrepreneurship, graduates require innovative ideas and:",
+        options: [
+          { id: "a", text: "The largest possible office space" },
+          { id: "b", text: "Necessary skills and support systems" },
+          { id: "c", text: "Guaranteed lifetime profit" },
+          { id: "d", text: "A lack of competition" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Graduates require both innovative ideas and the necessary skills and support systems to succeed[cite: 522].",
+      },
+      {
+        id: "ie-12",
+        question:
+          "Why is there a need to reform Nigeria's education curriculum?",
+        options: [
+          { id: "a", text: "To remove all theoretical knowledge" },
+          { id: "b", text: "To focus purely on ancient history" },
+          {
+            id: "c",
+            text: "To equip students with practical, industry-relevant skills",
+          },
+          { id: "d", text: "To shorten the duration of all courses" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Reform is needed to ensure the curriculum equips students with practical, industry-relevant skills alongside theoretical knowledge[cite: 525].",
+      },
+      {
+        id: "ie-13",
+        question: "Collaboration between industry and academia is vital for:",
+        options: [
+          { id: "a", text: "Reducing the number of teachers" },
+          {
+            id: "b",
+            text: "Aligning educational offerings with industry needs",
+          },
+          { id: "c", text: "Replacing universities with factories" },
+          { id: "d", text: "Lowering the cost of textbooks only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Collaboration is vital for aligning educational offerings with industry needs[cite: 534].",
+      },
+      {
+        id: "ie-14",
+        question: "Graduates need skills that are competitive in which arena?",
+        options: [
+          { id: "a", text: "Local arena only" },
+          { id: "b", text: "The global arena" },
+          { id: "c", text: "Historical arena only" },
+          { id: "d", text: "The sports arena only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Graduates need skills that are not only relevant locally but also competitive in the global arena[cite: 538].",
+      },
+      {
+        id: "ie-15",
+        question:
+          "Which specific technical skill can enhance a graduate's employability according to the text?",
+        options: [
+          { id: "a", text: "Typing on a typewriter" },
+          { id: "b", text: "Proficiency in coding" },
+          { id: "c", text: "Manual file filing" },
+          { id: "d", text: "Basic handwriting" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Proficiency in coding, digital marketing, and cybersecurity can significantly enhance graduates' employability[cite: 543].",
+      },
+      {
+        id: "ie-16",
+        question:
+          "What are accelerators and venture capital funding designed to nurture?",
+        options: [
+          { id: "a", text: "Institutional inertia" },
+          { id: "b", text: "A culture of innovation and problem-solving" },
+          { id: "c", text: "The oil and gas industry only" },
+          { id: "d", text: "Traditional government bureaucracy" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "These initiatives nurture a culture of innovation and problem-solving[cite: 546].",
+      },
+      {
+        id: "ie-17",
+        question:
+          "Besides technical skills, which of these 'soft skills' do employers value?",
+        options: [
+          { id: "a", text: "Ignoring deadlines" },
+          { id: "b", text: "Adaptability and teamwork" },
+          { id: "c", text: "Working alone only" },
+          { id: "d", text: "Resisting all change" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Employers increasingly value soft skills such as communication, problem-solving, teamwork, and adaptability[cite: 556].",
+      },
+      {
+        id: "ie-18",
+        question: "Technological innovation specifically involves:",
+        options: [
+          { id: "a", text: "Removing all computers from offices" },
+          { id: "b", text: "Development and adoption of new technologies" },
+          { id: "c", text: "Using only traditional farming methods" },
+          { id: "d", text: "Strictly following old procedures" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This type involves the development and adoption of new technologies to enhance graduates' skills[cite: 571].",
+      },
+      {
+        id: "ie-19",
+        question:
+          "A 'flipped classroom' is an example of which type of innovation?",
+        options: [
+          { id: "a", text: "Technological" },
+          { id: "b", text: "Educational" },
+          { id: "c", text: "Social" },
+          { id: "d", text: "Policy" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Innovative teaching methodologies like flipped classrooms are part of educational innovation[cite: 576].",
+      },
+      {
+        id: "ie-20",
+        question:
+          "What is the primary focus of social innovation in this context?",
+        options: [
+          { id: "a", text: "Increasing taxes" },
+          {
+            id: "b",
+            text: "Addressing challenges like affordable housing and childcare",
+          },
+          { id: "c", text: "Improving oil extraction" },
+          { id: "d", text: "Developing new software only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Social innovation focuses on addressing social challenges and inequalities that hinder employability[cite: 581, 582].",
+      },
+      {
+        id: "ie-21",
+        question:
+          "Policy innovation might include giving employers ____ for hiring graduates.",
+        options: [
+          { id: "a", text: "Extra work" },
+          { id: "b", text: "Tax incentives" },
+          { id: "c", text: "More regulations" },
+          { id: "d", text: "Unpaid interns only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Policy innovation may include initiatives such as tax incentives for employers who hire graduates[cite: 585].",
+      },
+      {
+        id: "ie-22",
+        question: "Collaborative innovation involves partnerships between:",
+        options: [
+          { id: "a", text: "Teachers only" },
+          { id: "b", text: "Government, academia, and industry" },
+          { id: "c", text: "Rival countries only" },
+          { id: "d", text: "Individual graduates only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Collaborative innovation involves partnerships between educational institutions, government agencies, industry, and employers[cite: 591].",
+      },
+      {
+        id: "ie-23",
+        question:
+          "Which of these is a 'key problem' hindering innovation in Nigeria?",
+        options: [
+          { id: "a", text: "Too much reliable electricity" },
+          { id: "b", text: "Limited access to resources" },
+          { id: "c", text: "An excess of funding" },
+          { id: "d", text: "A perfect skill-to-job match" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Limited access to resources is a key problem hindering the scalability of innovative initiatives[cite: 598, 600].",
+      },
+      {
+        id: "ie-24",
+        question:
+          "Infrastructure deficiency in Nigeria includes challenges with:",
+        options: [
+          { id: "a", text: "Excessive high-speed internet" },
+          { id: "b", text: "Unreliable electricity" },
+          { id: "c", text: "Too many physical facilities" },
+          { id: "d", text: "Over-connectivity in remote areas" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Deficiencies include unreliable electricity, limited internet, and insufficient facilities[cite: 602].",
+      },
+      {
+        id: "ie-25",
+        question: "Resistance to change often stems from:",
+        options: [
+          { id: "a", text: "Institutional inertia and fear of the unknown" },
+          { id: "b", text: "Rapid success of all new ideas" },
+          { id: "c", text: "Complete lack of skepticism" },
+          { id: "d", text: "Strong leadership commitment" },
+        ],
+        correctAnswer: "a",
+        explanation:
+          "Resistance may stem from institutional inertia, fear of the unknown, or skepticism[cite: 608].",
+      },
+      {
+        id: "ie-26",
+        question: "Fragmentation and lack of coordination can result in:",
+        options: [
+          { id: "a", text: "Simplified processes" },
+          { id: "b", text: "Duplicative efforts" },
+          { id: "c", text: "Coherent initiatives" },
+          { id: "d", text: "Maximum synergy" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Lack of coordination can impede progress and result in duplicative efforts[cite: 611, 616].",
+      },
+      {
+        id: "ie-27",
+        question:
+          "Nigeria faces challenges in quality assurance due to a lack of:",
+        options: [
+          { id: "a", text: "Students" },
+          { id: "b", text: "Standardized metrics and reliable data" },
+          { id: "c", text: "Graduation ceremonies" },
+          { id: "d", text: "Paper for certificates" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Challenges include a lack of standardized metrics, reliable data, and institutional capacity for monitoring[cite: 620].",
+      },
+      {
+        id: "ie-28",
+        question: "Bureaucratic 'red tape' is categorized as a:",
+        options: [
+          { id: "a", text: "Technical benefit" },
+          { id: "b", text: "Policy and regulatory barrier" },
+          { id: "c", text: "Social advantage" },
+          { id: "d", text: "Method of innovation" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Bureaucratic red tape and restrictive licensing are policy and regulatory barriers[cite: 623].",
+      },
+      {
+        id: "ie-29",
+        question:
+          "How does innovation bridge the gap between education and employment?",
+        options: [
+          { id: "a", text: "By eliminating all exams" },
+          { id: "b", text: "By aligning curriculum with industry needs" },
+          { id: "c", text: "By providing free degrees to everyone" },
+          { id: "d", text: "By closing all schools" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Innovation bridges the gap by aligning curriculum with industry needs and emphasizing hands-on learning[cite: 632].",
+      },
+      {
+        id: "ie-30",
+        question:
+          "Lifelong learning models allow graduates to ____ throughout their careers.",
+        options: [
+          { id: "a", text: "Retire early" },
+          { id: "b", text: "Upskill and reskill" },
+          { id: "c", text: "Stay stagnant" },
+          { id: "d", text: "Avoid all technology" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "These models enable graduates to upskill and reskill to enhance marketability[cite: 642].",
+      },
+      {
+        id: "ie-31",
+        question:
+          "Innovation in technology specifically equipping graduates with coding and data analysis skills enhances their:",
+        options: [
+          { id: "a", text: "Physical strength" },
+          { id: "b", text: "Digital literacy" },
+          { id: "c", text: "Handwriting speed" },
+          { id: "d", text: "Memory for historical dates" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Proficiency in coding, data analysis, etc., improves digital literacy and employability prospects[cite: 645].",
+      },
+      {
+        id: "ie-32",
+        question:
+          "Investing in innovation can stimulate economic growth in sectors like technology, finance, and:",
+        options: [
+          { id: "a", text: "Traditional story-telling" },
+          { id: "b", text: "Healthcare and manufacturing" },
+          { id: "c", text: "Antiquities only" },
+          { id: "d", text: "Manual file storage" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "It stimulates growth in key sectors such as technology, finance, healthcare, and manufacturing[cite: 648].",
+      },
+      {
+        id: "ie-33",
+        question:
+          "Socio-economic innovation encompasses broader approaches to address systemic issues like:",
+        options: [
+          { id: "a", text: "Software bugs only" },
+          { id: "b", text: "Unemployment, inequality, and poverty" },
+          { id: "c", text: "Hardware failure" },
+          { id: "d", text: "Lack of internet speed" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Socio-economic innovation aims at addressing systemic issues related to unemployment, inequality, and poverty[cite: 662].",
+      },
+      {
+        id: "ie-34",
+        question: "Innovation in formal education involves reform in:",
+        options: [
+          { id: "a", text: "Apprenticeships only" },
+          { id: "b", text: "Traditional education systems and curriculum" },
+          { id: "c", text: "Vocational training only" },
+          { id: "d", text: "Mentorship schemes only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Formal education innovation involves reforms in the traditional education system[cite: 669].",
+      },
+      {
+        id: "ie-35",
+        question:
+          "Informal learning innovation provides pathways to skills development via:",
+        options: [
+          { id: "a", text: "PhD programs only" },
+          { id: "b", text: "Vocational training and mentorship" },
+          { id: "c", text: "Formal university lectures" },
+          { id: "d", text: "Standardized classroom testing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Informal learning includes vocational training, apprenticeships, and mentorship schemes[cite: 672].",
+      },
+      {
+        id: "ie-36",
+        question: "Innovation for rural graduates may focus on promoting:",
+        options: [
+          { id: "a", text: "High-rise skyscrapers" },
+          { id: "b", text: "Agribusiness and rural entrepreneurship" },
+          { id: "c", text: "Metropolitan stock exchanges" },
+          { id: "d", text: "City finance sectors" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Rural innovation focuses on agribusiness, agro-processing, and rural industries[cite: 680].",
+      },
+      {
+        id: "ie-37",
+        question: "Public sector innovation is primarily led by:",
+        options: [
+          { id: "a", text: "Private businesses" },
+          { id: "b", text: "Government initiatives and policies" },
+          { id: "c", text: "Non-profit organizations" },
+          { id: "d", text: "Industry associations" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Public sector innovation involves government-led initiatives and policies[cite: 682].",
+      },
+      {
+        id: "ie-38",
+        question: "Which of these is an 'advantage' of innovation?",
+        options: [
+          { id: "a", text: "Resource constraints" },
+          { id: "b", text: "Enhanced skill development" },
+          { id: "c", text: "Resistance to change" },
+          { id: "d", text: "Regulatory barriers" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Innovation enables graduates to acquire a diverse set of skills relevant to the job market[cite: 691].",
+      },
+      {
+        id: "ie-39",
+        question:
+          "How does innovation improve global competitiveness for Nigeria?",
+        options: [
+          { id: "a", text: "By closing all borders" },
+          {
+            id: "b",
+            text: "By keeping abreast of global trends and acquiring in-demand skills",
+          },
+          { id: "c", text: "By banning foreign technology" },
+          { id: "d", text: "By focusing only on local history" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Embracing innovation allows graduates to stay competitive by keeping abreast of global trends[cite: 697].",
+      },
+      {
+        id: "ie-40",
+        question: "What is the 'poverty trap' in microenterprise projects?",
+        options: [
+          { id: "a", text: "High-tech projects" },
+          { id: "b", text: "Trade-based, no-capital, no-tech projects" },
+          { id: "c", text: "Large industrial factories" },
+          { id: "d", text: "Multi-national corporations" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Trade-based, no-capital, no-tech microenterprise projects are also called the 'poverty trap'[cite: 715].",
+      },
+      {
+        id: "ie-41",
+        question: "Poverty trap projects are often incapable of:",
+        options: [
+          { id: "a", text: "Any starting activity" },
+          { id: "b", text: "Sustainable, productive growth" },
+          { id: "c", text: "Hiring any people" },
+          { id: "d", text: "Creating small sales" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The former (trade-based projects) are often incapable of sustainable, productive growth[cite: 716].",
+      },
+      {
+        id: "ie-42",
+        question:
+          "Technology and innovation-based projects offer more to the economy in the:",
+        options: [
+          { id: "a", text: "Immediate second" },
+          { id: "b", text: "Medium to long term" },
+          { id: "c", text: "Past century" },
+          { id: "d", text: "Short term only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Sophisticated technology/innovation-based projects offer far more in the medium to long term[cite: 716].",
+      },
+      {
+        id: "ie-43",
+        question: "The 'nexus' refers to the link between innovation and:",
+        options: [
+          { id: "a", text: "Stagnation" },
+          { id: "b", text: "Employability" },
+          { id: "c", text: "Unemployment only" },
+          { id: "d", text: "Traditional labor" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The chapter discusses the nexus between innovation and employability for Nigerian graduates[cite: 486].",
+      },
+      {
+        id: "ie-44",
+        question: "The text states that employability is a function of:",
+        options: [
+          { id: "a", text: "Age" },
+          { id: "b", text: "Innovative abilities" },
+          { id: "c", text: "Family background" },
+          { id: "d", text: "Physical height" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Take home points state that employability of graduates is a function of the innovative abilities[cite: 718].",
+      },
+      {
+        id: "ie-45",
+        question:
+          "Technological advancement is described as a ____ for innovation.",
+        options: [
+          { id: "a", text: "Negative burden" },
+          { id: "b", text: "Positive integer" },
+          { id: "c", text: "Useless addition" },
+          { id: "d", text: "Neutral factor" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Technological advancement is a positive integer for innovation[cite: 720].",
+      },
+      {
+        id: "ie-46",
+        question: "Advantages of innovation are said to ____ its shortcomings.",
+        options: [
+          { id: "a", text: "Be equal to" },
+          { id: "b", text: "Override" },
+          { id: "c", text: "Be less than" },
+          { id: "d", text: "Cancel out" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The take home points state that advantages of innovation override its shortcomings[cite: 720].",
+      },
+      {
+        id: "ie-47",
+        question:
+          "The relationship between innovation and employability is described as:",
+        options: [
+          { id: "a", text: "Direct and positive" },
+          { id: "b", text: "Inverse and negative" },
+          { id: "c", text: "Random and weak" },
+          { id: "d", text: "None existent" },
+        ],
+        correctAnswer: "a",
+        explanation:
+          "There is a direct and positive relationship between innovation and employability among graduates[cite: 722].",
+      },
+      {
+        id: "ie-48",
+        question:
+          "Industry partnerships facilitate the co-creation of solutions to:",
+        options: [
+          { id: "a", text: "Imaginary problems" },
+          { id: "b", text: "Real-world problems" },
+          { id: "c", text: "Old textbook problems only" },
+          { id: "d", text: "Academic puzzles only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Partnerships facilitate the co-creation of innovative solutions to real-world problems[cite: 535].",
+      },
+      {
+        id: "ie-49",
+        question:
+          "The mismatch issue refers to a gap between graduate skills and:",
+        options: [
+          { id: "a", text: "Their parents' expectations" },
+          { id: "b", text: "Labor market demands" },
+          { id: "c", text: "Their high school hobbies" },
+          { id: "d", text: "Graduation ceremony requirements" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The mismatch is between skills possessed by graduates and demands of the labor market[cite: 516].",
+      },
+      {
+        id: "ie-50",
+        question:
+          "Innovation is instrumental in addressing challenges faced by:",
+        options: [
+          { id: "a", text: "Retired citizens only" },
+          { id: "b", text: "The Nigerian workforce" },
+          { id: "c", text: "Primary school children only" },
+          { id: "d", text: "Tourists only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Innovation is situated within the context of addressing challenges faced by the Nigerian workforce[cite: 500].",
+      },
+    ],
+  },
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
