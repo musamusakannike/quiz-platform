@@ -4257,6 +4257,698 @@ export const quizTopics: Topic[] = [
       },
     ],
   },
+  {
+    id: "finance-and-accounting-chapter-7",
+    title: "Finance and Basic Accounting Records",
+    description:
+      "Test your knowledge on internal and external sources of finance, accounting concepts, and financial statements for entrepreneurs.",
+    icon: "Calculator",
+    color: "#ff5722",
+    questions: [
+      {
+        id: "sf-1",
+        question:
+          "Which source of finance refers to funds raised from within the business organization?",
+        options: [
+          { id: "a", text: "External Sources" },
+          { id: "b", text: "Internal Sources" },
+          { id: "c", text: "Merchant Banks" },
+          { id: "d", text: "Debentures" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Internal sources of finance are situations where funds are raised from within the organization[cite: 1861, 1862].",
+      },
+      {
+        id: "sf-2",
+        question:
+          "Owner's investment (start-up or additional capital) is categorized as which type of finance?",
+        options: [
+          { id: "a", text: "Short-term" },
+          { id: "b", text: "Medium-term" },
+          { id: "c", text: "Long-term" },
+          { id: "d", text: "Temporary" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Owner's investment, whether for start-up or expansion, is a long-term source of finance[cite: 1866].",
+      },
+      {
+        id: "sf-3",
+        question:
+          "Undistributed profit arising from the activities of the organization is known as:",
+        options: [
+          { id: "a", text: "Provision for tax" },
+          { id: "b", text: "Retained Profit" },
+          { id: "c", text: "Trade Credit" },
+          { id: "d", text: "Factoring" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Retained profit is undistributed profit arising from the activities of the organization[cite: 1867].",
+      },
+      {
+        id: "sf-4",
+        question:
+          "A business can use 'Provision for Taxation' as a source of funds provided it is returned:",
+        options: [
+          { id: "a", text: "Within 10 years" },
+          { id: "b", text: "Before the end of the financial year" },
+          { id: "c", text: "After the business closes" },
+          { id: "d", text: "To the shareholders as dividends" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Money used from the tax provision should be returned before the financial year ends[cite: 1879].",
+      },
+      {
+        id: "sf-5",
+        question:
+          "What is 'Debt Collection' in the context of internal finance?",
+        options: [
+          { id: "a", text: "Paying off bank loans" },
+          { id: "b", text: "Collecting money owed by debtors" },
+          { id: "c", text: "Borrowing from relatives" },
+          { id: "d", text: "Selling company shares" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A business can raise funds by collecting money owed to them from their debtors[cite: 1883].",
+      },
+      {
+        id: "sf-6",
+        question:
+          "The sale of a piece of machinery that is no longer needed is a ____ internal source of finance.",
+        options: [
+          { id: "a", text: "Short term" },
+          { id: "b", text: "Medium term" },
+          { id: "c", text: "Long term" },
+          { id: "d", text: "Perpetual" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The sale of fixed assets is a medium term internal source of finance[cite: 1890].",
+      },
+      {
+        id: "sf-7",
+        question:
+          "What is a major characteristic of introducing external sources of finance?",
+        options: [
+          { id: "a", text: "It eliminates all risk" },
+          { id: "b", text: "It exposes the firm to financial risk" },
+          { id: "c", text: "It is always interest-free" },
+          { id: "d", text: "It comes from within the firm" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "External sources directly or indirectly expose the organization to financial risk[cite: 1897].",
+      },
+      {
+        id: "sf-8",
+        question:
+          "Short-term financial obligations are defined as having a period of:",
+        options: [
+          { id: "a", text: "Less than or equal to one year" },
+          { id: "b", text: "Exactly five years" },
+          { id: "c", text: "More than seven years" },
+          { id: "d", text: "Up to thirty years" },
+        ],
+        correctAnswer: "a",
+        explanation:
+          "Short term refers to financial obligations that have a period less than or equal to one year[cite: 1899].",
+      },
+      {
+        id: "sf-9",
+        question:
+          "According to the text, medium-term obligations have periods ranging from:",
+        options: [
+          { id: "a", text: "1 month to 6 months" },
+          { id: "b", text: "Beyond 1 year up to 7 years" },
+          { id: "c", text: "7 years to 30 years" },
+          { id: "d", text: "10 years to 50 years" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Medium term refers to obligations with periods beyond one year up to 7 years[cite: 1901].",
+      },
+      {
+        id: "sf-10",
+        question:
+          "Which of these is a risk associated with borrowing from friends and relatives?",
+        options: [
+          { id: "a", text: "High interest rates" },
+          { id: "b", text: "Difficulty in enforcing repayment" },
+          { id: "c", text: "Strict legal contracts" },
+          { id: "d", text: "Bank monitoring" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This source is risky because it might be difficult to enforce repayment against a default relative[cite: 1906].",
+      },
+      {
+        id: "sf-11",
+        question: "Borrowing from cooperatives is restricted to:",
+        options: [
+          { id: "a", text: "Government employees" },
+          { id: "b", text: "Members of the cooperative" },
+          { id: "c", text: "The general public" },
+          { id: "d", text: "Large corporations" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This source is restricted to only members of the cooperative[cite: 1908].",
+      },
+      {
+        id: "sf-12",
+        question:
+          "Purchases on 'open account' without a formal collateral agreement are known as:",
+        options: [
+          { id: "a", text: "Bank loans" },
+          { id: "b", text: "Trade Credit" },
+          { id: "c", text: "Factoring" },
+          { id: "d", text: "Leasing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Trade credits are called purchase on 'open account' and no specific assets are pledged as collateral[cite: 1919, 1920].",
+      },
+      {
+        id: "sf-13",
+        question: "In a bank overdraft arrangement, interest is charged on:",
+        options: [
+          { id: "a", text: "The entire overdraft limit" },
+          { id: "b", text: "The amount overdrawn outstanding" },
+          { id: "c", text: "The total bank deposit" },
+          { id: "d", text: "The monthly revenue" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The bank charges interest on the amount overdrawn outstanding at any given time[cite: 1928].",
+      },
+      {
+        id: "sf-14",
+        question: "Which bank typically provides medium-term borrowings?",
+        options: [
+          { id: "a", text: "Commercial banks" },
+          { id: "b", text: "Merchant banks" },
+          { id: "c", text: "Developmental banks" },
+          { id: "d", text: "Microfinance banks" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Merchant banks provide medium term borrowings[cite: 1944].",
+      },
+      {
+        id: "sf-15",
+        question: "What is 'Factoring of Debt'?",
+        options: [
+          { id: "a", text: "Paying suppliers early" },
+          { id: "b", text: "Turning over debt collection to a specialist" },
+          { id: "c", text: "Selling machinery for cash" },
+          { id: "d", text: "Borrowing from the central bank" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Factoring involves turning over the responsibility for collecting a firm debt to a specialist institution[cite: 1946].",
+      },
+      {
+        id: "sf-16",
+        question:
+          "A factor will normally advance what percentage of the book value of debts?",
+        options: [
+          { id: "a", text: "10% - 20%" },
+          { id: "b", text: "75% - 90%" },
+          { id: "c", text: "100%" },
+          { id: "d", text: "5% - 10%" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The factor will normally advance about 75% - 90% of the book value of the debts[cite: 1958].",
+      },
+      {
+        id: "sf-17",
+        question:
+          "A bill of exchange drawn on a bank which accepts (guarantees) it is called:",
+        options: [
+          { id: "a", text: "Trade bill" },
+          { id: "b", text: "Bank bill" },
+          { id: "c", text: "Promissory note" },
+          { id: "d", text: "Debit note" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A bank bill is a bill of exchange drawn on a bank which accept (or guarantee) them[cite: 1966].",
+      },
+      {
+        id: "sf-18",
+        question: "What are 'Accruals' in financial terms?",
+        options: [
+          { id: "a", text: "Prepaid rent" },
+          { id: "b", text: "Amounts owing on services rendered" },
+          { id: "c", text: "Cash in the bank" },
+          { id: "d", text: "Profit from sales" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Accruals are amount owing on services rendered to the firm for which payment has not been made[cite: 1973].",
+      },
+      {
+        id: "sf-19",
+        question:
+          "A negotiated loan between a bank and a company for 4-10 years is called a:",
+        options: [
+          { id: "a", text: "Overdraft" },
+          { id: "b", text: "Term Loan" },
+          { id: "c", text: "Trade credit" },
+          { id: "d", text: "Cash credit" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A term loan is a negotiated loan between a bank and a company for period between 4-10 years or more[cite: 1980].",
+      },
+      {
+        id: "sf-20",
+        question:
+          "In Hire Purchase, when does the purchaser possess full legal title to the asset?",
+        options: [
+          { id: "a", text: "At the start of the agreement" },
+          { id: "b", text: "At the end of the hiring period" },
+          { id: "c", text: "When the first deposit is made" },
+          { id: "d", text: "After one year of use" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Full legal title to asset will eventually passes to the company at the end of the hiring period[cite: 1992].",
+      },
+      {
+        id: "sf-21",
+        question:
+          "The contract between an asset owner (lessor) and the user (lessee) is a:",
+        options: [
+          { id: "a", text: "Mortgage" },
+          { id: "b", text: "Lease" },
+          { id: "c", text: "Sale" },
+          { id: "d", text: "Partnership" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A lease is a contract between owner of an asset (lessor) and the user of the asset (lessee)[cite: 1999].",
+      },
+      {
+        id: "sf-22",
+        question: "Which type of lease is short-term and cancelable?",
+        options: [
+          { id: "a", text: "Finance lease" },
+          { id: "b", text: "Operating lease" },
+          { id: "c", text: "Sale and lease back" },
+          { id: "d", text: "Long-term lease" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "In the case of operating lease, it is a short-term cancelable lease[cite: 2008].",
+      },
+      {
+        id: "sf-23",
+        question: "Long-term finance is primarily used for:",
+        options: [
+          { id: "a", text: "Paying daily wages" },
+          { id: "b", text: "Capital investment (fixed assets)" },
+          { id: "c", text: "Buying office stationery" },
+          { id: "d", text: "Paying electricity bills" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Long-term finance is used in financing capital investment i.e fixed assets[cite: 2022].",
+      },
+      {
+        id: "sf-24",
+        question: "A 'Bond' represents a method of long-term borrowing by:",
+        options: [
+          { id: "a", text: "Corporations or government agencies" },
+          { id: "b", text: "Small street vendors" },
+          { id: "c", text: "Individual households only" },
+          { id: "d", text: "Charity shops" },
+        ],
+        correctAnswer: "a",
+        explanation:
+          "A bond represents a method of long-term borrowing by corporation or government agencies[cite: 2035].",
+      },
+      {
+        id: "sf-25",
+        question: "Bond holders are ____ of the corporation.",
+        options: [
+          { id: "a", text: "Owners" },
+          { id: "b", text: "Creditors" },
+          { id: "c", text: "Directors" },
+          { id: "d", text: "Employees" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Bonds holders are Creditors not owners of the Corporation[cite: 2038].",
+      },
+      {
+        id: "sf-26",
+        question: "Common share holders are sometimes referred to as:",
+        options: [
+          { id: "a", text: "Senior creditors" },
+          { id: "b", text: "Residual owners" },
+          { id: "c", text: "Bond holders" },
+          { id: "d", text: "Temporary partners" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A common stockholder sometimes referred to as a residual owner[cite: 2046].",
+      },
+      {
+        id: "sf-27",
+        question: "Which type of stock carries no voting rights?",
+        options: [
+          { id: "a", text: "Common stock" },
+          { id: "b", text: "Preference stock" },
+          { id: "c", text: "Founders stock" },
+          { id: "d", text: "Ordinary stock" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Preferred stockholders carry no voting rights as such they are not owners of a company[cite: 2056].",
+      },
+      {
+        id: "sf-28",
+        question: "In the event of liquidation, who is settled first?",
+        options: [
+          { id: "a", text: "Common shareholders" },
+          { id: "b", text: "Bondholders" },
+          { id: "c", text: "Preference shareholders" },
+          { id: "d", text: "The CEO" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "In the event of liquidation, bondholders are being settled before preference shareholders[cite: 2058].",
+      },
+      {
+        id: "sf-29",
+        question: "What are basic books of accounts prepared to establish?",
+        options: [
+          { id: "a", text: "Legal crimes" },
+          { id: "b", text: "Performance/profitability" },
+          { id: "c", text: "Staff attendance" },
+          { id: "d", text: "Social status" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "These are basic books of accounts that are prepared to establish performance/profitability of such businesses[cite: 2083].",
+      },
+      {
+        id: "sf-30",
+        question: "IFRS stands for:",
+        options: [
+          { id: "a", text: "International Finance and Revenue System" },
+          { id: "b", text: "International Financial Reporting Standards" },
+          { id: "c", text: "Internal Fund and Rate Standards" },
+          { id: "d", text: "Independent Financial Report Statistics" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Determination of performance is guided by International Financial Reporting Standards (IFRS)[cite: 2087].",
+      },
+      {
+        id: "sf-31",
+        question:
+          "Which statement is prepared for businesses that produce the goods they sell?",
+        options: [
+          { id: "a", text: "Cash book" },
+          { id: "b", text: "Statement of manufacturing" },
+          { id: "c", text: "Sales day book" },
+          { id: "d", text: "Return inward book" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Statement of manufacturing... for businesses that engage in manufacturing activities[cite: 2089].",
+      },
+      {
+        id: "sf-32",
+        question:
+          "The 'Cost Concept' holds that assets are initially recognized at:",
+        options: [
+          { id: "a", text: "Market value" },
+          { id: "b", text: "Cost of purchase" },
+          { id: "c", text: "Expected profit" },
+          { id: "d", text: "Zero value" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The cost concept holds that the basis for initial recognition of assets... is the cost of purchase[cite: 2094].",
+      },
+      {
+        id: "sf-33",
+        question:
+          "Fair value is the price received to sell an asset in a/an ____ transaction.",
+        options: [
+          { id: "a", text: "Secret" },
+          { id: "b", text: "Orderly" },
+          { id: "c", text: "Forced" },
+          { id: "d", text: "Illegal" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Fair value is the price that would be received... in an orderly transaction[cite: 2097].",
+      },
+      {
+        id: "sf-34",
+        question:
+          "Which concept states that revenue and expenses are recognized when they occur, not when cash moves?",
+        options: [
+          { id: "a", text: "Cost concept" },
+          { id: "b", text: "Accrual concept" },
+          { id: "c", text: "Entity concept" },
+          { id: "d", text: "Going concern" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Accrual concept: states that revenue and expenses are taking into account when they occur and not when cash is received or paid out[cite: 2098].",
+      },
+      {
+        id: "sf-35",
+        question: "The 'Going Concern' concept assumes the business will:",
+        options: [
+          { id: "a", text: "Close next week" },
+          { id: "b", text: "Continue for the foreseeable future" },
+          { id: "c", text: "Sell all its assets tomorrow" },
+          { id: "d", text: "Never pay taxes" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Going concern concept: assumed that the business... will continue to be in business for the foreseeable future[cite: 2099].",
+      },
+      {
+        id: "sf-36",
+        question: "The 'Prudence Concept' is also known as the:",
+        options: [
+          { id: "a", text: "Matching concept" },
+          { id: "b", text: "Realization concept" },
+          { id: "c", text: "Entity concept" },
+          { id: "d", text: "Cost concept" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Prudence concept... is otherwise called realization concept[cite: 2100, 2101].",
+      },
+      {
+        id: "sf-37",
+        question:
+          "Which concept holds that the business is a separate legal entity from its owners?",
+        options: [
+          { id: "a", text: "Matching concept" },
+          { id: "b", text: "Entity concept" },
+          { id: "c", text: "Accrual concept" },
+          { id: "d", text: "Consistence convention" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Entity concept: holds that a business entity is considered a separate legal economic entity[cite: 2102].",
+      },
+      {
+        id: "sf-38",
+        question:
+          "The 'Matching Concept' helps determine performance by recognizing revenue and expenses in the:",
+        options: [
+          { id: "a", text: "Different years" },
+          { id: "b", text: "Same accounting period" },
+          { id: "c", text: "Owner's personal account" },
+          { id: "d", text: "Bank statement only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Matching concept: transactions... should be recognized in the same accounting period[cite: 2108].",
+      },
+      {
+        id: "sf-39",
+        question:
+          "Consistency convention states that an entity should continue to use the same method except for a:",
+        options: [
+          { id: "a", text: "Holiday" },
+          { id: "b", text: "Sound reason to do otherwise" },
+          { id: "c", text: "Decrease in sales" },
+          { id: "d", text: "New manager's whim" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "consistency convention... it should continue to use the same method except for a sound reason to do otherwise[cite: 2114].",
+      },
+      {
+        id: "sf-40",
+        question:
+          "According to the Double Entry Principle, for every credit entry, there is a:",
+        options: [
+          { id: "a", text: "Profit entry" },
+          { id: "b", text: "Corresponding debit entry" },
+          { id: "c", text: "Tax entry" },
+          { id: "d", text: "Owner drawing" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Double Entry Principle states that in accounting, for every credit entry there is always a corresponding debit entry[cite: 2118].",
+      },
+      {
+        id: "sf-41",
+        question: "In accounting terms, Debit is denoted as:",
+        options: [
+          { id: "a", text: "Cr" },
+          { id: "b", text: "Dr" },
+          { id: "c", text: "Dt" },
+          { id: "d", text: "Db" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Debit is denoted as (Dr) while credit is denoted as (Cr)[cite: 2121].",
+      },
+      {
+        id: "sf-42",
+        question: "A debit entry accounts for an:",
+        options: [
+          { id: "a", text: "Increase in income" },
+          { id: "b", text: "Increase in assets" },
+          { id: "c", text: "Increase in liability" },
+          { id: "d", text: "Increase in equity" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Debit entries are those that account for... Increase in assets[cite: 2122, 2123].",
+      },
+      {
+        id: "sf-43",
+        question:
+          "The basic accounting equation for a business that owes outsiders is:",
+        options: [
+          { id: "a", text: "Assets = Capital" },
+          { id: "b", text: "Assets = Capital + Liabilities" },
+          { id: "c", text: "Assets = Profit - Loss" },
+          { id: "d", text: "Capital = Assets + Liabilities" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Accounting equation is given as... Assets = capital + Liabilities (For businesses that owes outsiders)[cite: 2141, 2143].",
+      },
+      {
+        id: "sf-44",
+        question: "A 3-column cash book has columns for cash, bank, and:",
+        options: [
+          { id: "a", text: "Tax" },
+          { id: "b", text: "Discount" },
+          { id: "c", text: "Inventory" },
+          { id: "d", text: "Debtors" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "3-column cash book-has three columns (cash, bank and discount columns)[cite: 2149].",
+      },
+      {
+        id: "sf-45",
+        question: "Which side of an account is the 'Debit Side'?",
+        options: [
+          { id: "a", text: "Right hand side" },
+          { id: "b", text: "Left hand side" },
+          { id: "c", text: "Bottom" },
+          { id: "d", text: "Top" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "To debit an account means to enter the transaction figure on the left hand side[cite: 2155].",
+      },
+      {
+        id: "sf-46",
+        question: "The 'Sales Day Book' records which type of transactions?",
+        options: [
+          { id: "a", text: "Cash sales" },
+          { id: "b", text: "Credit sales" },
+          { id: "c", text: "Total expenses" },
+          { id: "d", text: "Tax payments" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Sales day book and purchase day book that respectively records credit sales and credit purchases[cite: 2164].",
+      },
+      {
+        id: "sf-47",
+        question: "What is the formula for 'Cost of raw materials consumed'?",
+        options: [
+          { id: "a", text: "Purchase + Sales" },
+          {
+            id: "b",
+            text: "Purchase + Carriage inward + Closing stock - Opening stock",
+          },
+          {
+            id: "c",
+            text: "Purchase + Carriage inward + Opening stock - Closing stock",
+          },
+          { id: "d", text: "Direct labor + Factory rent" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Cost of raw materials consumed = Cost of Raw material purchased + Carriage inwards + Opening inventory - Closing inventory[cite: 2194].",
+      },
+      {
+        id: "sf-48",
+        question: "Work in Progress refers to goods that are:",
+        options: [
+          { id: "a", text: "Fully finished" },
+          { id: "b", text: "Partly manufactured" },
+          { id: "c", text: "Returned by customers" },
+          { id: "d", text: "Sold on credit" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Work in Progress- are partly manufactured items or goods in various stages of production[cite: 2199].",
+      },
+      {
+        id: "sf-49",
+        question:
+          "A 'Statement of Financial Position' was formerly known as the:",
+        options: [
+          { id: "a", text: "Profit and Loss account" },
+          { id: "b", text: "Balance Sheet" },
+          { id: "c", text: "Cash Flow statement" },
+          { id: "d", text: "Journal" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Statement of financial position (formerly balance sheet)[cite: 2100].",
+      },
+      {
+        id: "sf-50",
+        question: "Assets with useful economic lives that exceed one year are:",
+        options: [
+          { id: "a", text: "Current assets" },
+          { id: "b", text: "Non-current assets" },
+          { id: "c", text: "Current liabilities" },
+          { id: "d", text: "Long term liabilities" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Non-current assets: These are assets with useful economic lives that exceed one year[cite: 2264, 2265].",
+      },
+    ],
+  },
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
