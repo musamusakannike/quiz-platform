@@ -730,6 +730,715 @@ export const quizTopics: Topic[] = [
       },
     ],
   },
+  {
+    id: "nigerian-business-environment-chapter-2",
+    title: "Nigerian Business Environment & SME Opportunities",
+    description:
+      "Test your understanding of internal and external business factors, the Nigerian market landscape, and African regional comparisons.",
+    icon: "Briefcase",
+    color: "#2196f3",
+    questions: [
+      {
+        id: "be-1",
+        question:
+          "Factors within the control of a business enterprise are collectively referred to as the:",
+        options: [
+          { id: "a", text: "External environment" },
+          { id: "b", text: "Macro environment" },
+          { id: "c", text: "Internal business environment" },
+          { id: "d", text: "International environment" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Factors within the control of the enterprise are collectively called the internal business environment[cite: 237].",
+      },
+      {
+        id: "be-2",
+        question:
+          "Which of these is considered a factor of the internal business environment?",
+        options: [
+          { id: "a", text: "Inflation rate" },
+          { id: "b", text: "Management structure and style" },
+          { id: "c", text: "Exchange rates" },
+          { id: "d", text: "Political stability" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Internal environment includes mission, value system, human resources, and management structure[cite: 258].",
+      },
+      {
+        id: "be-3",
+        question:
+          "The external business environment is generally classified into which two categories?",
+        options: [
+          { id: "a", text: "Local and Global" },
+          { id: "b", text: "Micro and Macro" },
+          { id: "c", text: "Financial and Physical" },
+          { id: "d", text: "Primary and Secondary" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The external environment is generally classified into the micro environment and the macro environment[cite: 260].",
+      },
+      {
+        id: "be-4",
+        question: "Which agent is part of the 'micro' business environment?",
+        options: [
+          { id: "a", text: "The World Bank" },
+          { id: "b", text: "Marketing intermediaries" },
+          { id: "c", text: "The Legal system" },
+          { id: "d", text: "Climatic conditions" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Micro environment agents include suppliers, customers, competing firms, and marketing intermediaries[cite: 262].",
+      },
+      {
+        id: "be-5",
+        question:
+          "Macro environment factors differ from micro factors because they:",
+        options: [
+          { id: "a", text: "Can be controlled by the firm" },
+          { id: "b", text: "Affect only the production line" },
+          { id: "c", text: "Affect the entire economy" },
+          { id: "d", text: "Only involve internal staff" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Macro environment consists of aggregate variables that affect the entire economy[cite: 263].",
+      },
+      {
+        id: "be-6",
+        question:
+          "Per capita income is used as an indicator for which environment?",
+        options: [
+          { id: "a", text: "Natural" },
+          { id: "b", text: "Technological" },
+          { id: "c", text: "Economic" },
+          { id: "d", text: "Political" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Indicators such as per capita income and interest rates are used for the economic environment[cite: 267].",
+      },
+      {
+        id: "be-7",
+        question:
+          "What does 'per capita income' measure in a business context?",
+        options: [
+          { id: "a", text: "Cost of borrowing" },
+          { id: "b", text: "Market size or demand capacity" },
+          { id: "c", text: "Quality of life" },
+          { id: "d", text: "Technological progress" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Per capita income is a measure for a country's market size or demand capacity[cite: 267].",
+      },
+      {
+        id: "be-8",
+        question: "Which factor belongs to the 'Legal' environment?",
+        options: [
+          { id: "a", text: "Inflation rate" },
+          { id: "b", text: "Research and Development" },
+          { id: "c", text: "Protection of property rights" },
+          { id: "d", text: "Life expectancy" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The legal environment includes protection of property rights, rule of law, and independence of judiciary[cite: 278].",
+      },
+      {
+        id: "be-9",
+        question: "Life expectancy and literacy rates are indicators of the:",
+        options: [
+          { id: "a", text: "International environment" },
+          { id: "b", text: "Natural environment" },
+          { id: "c", text: "Social environment" },
+          { id: "d", text: "Technological environment" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Social environment indicators include life expectancy, education, and literacy rates[cite: 279].",
+      },
+      {
+        id: "be-10",
+        question:
+          "Which of these is a measure for the 'Technological' environment?",
+        options: [
+          { id: "a", text: "Exchange rates" },
+          { id: "b", text: "Scientific progress and innovations" },
+          { id: "c", text: "Foreign direct investment" },
+          { id: "d", text: "Political stability" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Technological environment indicators include innovations, inventions, and scientific progress[cite: 280].",
+      },
+      {
+        id: "be-11",
+        question: "The 'International' environment includes factors such as:",
+        options: [
+          { id: "a", text: "Weather and climatic conditions" },
+          { id: "b", text: "Belief systems" },
+          { id: "c", text: "Trade openness and exchange rates" },
+          { id: "d", text: "Internal management style" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The international environment consists of exchange rates, trade openness, and foreign reserves[cite: 281].",
+      },
+      {
+        id: "be-12",
+        question:
+          "Which category includes ecological factors like weather and mineral resources?",
+        options: [
+          { id: "a", text: "Social" },
+          { id: "b", text: "Technological" },
+          { id: "c", text: "Natural" },
+          { id: "d", text: "Micro" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Natural environment includes geographical and ecological factors such as weather, minerals, and oil[cite: 282].",
+      },
+      {
+        id: "be-13",
+        question:
+          "What is described as the 'life-wire' of a business in terms of infrastructure?",
+        options: [
+          { id: "a", text: "Marketing" },
+          { id: "b", text: "Power supply" },
+          { id: "c", text: "Social media" },
+          { id: "d", text: "Trade unions" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The text lists power supply as a significant infrastructural factor affecting business activities[cite: 283].",
+      },
+      {
+        id: "be-14",
+        question:
+          "The Nigeria business environment represents the largest market in Africa in terms of:",
+        options: [
+          { id: "a", text: "Technological advancement" },
+          { id: "b", text: "Population" },
+          { id: "c", text: "Political stability" },
+          { id: "d", text: "Infrastructure" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Nigeria represents the largest market in Africa in terms of population[cite: 286].",
+      },
+      {
+        id: "be-15",
+        question:
+          "Which demographic group makes up the majority of the Nigerian population?",
+        options: [
+          { id: "a", text: "The Elderly" },
+          { id: "b", text: "Youths and the young" },
+          { id: "c", text: "Foreign expatriates" },
+          { id: "d", text: "Retired professionals" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The demographic distribution shows that majority of people in Nigeria are youths and young[cite: 287].",
+      },
+      {
+        id: "be-16",
+        question:
+          "What is identified as the 'major challenge' for businesses in Nigeria?",
+        options: [
+          { id: "a", text: "Lack of raw materials" },
+          { id: "b", text: "Infrastructural inadequacy" },
+          { id: "c", text: "Low population" },
+          { id: "d", text: "Excessive rainfall" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The first and major challenge business firms must deal with in Nigeria is infrastructural challenge[cite: 295].",
+      },
+      {
+        id: "be-17",
+        question:
+          "Because of poor infrastructure, Nigerian firms often spend extra resources on:",
+        options: [
+          { id: "a", text: "Advertising" },
+          { id: "b", text: "Providing their own power and water" },
+          { id: "c", text: "Hiring foreign managers" },
+          { id: "d", text: "Importing luxury goods" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Firms require extra financial resources to provide their own infrastructure like power and water[cite: 297].",
+      },
+      {
+        id: "be-18",
+        question: "Insecurity in Nigeria poses a threat to:",
+        options: [
+          { id: "a", text: "Only physical buildings" },
+          { id: "b", text: "Life and properties" },
+          { id: "c", text: "Government officials only" },
+          { id: "d", text: "International travelers only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Nigeria business environment offers security threats to both the life of workers/businessmen and properties[cite: 306].",
+      },
+      {
+        id: "be-19",
+        question:
+          "How should entrepreneurs handle frequent changes in government policies?",
+        options: [
+          { id: "a", text: "By ignoring the policies" },
+          { id: "b", text: "By closing the business" },
+          { id: "c", text: "By swiftly adjusting strategies to align" },
+          { id: "d", text: "By protesting against the government" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The best strategy is to keep a keen eye on policies and swiftly adjust business strategies to align[cite: 312].",
+      },
+      {
+        id: "be-20",
+        question:
+          "What are the two folds of challenges regarding investment funds in Nigeria?",
+        options: [
+          { id: "a", text: "No banks and no currency" },
+          {
+            id: "b",
+            text: "Unwillingness to give credit and high borrowing costs",
+          },
+          { id: "c", text: "Excessive cash and low interest rates" },
+          { id: "d", text: "High demand and low supply of coins" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Challenges include unwillingness of banks to provide credit and the high cost of borrowing[cite: 315, 316].",
+      },
+      {
+        id: "be-21",
+        question: "Creative entrepreneurs surmount funding difficulties by:",
+        options: [
+          { id: "a", text: "Waiting for a government grant" },
+          { id: "b", text: "Lamenting about bank Predicaments" },
+          { id: "c", text: "Looking for creative ways to finance plans" },
+          { id: "d", text: "Stopping all business activities" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Hardcore entrepreneurs look for creative ways to finance their business plans and ideas[cite: 318].",
+      },
+      {
+        id: "be-22",
+        question:
+          "The term 'Double Taxation' is associated with which challenge in Nigeria?",
+        options: [
+          { id: "a", text: "Insecurity" },
+          { id: "b", text: "Lack of government support" },
+          { id: "c", text: "Infrastructural inadequacy" },
+          { id: "d", text: "Technological gap" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Lack of government support surfaces as double taxation, corruption, and unnecessary levies[cite: 321].",
+      },
+      {
+        id: "be-23",
+        question:
+          "Which country is described as having the most conducive economic environment among those compared?",
+        options: [
+          { id: "a", text: "Ghana" },
+          { id: "b", text: "Nigeria" },
+          { id: "c", text: "South Africa" },
+          { id: "d", text: "Egypt" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "South Africa has the most conducive economic environment with the highest demand capacity[cite: 327].",
+      },
+      {
+        id: "be-24",
+        question:
+          "Nigeria is ranked 1st among the selected African countries only in:",
+        options: [
+          { id: "a", text: "Interest rate" },
+          { id: "b", text: "Literacy rate" },
+          { id: "c", text: "Total population" },
+          { id: "d", text: "Rule of law" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "In the entire 25 indicators, Nigeria is ranked first only in total population[cite: 414].",
+      },
+      {
+        id: "be-25",
+        question:
+          "The 'polity2' value (ranging from -10 to 10) measures a country's:",
+        options: [
+          { id: "a", text: "Economic inflation" },
+          { id: "b", text: "Openness of the political system" },
+          { id: "c", text: "Population growth" },
+          { id: "d", text: "Technological readiness" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The polity2 value is a measure of the openness of the political system of a country[cite: 337].",
+      },
+      {
+        id: "be-26",
+        question:
+          "Nigeria falls into which 'Polity' category according to the text?",
+        options: [
+          { id: "a", text: "Full Democracy" },
+          { id: "b", text: "Autocracy" },
+          { id: "c", text: "Open Anocracy" },
+          { id: "d", text: "Closed Anocracy" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Nigeria falls in the category of open anocracy in spite of the return to democratic governance[cite: 338].",
+      },
+      {
+        id: "be-27",
+        question:
+          "Which country ranked 1st in 'Control of Corruption' and 'Political Stability'?",
+        options: [
+          { id: "a", text: "Nigeria" },
+          { id: "b", text: "Ghana" },
+          { id: "c", text: "Egypt" },
+          { id: "d", text: "Kenya" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Table 2 shows Ghana occupies the first position in control of corruption and political stability[cite: 424].",
+      },
+      {
+        id: "be-28",
+        question:
+          "How did the 'Cost of starting a business' change in Nigeria between 2013 and 2020?",
+        options: [
+          { id: "a", text: "It increased by 10%" },
+          { id: "b", text: "It remained the same" },
+          { id: "c", text: "It reduced by about 5.5%" },
+          { id: "d", text: "It was eliminated entirely" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Cost of starting a business as percentage of income per capita reduced by about 5.5% point[cite: 431].",
+      },
+      {
+        id: "be-29",
+        question:
+          "What happened to Nigeria's GDP per capita (demand capacity) between 2013 and 2020?",
+        options: [
+          { id: "a", text: "It doubled" },
+          { id: "b", text: "It declined by about $908.41" },
+          { id: "c", text: "It grew steadily" },
+          { id: "d", text: "It reached the highest in Africa" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The demand capacity measured by per capita income declined by about $908.41[cite: 434].",
+      },
+      {
+        id: "be-30",
+        question:
+          "Inflation in Nigeria jumped from one digit in 2013 to ____ in 2020.",
+        options: [
+          { id: "a", text: "Deflation" },
+          { id: "b", text: "Two digits (13.25)" },
+          { id: "c", text: "Zero" },
+          { id: "d", text: "Three digits" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Inflation rate jumps from one digit (8.5) in 2013 to two digit (13.25) in 2020[cite: 437].",
+      },
+      {
+        id: "be-31",
+        question:
+          "The time required to register property in Nigeria ___ between 2013 and 2020.",
+        options: [
+          { id: "a", text: "Decreased" },
+          { id: "b", text: "Increased by over 22 days" },
+          { id: "c", text: "Was reduced to one day" },
+          { id: "d", text: "Stayed exactly the same" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "An entrepreneur needs over 22 addition days to register a property in 2020 compared to 2013[cite: 439].",
+      },
+      {
+        id: "be-32",
+        question:
+          "The rise in 'Children population' presents an opportunity for products such as:",
+        options: [
+          { id: "a", text: "Automobiles" },
+          { id: "b", text: "Toys, wears, and education materials" },
+          { id: "c", text: "Retirement homes" },
+          { id: "d", text: "Heavy machinery" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Child boom demography presents opportunity for toys, wears, and education materials[cite: 451].",
+      },
+      {
+        id: "be-33",
+        question:
+          "Which of these countries has the highest literacy rate among the five compared?",
+        options: [
+          { id: "a", text: "Nigeria" },
+          { id: "b", text: "South Africa" },
+          { id: "c", text: "Kenya" },
+          { id: "d", text: "Ghana" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "According to Table 1, South Africa has a literacy rate of 93, the highest among the five[cite: 384].",
+      },
+      {
+        id: "be-34",
+        question:
+          "Rule of Law, Government Effectiveness, and Control of Corruption are indicators from:",
+        options: [
+          { id: "a", text: "The IMF" },
+          { id: "b", text: "World Bank Governance Indicators" },
+          { id: "c", text: "The United Nations" },
+          { id: "d", text: "Local Nigerian Banks" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "These indicators are the World Bank Governance Indicators[cite: 353].",
+      },
+      {
+        id: "be-35",
+        question:
+          "What is the standard normal distribution range for World Bank Governance scores?",
+        options: [
+          { id: "a", text: "0 to 100" },
+          { id: "b", text: "-2.5 to 2.5" },
+          { id: "c", text: "1 to 10" },
+          { id: "d", text: "-10 to 10" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Scores range from a minimum of -2.5 to maximum 2.5[cite: 353].",
+      },
+      {
+        id: "be-36",
+        question:
+          "Nigeria's negative scores in all six governance indicators imply:",
+        options: [
+          { id: "a", text: "Excellent governance" },
+          { id: "b", text: "Poor quality of governance" },
+          { id: "c", text: "Economic boom" },
+          { id: "d", text: "High transparency" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Nigeria's scores in all six are negative, implying that the quality of governance is poor[cite: 354, 355].",
+      },
+      {
+        id: "be-37",
+        question:
+          "Constraint on Executive power measures checks and balances between:",
+        options: [
+          { id: "a", text: "Customers and suppliers" },
+          { id: "b", text: "Various parts of the decision-making process" },
+          { id: "c", text: "Import and export rates" },
+          { id: "d", text: "Banks and borrowers" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This is concerned with the checks and balances between various parts of the decision-making process[cite: 341].",
+      },
+      {
+        id: "be-38",
+        question:
+          "Which country had the highest exchange rate to 1 US Dollar in 2013?",
+        options: [
+          { id: "a", text: "South Africa" },
+          { id: "b", text: "Nigeria" },
+          { id: "c", text: "Egypt" },
+          { id: "d", text: "Ghana" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The amount of local currency to 1 USD is highest in Nigeria (157.3), followed by Kenya (86.1)[cite: 374, 384].",
+      },
+      {
+        id: "be-39",
+        question:
+          "Regulatory quality measures the government's ability to promote:",
+        options: [
+          { id: "a", text: "Agricultural exports" },
+          { id: "b", text: "Private sector development" },
+          { id: "c", text: "Public sector dominance" },
+          { id: "d", text: "Religious association" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Regulatory quality is the ability of government to promote private sector development[cite: 346].",
+      },
+      {
+        id: "be-40",
+        question:
+          "Voice and Accountability measures the extent to which citizens can:",
+        options: [
+          { id: "a", text: "Borrow money easily" },
+          { id: "b", text: "Participate in selecting their government" },
+          { id: "c", text: "Avoid paying taxes" },
+          { id: "d", text: "Start a business for free" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This measures the extent to which citizens participate in selecting government and enjoy freedoms[cite: 352].",
+      },
+      {
+        id: "be-41",
+        question:
+          "The 'Judicial Independence' indicator in Nigeria showed ____ between 2013 and 2020.",
+        options: [
+          { id: "a", text: "A massive decline" },
+          { id: "b", text: "A marginal improvement" },
+          { id: "c", text: "Absolute stagnation" },
+          { id: "d", text: "Complete disappearance" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Improvements were recorded in areas including judicial independence (1.2 difference)[cite: 430, 432].",
+      },
+      {
+        id: "be-42",
+        question:
+          "According to the ranking (Table 2), Nigeria's business environment is:",
+        options: [
+          { id: "a", text: "The absolute worst in Africa" },
+          {
+            id: "b",
+            text: "Relatively less conducive compared to the other four",
+          },
+          { id: "c", text: "The most conducive in the world" },
+          { id: "d", text: "Identical to South Africa's" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Nigeria business environment is relatively less conducive relative to Egypt, Ghana, Kenya and South Africa[cite: 469, 480].",
+      },
+      {
+        id: "be-43",
+        question:
+          "Which indicator is NOT used to measure the economic environment in this chapter?",
+        options: [
+          { id: "a", text: "Interest rate" },
+          { id: "b", text: "Total tax rate" },
+          { id: "c", text: "Independent judiciary" },
+          { id: "d", text: "Inflation rate" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Independent judiciary is a measure of the legal environment, not economic[cite: 278, 327].",
+      },
+      {
+        id: "be-44",
+        question:
+          "Developing a 'shock absorber' for economic uncertainty is considered an:",
+        options: [
+          { id: "a", text: "Internal Role" },
+          { id: "b", text: "Economic Role" },
+          { id: "c", text: "Social Role" },
+          { id: "d", text: "Technological Role" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The economic role is to develop a shock absorber in the face of uncertainty of the economy [cite: 193] (referenced in previous context summary).",
+      },
+      {
+        id: "be-45",
+        question:
+          "Bureaucratic bottlenecks are found at agencies like CAC and ____.",
+        options: [
+          { id: "a", text: "NASA" },
+          { id: "b", text: "NAFDAC" },
+          { id: "c", text: "FIFA" },
+          { id: "d", text: "W.H.O" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Bureaucratic bottlenecks are found at government agencies like CAC, NAFDAC, etc[cite: 321].",
+      },
+      {
+        id: "be-46",
+        question:
+          "What is the rank of Nigeria in 'Market Capitalization' among the five countries?",
+        options: [
+          { id: "a", text: "1st" },
+          { id: "b", text: "2nd" },
+          { id: "c", text: "4th" },
+          { id: "d", text: "5th" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Nigeria is ranked fourth in terms of market capitalization[cite: 335, 419].",
+      },
+      {
+        id: "be-47",
+        question: "High lending rates in Nigeria are currently over:",
+        options: [
+          { id: "a", text: "50%" },
+          { id: "b", text: "20%" },
+          { id: "c", text: "2%" },
+          { id: "d", text: "100%" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The high cost of borrowing (high lending rate) is currently over 20%[cite: 316].",
+      },
+      {
+        id: "be-48",
+        question:
+          "Which factor could make Nigeria's large population a 'threat' instead of an 'opportunity'?",
+        options: [
+          { id: "a", text: "If majority are wealthy" },
+          { id: "b", text: "If majority are poor or lack skills" },
+          { id: "c", text: "If everyone speaks English" },
+          { id: "d", text: "If the weather is sunny" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Large population is an opportunity, however if majority are poor it may not represent real opportunity[cite: 371, 415].",
+      },
+      {
+        id: "be-49",
+        question:
+          "The 'Polity IV' dataset is used to measure which type of factors?",
+        options: [
+          { id: "a", text: "Natural" },
+          { id: "b", text: "Political" },
+          { id: "c", text: "Economic" },
+          { id: "d", text: "Social" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The Polity IV dataset is used for measuring political factors like polity2 and executive constraint[cite: 337, 339].",
+      },
+      {
+        id: "be-50",
+        question:
+          "Understanding the business environment allows an enterprise to:",
+        options: [
+          { id: "a", text: "Ignore competitors" },
+          { id: "b", text: "Plan appropriately and form strategies" },
+          { id: "c", text: "Stop paying all taxes" },
+          { id: "d", text: "Increase prices randomly" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Understanding the environment is imperative to allow enterprises to plan appropriately and form strategies[cite: 243].",
+      },
+    ],
+  },
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
