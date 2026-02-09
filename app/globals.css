@@ -835,3 +835,154 @@ body {
 .skip-button-wrapper {
   margin-left: auto;
 }
+
+/* ========== Resume Quiz Modal ========== */
+.resume-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 2rem;
+}
+
+.resume-modal {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 24px;
+  padding: 2.5rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.resume-modal-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(135deg, #262626 0%, #1a1a1a 100%);
+  border: 1px solid #333;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  color: var(--foreground);
+}
+
+.resume-modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.resume-modal-topic {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.resume-modal-progress {
+  background: #1a1a1a;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.resume-progress-bar {
+  height: 8px;
+  background: var(--card-border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.resume-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #fff, #a1a1aa);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.resume-progress-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.resume-progress-text {
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.resume-progress-answered {
+  color: var(--text-muted);
+}
+
+.resume-modal-time {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.resume-modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.resume-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.resume-button.primary {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+.resume-button.primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.resume-button.secondary {
+  background: transparent;
+  color: var(--foreground);
+  border: 1px solid var(--card-border);
+}
+
+.resume-button.secondary:hover {
+  background: var(--card-hover);
+  border-color: #404040;
+}
+
+@media (max-width: 640px) {
+  .resume-modal {
+    padding: 1.75rem;
+    border-radius: 20px;
+  }
+
+  .resume-modal-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .resume-modal-title {
+    font-size: 1.25rem;
+  }
+}
+

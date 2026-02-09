@@ -3,11 +3,17 @@
 import { useParams } from "next/navigation";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { getTopicById } from "@/data/quizData";
-import { Option, Question } from "@/types/quiz";
+import { Option } from "@/types/quiz";
 import { shuffleOptions } from "@/utils/shuffleOptions";
+import { 
+  saveQuizProgress, 
+  getQuizProgress, 
+  clearQuizProgress 
+} from "@/utils/progressStorage";
 import QuizProgress from "@/components/QuizProgress";
 import OptionCard from "@/components/OptionCard";
 import QuizResults from "@/components/QuizResults";
+import ResumeQuizModal from "@/components/ResumeQuizModal";
 import { gsap } from "gsap";
 import { ArrowLeft, ArrowRight, CheckCircle, XCircle, SkipForward } from "lucide-react";
 import Link from "next/link";
@@ -22,6 +28,12 @@ export default function QuizPage() {
   const [shuffledOptionsMap, setShuffledOptionsMap] = useState<Record<number, Option[]>>({});
   const [isComplete, setIsComplete] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+  const [showResumeModal, setShowResumeModal] = useState(false);
+  const [savedProgress, setSavedProgress] = useState<{
+    currentQuestion: number;
+    answeredCount: number;
+    timestamp: number;
+  } | null>(null);
 
   // Derived state
   const currentQuestion = topic?.questions[currentQuestionIndex];
@@ -42,10 +54,22 @@ export default function QuizPage() {
   const questionRef = useRef<HTMLDivElement>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
 
-  // Handle hydration
+  // Handle hydration and check for saved progress
   useEffect(() => {
     setIsMounted(true);
-  }, []);
+    
+    if (topicId) {
+      const progress = getQuizProgress(topicId);
+      if (progress && progress.userAnswers && Object.keys(progress.userAnswers).length > 0) {
+        setSavedProgress({
+          currentQuestion: progress.currentQuestionIndex + 1,
+          answeredCount: Object.keys(progress.userAnswers).length,
+          timestamp: progress.timestamp,
+        });
+        setShowResumeModal(true);
+      }
+    }
+  }, [topicId]);
 
   // Initialize shuffled options for current question
   useEffect(() => {
@@ -56,6 +80,13 @@ export default function QuizPage() {
       }));
     }
   }, [topic, currentQuestionIndex, currentQuestion, shuffledOptionsMap]);
+
+  // Save progress whenever answers change
+  useEffect(() => {
+    if (isMounted && topicId && Object.keys(userAnswers).length > 0 && !isComplete) {
+      saveQuizProgress(topicId, currentQuestionIndex, userAnswers, shuffledOptionsMap);
+    }
+  }, [userAnswers, currentQuestionIndex, shuffledOptionsMap, topicId, isMounted, isComplete]);
 
   // Animate question on change
   useEffect(() => {
@@ -79,6 +110,24 @@ export default function QuizPage() {
     }
   }, [selectedAnswer]);
 
+  const handleContinueProgress = useCallback(() => {
+    const progress = getQuizProgress(topicId);
+    if (progress) {
+      setCurrentQuestionIndex(progress.currentQuestionIndex);
+      setUserAnswers(progress.userAnswers);
+      setShuffledOptionsMap(progress.shuffledOptionsMap);
+    }
+    setShowResumeModal(false);
+  }, [topicId]);
+
+  const handleStartFresh = useCallback(() => {
+    clearQuizProgress(topicId);
+    setCurrentQuestionIndex(0);
+    setUserAnswers({});
+    setShuffledOptionsMap({});
+    setShowResumeModal(false);
+  }, [topicId]);
+
   const handleSelectAnswer = useCallback((optionId: string) => {
     if (selectedAnswer !== null || !topic) return;
 
@@ -95,8 +144,9 @@ export default function QuizPage() {
       setCurrentQuestionIndex((prev) => prev + 1);
     } else {
       setIsComplete(true);
+      clearQuizProgress(topicId);
     }
-  }, [topic, currentQuestionIndex]);
+  }, [topic, currentQuestionIndex, topicId]);
 
   const handlePrevious = useCallback(() => {
     if (currentQuestionIndex > 0) {
@@ -146,6 +196,19 @@ export default function QuizPage() {
 
   return (
     <div className="app-container">
+      {/* Resume Quiz Modal */}
+      {showResumeModal && savedProgress && (
+        <ResumeQuizModal
+          topicTitle={topic.title}
+          currentQuestion={savedProgress.currentQuestion}
+          totalQuestions={topic.questions.length}
+          answeredCount={savedProgress.answeredCount}
+          timestamp={savedProgress.timestamp}
+          onContinue={handleContinueProgress}
+          onStartFresh={handleStartFresh}
+        />
+      )}
+
       <main className="quiz-main">
         <header className="quiz-header">
           <Link href="/" className="back-button">

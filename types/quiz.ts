@@ -29,3 +29,11 @@ export interface QuizState {
   isComplete: boolean;
   shuffledOptions: Option[];
 }
+
+export interface SavedQuizProgress {
+  topicId: string;
+  currentQuestionIndex: number;
+  userAnswers: Record<number, string>;
+  shuffledOptionsMap: Record<number, Option[]>;
+  timestamp: number;
+}
