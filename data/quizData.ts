@@ -2147,6 +2147,719 @@ export const quizTopics: Topic[] = [
       },
     ],
   },
+  {
+    id: "feasibility-study-chapter-4",
+    title: "Feasibility Study and Report Writing",
+    description:
+      "Test your knowledge on the validation of business ideas, strategic analysis areas, and the difference between feasibility studies and business plans.",
+    icon: "Search",
+    color: "#ff9800",
+    questions: [
+      {
+        id: "fs-1",
+        question:
+          "What are described as the 'building blocks' of entrepreneurship?",
+        options: [
+          { id: "a", text: "Financial loans" },
+          { id: "b", text: "Ideas" },
+          { id: "c", text: "Business plans" },
+          { id: "d", text: "Consultants" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Ideas are the building blocks of entrepreneurship[cite: 737].",
+      },
+      {
+        id: "fs-2",
+        question: "Which process determines if a business idea is viable?",
+        options: [
+          { id: "a", text: "Marketing research" },
+          { id: "b", text: "Feasibility analysis" },
+          { id: "c", text: "Product launching" },
+          { id: "d", text: "Accounting audit" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Feasibility analysis is the process of determining if a business idea is viable[cite: 741].",
+      },
+      {
+        id: "fs-3",
+        question:
+          "The most effective businesses emerge from a process that includes four steps. Which is the SECOND step?",
+        options: [
+          { id: "a", text: "Writing a business plan" },
+          { id: "b", text: "Recognizing a business idea" },
+          { id: "c", text: "Testing feasibility" },
+          { id: "d", text: "Launching the business" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "The process includes: (1) recognizing a business idea, (2) testing feasibility, (3) writing a business plan, and (4) launching the business[cite: 742].",
+      },
+      {
+        id: "fs-4",
+        question:
+          "What mistake do many entrepreneurs make after identifying a business idea?",
+        options: [
+          { id: "a", text: "They drop the idea too early" },
+          { id: "b", text: "They skip to writing a business plan directly" },
+          { id: "c", text: "They hire too many employees" },
+          { id: "d", text: "They conduct too much research" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Many make the mistake of identifying an idea and jumping directly to writing a business plan, skipping feasibility testing[cite: 744, 745].",
+      },
+      {
+        id: "fs-5",
+        question:
+          "Feasibility analysis is an assessment of a potential ____ rather than strictly a product idea.",
+        options: [
+          { id: "a", text: "Loan" },
+          { id: "b", text: "Business" },
+          { id: "c", text: "Marketing campaign" },
+          { id: "d", text: "Logo design" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "It is an assessment of a potential business rather than strictly a product or service idea[cite: 747].",
+      },
+      {
+        id: "fs-6",
+        question:
+          "What happens if an idea fails to pass the feasibility analysis?",
+        options: [
+          { id: "a", text: "The entrepreneur writes the business plan anyway" },
+          {
+            id: "b",
+            text: "The entrepreneur drops it and moves to the next opportunity",
+          },
+          {
+            id: "c",
+            text: "The entrepreneur must launch the business to see if it works",
+          },
+          { id: "d", text: "The entrepreneur hires a new management team" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "If the idea fails to pass, the entrepreneur drops it and moves on to the next opportunity[cite: 758].",
+      },
+      {
+        id: "fs-7",
+        question: "A feasibility study primarily answers which question?",
+        options: [
+          { id: "a", text: "How do we sell the product?" },
+          { id: "b", text: "Should we proceed with this business idea?" },
+          { id: "c", text: "Who will be our manager?" },
+          { id: "d", text: "When will we go public?" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A feasibility study answers the question: 'Should we proceed with this business idea?'[cite: 763].",
+      },
+      {
+        id: "fs-8",
+        question:
+          "Why is it beneficial for an entrepreneur to conduct their own feasibility study instead of hiring a consultant?",
+        options: [
+          { id: "a", text: "It guarantees success" },
+          {
+            id: "b",
+            text: "It saves money and allows for better understanding of the business",
+          },
+          { id: "c", text: "It is required by law in Nigeria" },
+          { id: "d", text: "Consultants are always biased" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "It saves money and enables the entrepreneur to understand the proposed business better by collecting their own data[cite: 761].",
+      },
+      {
+        id: "fs-9",
+        question:
+          "The role of a feasibility study is to serve as a ____ for business ideas.",
+        options: [
+          { id: "a", text: "Promotional tool" },
+          { id: "b", text: "Filter" },
+          { id: "c", text: "Guarantee" },
+          { id: "d", text: "Catalog" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Its role is to serve as a filter, screening out ideas that lack potential[cite: 764].",
+      },
+      {
+        id: "fs-10",
+        question:
+          "Which skill is NOT mentioned as necessary for an entrepreneur to conduct a reliable feasibility study?",
+        options: [
+          { id: "a", text: "Technical skill" },
+          { id: "b", text: "Financial skill" },
+          { id: "c", text: "Cooking skill" },
+          { id: "d", text: "Market skill" },
+        ],
+        correctAnswer: "c",
+        explanation:
+          "Skills required include economic, market, technical, financial, and managerial skills[cite: 770, 771].",
+      },
+      {
+        id: "fs-11",
+        question:
+          "Feasibility studies are particularly useful when entrepreneurs have generated:",
+        options: [
+          { id: "a", text: "No ideas" },
+          { id: "b", text: "Multiple business concepts to winnow down" },
+          { id: "c", text: "A finalized business plan" },
+          { id: "d", text: "A full staff of employees" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "They are useful when entrepreneurs have generated multiple ideas and must winnow options down to the best choice[cite: 766].",
+      },
+      {
+        id: "fs-12",
+        question:
+          "Which of the following is a benefit of conducting a feasibility analysis?",
+        options: [
+          { id: "a", text: "It eliminates all business risks" },
+          { id: "b", text: "It helps in avoiding investment overrun" },
+          { id: "c", text: "It replaces the need for marketing" },
+          { id: "d", text: "It provides free capital from the bank" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "One of the benefits is that it helps in avoiding investment overrun[cite: 796].",
+      },
+      {
+        id: "fs-13",
+        question:
+          "A feasibility report can be used to invite ____ to participate in the project.",
+        options: [
+          { id: "a", text: "Competitors" },
+          { id: "b", text: "Co-sponsors" },
+          { id: "c", text: "Random strangers" },
+          { id: "d", text: "Tax auditors" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A feasibility report is used to invite co-sponsors to participate in the project[cite: 804].",
+      },
+      {
+        id: "fs-14",
+        question:
+          "How many key areas for feasibility analysis are identified in the chapter methodology?",
+        options: [
+          { id: "a", text: "Three" },
+          { id: "b", text: "Six" },
+          { id: "c", text: "Ten" },
+          { id: "d", text: "Two" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The methodology describes six key areas: business concept, industry/market, product/service, organizational, manufacturing/operations, and financial[cite: 806].",
+      },
+      {
+        id: "fs-15",
+        question:
+          "Which type of research is conducted by talking to industry experts and prospective customers?",
+        options: [
+          { id: "a", text: "Secondary research" },
+          { id: "b", text: "Primary research" },
+          { id: "c", text: "Historical research" },
+          { id: "d", text: "Passive research" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Primary research includes talking to industry experts, obtaining feedback from customers, and focus groups[cite: 833, 834].",
+      },
+      {
+        id: "fs-16",
+        question: "Secondary research uses data that is:",
+        options: [
+          { id: "a", text: "Collected for the first time by the entrepreneur" },
+          { id: "b", text: "Already collected (like Census data)" },
+          { id: "c", text: "Only available in textbooks" },
+          { id: "d", text: "Fake or projected data" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Secondary research uses data that is already collected, such as industry studies or Census Bureau data[cite: 835].",
+      },
+      {
+        id: "fs-17",
+        question: "What is the key objective behind feasibility analysis?",
+        options: [
+          { id: "a", text: "To sell the product immediately" },
+          { id: "b", text: "To put an idea to the test and scrutinize it" },
+          { id: "c", text: "To get a loan as fast as possible" },
+          { id: "d", text: "To hide risks from investors" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The key objective is to put an idea to the test by talking to experts and scrutinizing the financials[cite: 836].",
+      },
+      {
+        id: "fs-18",
+        question:
+          "Articulating a compelling 'story' for an idea is part of which analysis area?",
+        options: [
+          { id: "a", text: "Financial feasibility" },
+          { id: "b", text: "Business concept" },
+          { id: "c", text: "Industry attractiveness" },
+          { id: "d", text: "Technical data" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "An entrepreneur should articulate a compelling story for why her/his idea is an excellent concept[cite: 841].",
+      },
+      {
+        id: "fs-19",
+        question: "An 'industry' is defined as a group of firms producing:",
+        options: [
+          { id: "a", text: "Different unrelated goods" },
+          { id: "b", text: "Similar products or services" },
+          { id: "c", text: "Only agricultural items" },
+          { id: "d", text: "Products for the government only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "An industry is a group of firms producing a similar product or service[cite: 850].",
+      },
+      {
+        id: "fs-20",
+        question: "What is a 'target market'?",
+        options: [
+          { id: "a", text: "The entire global population" },
+          {
+            id: "b",
+            text: "A limited portion of the industry the firm wants to appeal to",
+          },
+          { id: "c", text: "The firm's suppliers" },
+          { id: "d", text: "The group of people who hate the product" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A firm's target market is the limited portion of the industry that it goes after or wants to appeal to[cite: 850].",
+      },
+      {
+        id: "fs-21",
+        question:
+          "A useful tool for analyzing an industry's macro-level attractiveness is:",
+        options: [
+          { id: "a", text: "The balance sheet" },
+          { id: "b", text: "Porter's five forces model" },
+          { id: "c", text: "A focus group of 5 people" },
+          { id: "d", text: "The net present value" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A useful tool for analyzing an industry's attractiveness is the five forces model developed by Porter[cite: 873].",
+      },
+      {
+        id: "fs-22",
+        question: "Which of the following is one of Porter's 'five forces'?",
+        options: [
+          { id: "a", text: "Management passion" },
+          { id: "b", text: "Bargaining power of buyers" },
+          { id: "c", text: "Amount of startup capital" },
+          { id: "d", text: "Number of days to register property" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "One of the five forces is the bargaining power of buyers[cite: 876].",
+      },
+      {
+        id: "fs-23",
+        question:
+          "Market segmentation variables for consumer markets include demographic, geographic, behavioristic, and:",
+        options: [
+          { id: "a", text: "Technological" },
+          { id: "b", text: "Psychographic" },
+          { id: "c", text: "Political" },
+          { id: "d", text: "Legal" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Segmentation variables include demographic, geographic, psychographic, and behavioristic variables[cite: 880].",
+      },
+      {
+        id: "fs-24",
+        question:
+          "By focusing on a smaller target market, a startup can usually avoid:",
+        options: [
+          { id: "a", text: "All taxes" },
+          { id: "b", text: "Head-to-head competition with industry leaders" },
+          { id: "c", text: "Paying employees" },
+          { id: "d", text: "Collecting data" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Focusing on a smaller target market helps avoid head-to-head competition with industry leaders[cite: 883].",
+      },
+      {
+        id: "fs-25",
+        question:
+          "Product/service feasibility analysis addresses desirability and:",
+        options: [
+          { id: "a", text: "Packaging" },
+          { id: "b", text: "Demand" },
+          { id: "c", text: "Shipping speed" },
+          { id: "d", text: "Colors" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Product/service feasibility analysis addresses product desirability and demand[cite: 893].",
+      },
+      {
+        id: "fs-26",
+        question: "What is a 'concept test'?",
+        options: [
+          { id: "a", text: "Launching the final product in a mall" },
+          {
+            id: "b",
+            text: "Showing a preliminary description to experts and customers",
+          },
+          { id: "c", text: "Calculating the total tax rate" },
+          { id: "d", text: "Writing a 100-page business plan" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A concept test involves showing a preliminary description (concept statement) to experts and customers for feedback[cite: 899].",
+      },
+      {
+        id: "fs-27",
+        question: "An original, functional model of a new product is called a:",
+        options: [
+          { id: "a", text: "Blueprint" },
+          { id: "b", text: "Prototype" },
+          { id: "c", text: "Case study" },
+          { id: "d", text: "Inventory list" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A prototype is an original, functional model of a new product[cite: 900].",
+      },
+      {
+        id: "fs-28",
+        question: "Simple 'gumshoe research' involves being a/an:",
+        options: [
+          { id: "a", text: "Accountant" },
+          { id: "b", text: "Detective or investigator" },
+          { id: "c", text: "Professor" },
+          { id: "d", text: "Lawyer" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Gumshoe research is a detective or investigator scrounging for info wherever it can be found[cite: 910].",
+      },
+      {
+        id: "fs-29",
+        question:
+          "A focus group usually involves a small number of potential customers, usually between:",
+        options: [
+          { id: "a", text: "2 to 4" },
+          { id: "b", text: "8 to 12" },
+          { id: "c", text: "50 to 100" },
+          { id: "d", text: "One person only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A focus group involves a small number of potential customers, usually between 8 to 12[cite: 912].",
+      },
+      {
+        id: "fs-30",
+        question:
+          "Organizational feasibility determines management expertise and:",
+        options: [
+          { id: "a", text: "Resource sufficiency" },
+          { id: "b", text: "Political affiliation" },
+          { id: "c", text: "Social media following" },
+          { id: "d", text: "Building height" },
+        ],
+        correctAnswer: "a",
+        explanation:
+          "The two primary issues are management prowess and resource sufficiency[cite: 919].",
+      },
+      {
+        id: "fs-31",
+        question: "Venture capitalists often prefer which combination?",
+        options: [
+          { id: "a", text: "An 'A' idea with a 'B' team" },
+          { id: "b", text: "A 'B' idea with an 'A' team" },
+          { id: "c", text: "A 'C' idea with no team" },
+          { id: "d", text: "A 'B' idea with a 'B' team" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Venture capitalists prefer a 'B' idea with an 'A' team over an 'A' idea with a 'B' team[cite: 924].",
+      },
+      {
+        id: "fs-32",
+        question: "A 'new-venture team' includes founders, key employees, and:",
+        options: [
+          { id: "a", text: "Competitors" },
+          { id: "b", text: "Advisers" },
+          { id: "c", text: "Customers" },
+          { id: "d", text: "Landlords" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A new-venture team is the group of founders, key employees, and advisers[cite: 928].",
+      },
+      {
+        id: "fs-33",
+        question:
+          "Organizational feasibility focuses primarily on ____ resources.",
+        options: [
+          { id: "a", text: "Financial" },
+          { id: "b", text: "Non-financial" },
+          { id: "c", text: "Illegal" },
+          { id: "d", text: "Foreign" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The focus in this aspect of organizational feasibility analysis is on non-financial resources[cite: 931].",
+      },
+      {
+        id: "fs-34",
+        question:
+          "Which of the following is a critical non-financial resource?",
+        options: [
+          { id: "a", text: "The price of oil" },
+          { id: "b", text: "Affordable office space" },
+          { id: "c", text: "Personal savings" },
+          { id: "d", text: "Interest rates" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Critical non-financial resources include affordable office space, laboratory space, or manufacturing space[cite: 934, 935].",
+      },
+      {
+        id: "fs-35",
+        question:
+          "Manufacturing/operations feasibility might NOT be required for which type of business?",
+        options: [
+          { id: "a", text: "A car factory" },
+          { id: "b", text: "A personal service business" },
+          { id: "c", text: "A toy manufacturer" },
+          { id: "d", text: "A computer design firm" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Many small businesses that offer personal services will have little to say about operations and nothing about manufacturing[cite: 942].",
+      },
+      {
+        id: "fs-36",
+        question:
+          "Facilities for a business include fixtures, furniture, equipment, and:",
+        options: [
+          { id: "a", text: "Patents" },
+          { id: "b", text: "Parking space" },
+          { id: "c", text: "Company logos" },
+          { id: "d", text: "Product names" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Facilities include fixtures, furniture, equipment, parking space, and renovations[cite: 948].",
+      },
+      {
+        id: "fs-37",
+        question:
+          "Why should founders purchase life and disability insurance on key people?",
+        options: [
+          { id: "a", text: "Because it's free" },
+          {
+            id: "b",
+            text: "When the business relies on a few talented individuals",
+          },
+          { id: "c", text: "To increase taxes" },
+          { id: "d", text: "To satisfy the bank only" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "When a business relies on a few talented people, founders may purchase personal life/disability insurance on key people[cite: 959].",
+      },
+      {
+        id: "fs-38",
+        question:
+          "At the feasibility stage, a ____ financial analysis is usually sufficient.",
+        options: [
+          { id: "a", text: "10-year detailed" },
+          { id: "b", text: "Broad/preliminary" },
+          { id: "c", text: "Mathematically perfect" },
+          { id: "d", text: "Zero" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "At this stage, a broad or preliminary financial analysis is sufficient[cite: 962, 963].",
+      },
+      {
+        id: "fs-39",
+        question:
+          "Which document shows where the venture moves from survival to growth?",
+        options: [
+          { id: "a", text: "The inventory list" },
+          { id: "b", text: "Break-even analysis" },
+          { id: "c", text: "Logo design" },
+          { id: "d", text: "Supplier list" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Provide a break-even analysis to demonstrate where the venture moves from survival to growth[cite: 968].",
+      },
+      {
+        id: "fs-40",
+        question:
+          "The two most critical financial documents to include are the pro forma income statement and the:",
+        options: [
+          { id: "a", text: "Voucher" },
+          { id: "b", text: "Statement of cash flows" },
+          { id: "c", text: "Payroll" },
+          { id: "d", text: "Receipt book" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "A pro forma income statement and a statement of cash flows are the two most critical documents[cite: 967].",
+      },
+      {
+        id: "fs-41",
+        question:
+          "Which type of business typically requires LESS capital to launch?",
+        options: [
+          { id: "a", text: "Manufacturing" },
+          { id: "b", text: "Service business" },
+          { id: "c", text: "Retail business" },
+          { id: "d", text: "Automobile production" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Typically, service businesses require less capital to launch than manufacturing or retail businesses[cite: 978].",
+      },
+      {
+        id: "fs-42",
+        question:
+          "Estimated earnings and capital requirements are combined to determine the:",
+        options: [
+          { id: "a", text: "Staff size" },
+          { id: "b", text: "Rate of return (ROI)" },
+          { id: "c", text: "Office location" },
+          { id: "d", text: "Tax bracket" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "This aspect combines estimated earnings and capital requirements to determine the expected rate of return[cite: 986].",
+      },
+      {
+        id: "fs-43",
+        question:
+          "The risk-return tradeoff means that higher risk requires ____ potential return.",
+        options: [
+          { id: "a", text: "Lower" },
+          { id: "b", text: "Higher" },
+          { id: "c", text: "Zero" },
+          { id: "d", text: "Stable" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The higher the level of risk, the higher the rate of return it must provide[cite: 990].",
+      },
+      {
+        id: "fs-44",
+        question:
+          "One factor for assessing financial feasibility is the existing alternatives for the entrepreneur's:",
+        options: [
+          { id: "a", text: "Hobbies" },
+          { id: "b", text: "Time and efforts" },
+          { id: "c", text: "Family size" },
+          { id: "d", text: "Political vote" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Factors include existing alternatives for the money invested and the entrepreneur's time and efforts[cite: 999, 1000].",
+      },
+      {
+        id: "fs-45",
+        question: "What does NPV stand for in value added analysis?",
+        options: [
+          { id: "a", text: "New Product Value" },
+          { id: "b", text: "Net Present Value" },
+          { id: "c", text: "Nigerian Profit Verification" },
+          { id: "d", text: "Non-Profit Venture" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "One method to ascertain profitability is Net present value (NPV)[cite: 1005].",
+      },
+      {
+        id: "fs-46",
+        question: "The 'Pay back method' is described as a/an:",
+        options: [
+          { id: "a", text: "Theoretical approach" },
+          { id: "b", text: "Practical approach" },
+          { id: "c", text: "Obsolete approach" },
+          { id: "d", text: "Marketing approach" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The text lists 'Pay back method (Practical approach)'[cite: 1009].",
+      },
+      {
+        id: "fs-47",
+        question: "A feasibility study serves as an ____ for the venture.",
+        options: [
+          { id: "a", text: "Obstacle" },
+          { id: "b", text: "Implementation guide" },
+          { id: "c", text: "Unnecessary delay" },
+          { id: "d", text: "Public advertisement" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "It serves as an implementation guide to the venture to which it relates[cite: 790, 1026].",
+      },
+      {
+        id: "fs-48",
+        question:
+          "The feasibility analysis process involves spending ____ to determine viability.",
+        options: [
+          { id: "a", text: "Zero effort" },
+          { id: "b", text: "Time and resources" },
+          { id: "c", text: "Only money" },
+          { id: "d", text: "Only words" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "The process involves spending the time and resources necessary to analyze key areas[cite: 816].",
+      },
+      {
+        id: "fs-49",
+        question:
+          "Writing a feasibility report helps prevent falling into the 'everything is ____' mode.",
+        options: [
+          { id: "a", text: "Terrible" },
+          { id: "b", text: "Wonderful" },
+          { id: "c", text: "Expensive" },
+          { id: "d", text: "Broken" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "It avoids falling into the 'everything about my opportunity is wonderful' mode[cite: 749].",
+      },
+      {
+        id: "fs-50",
+        question:
+          "Which area covers whether a venture is start-up, expanding, or in initial operations?",
+        options: [
+          { id: "a", text: "Resource sufficiency" },
+          { id: "b", text: "Business concept" },
+          { id: "c", text: "Financial projections" },
+          { id: "d", text: "Rule of law" },
+        ],
+        correctAnswer: "b",
+        explanation:
+          "Business concept identifies the current stage of development (concept, start-up, initial operations, or expansion)[cite: 845].",
+      },
+    ],
+  },
 ];
 
 export const getTopicById = (id: string): Topic | undefined => {
