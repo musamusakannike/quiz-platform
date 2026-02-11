@@ -792,7 +792,7 @@ export const quizTopics: Topic[] = [
         question:
           "Factors within the control of a business enterprise are collectively referred to as the:",
         options: [
-          { id: "a", text: "External environment" },
+          { id: "a", text: "The uncontrollable external business environment" },
           { id: "b", text: "Macro environment" },
           { id: "c", text: "Internal business environment" },
           { id: "d", text: "International environment" },
@@ -806,7 +806,7 @@ export const quizTopics: Topic[] = [
         question:
           "Which of these is considered a factor of the internal business environment?",
         options: [
-          { id: "a", text: "Inflation rate" },
+          { id: "a", text: "The skyrocketing national inflation rate" },
           { id: "b", text: "Management structure and style" },
           { id: "c", text: "Exchange rates" },
           { id: "d", text: "Political stability" },
@@ -836,7 +836,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "The World Bank" },
           { id: "b", text: "Marketing intermediaries" },
           { id: "c", text: "The Legal system" },
-          { id: "d", text: "Climatic conditions" },
+          { id: "d", text: "Unpredictable and severe climatic conditions" },
         ],
         correctAnswer: "b",
         explanation:
@@ -875,7 +875,7 @@ export const quizTopics: Topic[] = [
         question:
           "What does 'per capita income' measure in a business context?",
         options: [
-          { id: "a", text: "Cost of borrowing" },
+          { id: "a", text: "The extremely high cost of borrowing funds" },
           { id: "b", text: "Market size or demand capacity" },
           { id: "c", text: "Quality of life" },
           { id: "d", text: "Technological progress" },
@@ -889,7 +889,10 @@ export const quizTopics: Topic[] = [
         question: "Which factor belongs to the 'Legal' environment?",
         options: [
           { id: "a", text: "Inflation rate" },
-          { id: "b", text: "Research and Development" },
+          {
+            id: "b",
+            text: "Investment in Research and Development activities",
+          },
           { id: "c", text: "Protection of property rights" },
           { id: "d", text: "Life expectancy" },
         ],
@@ -917,7 +920,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Exchange rates" },
           { id: "b", text: "Scientific progress and innovations" },
-          { id: "c", text: "Foreign direct investment" },
+          { id: "c", text: "The level of incoming Foreign direct investment" },
           { id: "d", text: "Political stability" },
         ],
         correctAnswer: "b",
@@ -928,7 +931,7 @@ export const quizTopics: Topic[] = [
         id: "be-11",
         question: "The 'International' environment includes factors such as:",
         options: [
-          { id: "a", text: "Weather and climatic conditions" },
+          { id: "a", text: "Unpredictable weather and climatic conditions" },
           { id: "b", text: "Belief systems" },
           { id: "c", text: "Trade openness and exchange rates" },
           { id: "d", text: "Internal management style" },
@@ -959,7 +962,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Marketing" },
           { id: "b", text: "Power supply" },
           { id: "c", text: "Social media" },
-          { id: "d", text: "Trade unions" },
+          { id: "d", text: "The activities of various trade unions" },
         ],
         correctAnswer: "b",
         explanation:
@@ -998,7 +1001,7 @@ export const quizTopics: Topic[] = [
         question:
           "What is identified as the 'major challenge' for businesses in Nigeria?",
         options: [
-          { id: "a", text: "Lack of raw materials" },
+          { id: "a", text: "Severe and persistent lack of raw materials" },
           { id: "b", text: "Infrastructural inadequacy" },
           { id: "c", text: "Low population" },
           { id: "d", text: "Excessive rainfall" },
@@ -1015,7 +1018,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Advertising" },
           { id: "b", text: "Providing their own power and water" },
           { id: "c", text: "Hiring foreign managers" },
-          { id: "d", text: "Importing luxury goods" },
+          { id: "d", text: "Importing expensive luxury goods from abroad" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1042,7 +1045,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "By ignoring the policies" },
           { id: "b", text: "By closing the business" },
           { id: "c", text: "By swiftly adjusting strategies to align" },
-          { id: "d", text: "By protesting against the government" },
+          {
+            id: "d",
+            text: "By organizing mass protests against the government",
+          },
         ],
         correctAnswer: "c",
         explanation:
@@ -1058,7 +1064,10 @@ export const quizTopics: Topic[] = [
             id: "b",
             text: "Unwillingness to give credit and high borrowing costs",
           },
-          { id: "c", text: "Excessive cash and low interest rates" },
+          {
+            id: "c",
+            text: "An economy with excessive cash flow and very low interest rates",
+          },
           { id: "d", text: "High demand and low supply of coins" },
         ],
         correctAnswer: "b",
@@ -1070,7 +1079,10 @@ export const quizTopics: Topic[] = [
         question: "Creative entrepreneurs surmount funding difficulties by:",
         options: [
           { id: "a", text: "Waiting for a government grant" },
-          { id: "b", text: "Lamenting about bank Predicaments" },
+          {
+            id: "b",
+            text: "Constantly lamenting and complaining about bank Predicaments",
+          },
           { id: "c", text: "Looking for creative ways to finance plans" },
           { id: "d", text: "Stopping all business activities" },
         ],
@@ -1083,7 +1095,7 @@ export const quizTopics: Topic[] = [
         question:
           "The term 'Double Taxation' is associated with which challenge in Nigeria?",
         options: [
-          { id: "a", text: "Insecurity" },
+          { id: "a", text: "High levels of insecurity and crime" },
           { id: "b", text: "Lack of government support" },
           { id: "c", text: "Infrastructural inadequacy" },
           { id: "d", text: "Technological gap" },
@@ -1097,7 +1109,7 @@ export const quizTopics: Topic[] = [
         question:
           "Which country is described as having the most conducive economic environment among those compared?",
         options: [
-          { id: "a", text: "Ghana" },
+          { id: "a", text: "The Republic of Ghana" },
           { id: "b", text: "Nigeria" },
           { id: "c", text: "South Africa" },
           { id: "d", text: "Egypt" },
@@ -1111,7 +1123,7 @@ export const quizTopics: Topic[] = [
         question:
           "Nigeria is ranked 1st among the selected African countries only in:",
         options: [
-          { id: "a", text: "Interest rate" },
+          { id: "a", text: "The national interest rate" },
           { id: "b", text: "Literacy rate" },
           { id: "c", text: "Total population" },
           { id: "d", text: "Rule of law" },
@@ -1128,7 +1140,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Economic inflation" },
           { id: "b", text: "Openness of the political system" },
           { id: "c", text: "Population growth" },
-          { id: "d", text: "Technological readiness" },
+          { id: "d", text: "The country's overall technological readiness" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1167,7 +1179,7 @@ export const quizTopics: Topic[] = [
         question:
           "How did the 'Cost of starting a business' change in Nigeria between 2013 and 2020?",
         options: [
-          { id: "a", text: "It increased by 10%" },
+          { id: "a", text: "It significantly increased by more than 10%" },
           { id: "b", text: "It remained the same" },
           { id: "c", text: "It reduced by about 5.5%" },
           { id: "d", text: "It was eliminated entirely" },
@@ -1198,7 +1210,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Deflation" },
           { id: "b", text: "Two digits (13.25)" },
           { id: "c", text: "Zero" },
-          { id: "d", text: "Three digits" },
+          { id: "d", text: "It jumped to an unprecedented Three digits" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1212,7 +1224,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Decreased" },
           { id: "b", text: "Increased by over 22 days" },
           { id: "c", text: "Was reduced to one day" },
-          { id: "d", text: "Stayed exactly the same" },
+          {
+            id: "d",
+            text: "It remained exactly the same as in previous years",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -1225,7 +1240,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Automobiles" },
           { id: "b", text: "Toys, wears, and education materials" },
-          { id: "c", text: "Retirement homes" },
+          { id: "c", text: "Luxury retirement homes for the elderly" },
           { id: "d", text: "Heavy machinery" },
         ],
         correctAnswer: "b",
@@ -1237,7 +1252,7 @@ export const quizTopics: Topic[] = [
         question:
           "Which of these countries has the highest literacy rate among the five compared?",
         options: [
-          { id: "a", text: "Nigeria" },
+          { id: "a", text: "The Federal Republic of Nigeria" },
           { id: "b", text: "South Africa" },
           { id: "c", text: "Kenya" },
           { id: "d", text: "Ghana" },
@@ -1254,7 +1269,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "The IMF" },
           { id: "b", text: "World Bank Governance Indicators" },
           { id: "c", text: "The United Nations" },
-          { id: "d", text: "Local Nigerian Banks" },
+          { id: "d", text: "Various Local Nigerian Commercial Banks" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1268,7 +1283,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "0 to 100" },
           { id: "b", text: "-2.5 to 2.5" },
           { id: "c", text: "1 to 10" },
-          { id: "d", text: "-10 to 10" },
+          { id: "d", text: "A range from -10 to positive 10" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1279,7 +1294,10 @@ export const quizTopics: Topic[] = [
         question:
           "Nigeria's negative scores in all six governance indicators imply:",
         options: [
-          { id: "a", text: "Excellent governance" },
+          {
+            id: "a",
+            text: "An example of excellent and transparent governance",
+          },
           { id: "b", text: "Poor quality of governance" },
           { id: "c", text: "Economic boom" },
           { id: "d", text: "High transparency" },
@@ -1295,7 +1313,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Customers and suppliers" },
           { id: "b", text: "Various parts of the decision-making process" },
-          { id: "c", text: "Import and export rates" },
+          { id: "c", text: "High fluctuations in import and export rates" },
           { id: "d", text: "Banks and borrowers" },
         ],
         correctAnswer: "b",
@@ -1323,7 +1341,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Agricultural exports" },
           { id: "b", text: "Private sector development" },
-          { id: "c", text: "Public sector dominance" },
+          { id: "c", text: "Complete and total public sector dominance" },
           { id: "d", text: "Religious association" },
         ],
         correctAnswer: "b",
@@ -1338,7 +1356,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Borrow money easily" },
           { id: "b", text: "Participate in selecting their government" },
           { id: "c", text: "Avoid paying taxes" },
-          { id: "d", text: "Start a business for free" },
+          { id: "d", text: "Start any kind of business completely for free" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1352,7 +1370,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "A massive decline" },
           { id: "b", text: "A marginal improvement" },
           { id: "c", text: "Absolute stagnation" },
-          { id: "d", text: "Complete disappearance" },
+          {
+            id: "d",
+            text: "The complete and total disappearance of independence",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -1363,7 +1384,10 @@ export const quizTopics: Topic[] = [
         question:
           "According to the ranking (Table 2), Nigeria's business environment is:",
         options: [
-          { id: "a", text: "The absolute worst in Africa" },
+          {
+            id: "a",
+            text: "Considered the absolute worst environment in all of Africa",
+          },
           {
             id: "b",
             text: "Relatively less conducive compared to the other four",
@@ -1381,7 +1405,7 @@ export const quizTopics: Topic[] = [
           "Which indicator is NOT used to measure the economic environment in this chapter?",
         options: [
           { id: "a", text: "Interest rate" },
-          { id: "b", text: "Total tax rate" },
+          { id: "b", text: "The total applicable tax rate for businesses" },
           { id: "c", text: "Independent judiciary" },
           { id: "d", text: "Inflation rate" },
         ],
@@ -1411,7 +1435,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "NASA" },
           { id: "b", text: "NAFDAC" },
           { id: "c", text: "FIFA" },
-          { id: "d", text: "W.H.O" },
+          { id: "d", text: "World Health Organization (WHO)" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1451,7 +1475,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "If majority are wealthy" },
           { id: "b", text: "If majority are poor or lack skills" },
-          { id: "c", text: "If everyone speaks English" },
+          { id: "c", text: "If everyone in the country speaks fluent English" },
           { id: "d", text: "If the weather is sunny" },
         ],
         correctAnswer: "b",
@@ -1465,7 +1489,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Natural" },
           { id: "b", text: "Political" },
-          { id: "c", text: "Economic" },
+          { id: "c", text: "Comprehensive Economic factors" },
           { id: "d", text: "Social" },
         ],
         correctAnswer: "b",
@@ -1480,7 +1504,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Ignore competitors" },
           { id: "b", text: "Plan appropriately and form strategies" },
           { id: "c", text: "Stop paying all taxes" },
-          { id: "d", text: "Increase prices randomly" },
+          {
+            id: "d",
+            text: "Indiscriminately increase product prices randomly",
+          },
         ],
         correctAnswer: "b",
         explanation:
