@@ -9,6 +9,7 @@ interface QuizResultsProps {
   total: number;
   topicTitle: string;
   onRestart: () => void;
+  onReview: () => void;
 }
 
 export default function QuizResults({
@@ -16,6 +17,7 @@ export default function QuizResults({
   total,
   topicTitle,
   onRestart,
+  onReview,
 }: QuizResultsProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const scoreRef = useRef<HTMLSpanElement>(null);
@@ -83,6 +85,9 @@ export default function QuizResults({
         <div className="results-actions">
           <button onClick={onRestart} className="results-button primary">
             Play Again
+          </button>
+          <button onClick={onReview} className="results-button secondary">
+            Review Answers
           </button>
           <Link href="/" className="results-button secondary">
             Choose Topic

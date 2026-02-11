@@ -5,17 +5,23 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { getTopicById } from "@/data/quizData";
 import { Option } from "@/types/quiz";
 import { shuffleOptions } from "@/utils/shuffleOptions";
-import { 
-  saveQuizProgress, 
-  getQuizProgress, 
-  clearQuizProgress 
+import {
+  saveQuizProgress,
+  getQuizProgress,
+  clearQuizProgress,
 } from "@/utils/progressStorage";
 import QuizProgress from "@/components/QuizProgress";
 import OptionCard from "@/components/OptionCard";
 import QuizResults from "@/components/QuizResults";
 import ResumeQuizModal from "@/components/ResumeQuizModal";
 import { gsap } from "gsap";
-import { ArrowLeft, ArrowRight, CheckCircle, XCircle, SkipForward } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  CheckCircle,
+  XCircle,
+  SkipForward,
+} from "lucide-react";
 import Link from "next/link";
 
 export default function QuizPage() {
@@ -25,8 +31,11 @@ export default function QuizPage() {
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
-  const [shuffledOptionsMap, setShuffledOptionsMap] = useState<Record<number, Option[]>>({});
+  const [shuffledOptionsMap, setShuffledOptionsMap] = useState<
+    Record<number, Option[]>
+  >({});
   const [isComplete, setIsComplete] = useState(false);
+  const [isReviewing, setIsReviewing] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const [showResumeModal, setShowResumeModal] = useState(false);
   const [savedProgress, setSavedProgress] = useState<{
@@ -40,7 +49,7 @@ export default function QuizPage() {
   const selectedAnswer = userAnswers[currentQuestionIndex] || null;
   const isCorrect = currentQuestion?.correctAnswer === selectedAnswer;
   const shuffledOptions = shuffledOptionsMap[currentQuestionIndex] || [];
-  
+
   const score = Object.keys(userAnswers).reduce((acc, key) => {
     const idx = parseInt(key);
     const answer = userAnswers[idx];
@@ -57,10 +66,14 @@ export default function QuizPage() {
   // Handle hydration and check for saved progress
   useEffect(() => {
     setIsMounted(true);
-    
+
     if (topicId) {
       const progress = getQuizProgress(topicId);
-      if (progress && progress.userAnswers && Object.keys(progress.userAnswers).length > 0) {
+      if (
+        progress &&
+        progress.userAnswers &&
+        Object.keys(progress.userAnswers).length > 0
+      ) {
         setSavedProgress({
           currentQuestion: progress.currentQuestionIndex + 1,
           answeredCount: Object.keys(progress.userAnswers).length,
@@ -74,19 +87,36 @@ export default function QuizPage() {
   // Initialize shuffled options for current question
   useEffect(() => {
     if (topic && currentQuestion && !shuffledOptionsMap[currentQuestionIndex]) {
-      setShuffledOptionsMap(prev => ({
+      setShuffledOptionsMap((prev) => ({
         ...prev,
-        [currentQuestionIndex]: shuffleOptions(currentQuestion.options)
+        [currentQuestionIndex]: shuffleOptions(currentQuestion.options),
       }));
     }
   }, [topic, currentQuestionIndex, currentQuestion, shuffledOptionsMap]);
 
   // Save progress whenever answers change
   useEffect(() => {
-    if (isMounted && topicId && Object.keys(userAnswers).length > 0 && !isComplete) {
-      saveQuizProgress(topicId, currentQuestionIndex, userAnswers, shuffledOptionsMap);
+    if (
+      isMounted &&
+      topicId &&
+      Object.keys(userAnswers).length > 0 &&
+      !isComplete
+    ) {
+      saveQuizProgress(
+        topicId,
+        currentQuestionIndex,
+        userAnswers,
+        shuffledOptionsMap,
+      );
     }
-  }, [userAnswers, currentQuestionIndex, shuffledOptionsMap, topicId, isMounted, isComplete]);
+  }, [
+    userAnswers,
+    currentQuestionIndex,
+    shuffledOptionsMap,
+    topicId,
+    isMounted,
+    isComplete,
+  ]);
 
   // Animate question on change
   useEffect(() => {
@@ -94,7 +124,7 @@ export default function QuizPage() {
       gsap.fromTo(
         questionRef.current,
         { opacity: 0, y: -20 },
-        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" },
       );
     }
   }, [currentQuestionIndex]);
@@ -105,7 +135,7 @@ export default function QuizPage() {
       gsap.fromTo(
         feedbackRef.current,
         { opacity: 0, y: 20 },
-        { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }
+        { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" },
       );
     }
   }, [selectedAnswer]);
@@ -128,14 +158,17 @@ export default function QuizPage() {
     setShowResumeModal(false);
   }, [topicId]);
 
-  const handleSelectAnswer = useCallback((optionId: string) => {
-    if (selectedAnswer !== null || !topic) return;
+  const handleSelectAnswer = useCallback(
+    (optionId: string) => {
+      if (selectedAnswer !== null || !topic) return;
 
-    setUserAnswers(prev => ({
-      ...prev,
-      [currentQuestionIndex]: optionId
-    }));
-  }, [selectedAnswer, topic, currentQuestionIndex]);
+      setUserAnswers((prev) => ({
+        ...prev,
+        [currentQuestionIndex]: optionId,
+      }));
+    },
+    [selectedAnswer, topic, currentQuestionIndex],
+  );
 
   const handleNext = useCallback(() => {
     if (!topic) return;
@@ -144,6 +177,7 @@ export default function QuizPage() {
       setCurrentQuestionIndex((prev) => prev + 1);
     } else {
       setIsComplete(true);
+      setIsReviewing(false);
       clearQuizProgress(topicId);
     }
   }, [topic, currentQuestionIndex, topicId]);
@@ -163,6 +197,13 @@ export default function QuizPage() {
     setUserAnswers({});
     setShuffledOptionsMap({});
     setIsComplete(false);
+    setIsReviewing(false);
+  }, []);
+
+  const handleReview = useCallback(() => {
+    setIsReviewing(true);
+    setIsComplete(false);
+    setCurrentQuestionIndex(0);
   }, []);
 
   if (!topic || !currentQuestion) {
@@ -186,11 +227,11 @@ export default function QuizPage() {
           total={topic.questions.length}
           topicTitle={topic.title}
           onRestart={handleRestart}
+          onReview={handleReview}
         />
       </div>
     );
   }
-
 
   const isLastQuestion = currentQuestionIndex === topic.questions.length - 1;
 
@@ -229,43 +270,63 @@ export default function QuizPage() {
         </div>
 
         <div className="options-container">
-          {isMounted && shuffledOptions.map((option, index) => (
-            <OptionCard
-              key={`${currentQuestionIndex}-${option.id}`}
-              option={option}
-              index={index}
-              isSelected={selectedAnswer === option.id}
-              isCorrect={isCorrect}
-              showResult={selectedAnswer !== null}
-              correctAnswerId={currentQuestion.correctAnswer}
-              onSelect={handleSelectAnswer}
-              disabled={selectedAnswer !== null}
-            />
-          ))}
+          {isMounted &&
+            shuffledOptions.map((option, index) => (
+              <OptionCard
+                key={`${currentQuestionIndex}-${option.id}`}
+                option={option}
+                index={index}
+                isSelected={selectedAnswer === option.id}
+                isCorrect={isCorrect}
+                showResult={selectedAnswer !== null || isReviewing}
+                correctAnswerId={currentQuestion.correctAnswer}
+                onSelect={handleSelectAnswer}
+                disabled={selectedAnswer !== null || isReviewing}
+              />
+            ))}
         </div>
 
         {/* Navigation Buttons */}
+        {/* Navigation Buttons for unanswered/skipped questions */}
         {!selectedAnswer && (
           <div className="navigation-actions">
-            <button 
-              className="prev-button" 
+            <button
+              className="prev-button"
               onClick={handlePrevious}
               disabled={currentQuestionIndex === 0}
-              style={{ visibility: currentQuestionIndex === 0 ? 'hidden' : 'visible' }}
+              style={{
+                visibility: currentQuestionIndex === 0 ? "hidden" : "visible",
+              }}
             >
               <ArrowLeft size={18} />
               Previous
             </button>
-            
+
             <div className="skip-button-wrapper">
-              <button className="skip-button" onClick={handleSkip}>
-                Skip Question
-                <SkipForward size={18} />
+              <button
+                className={isReviewing ? "next-button" : "skip-button"}
+                onClick={handleSkip}
+                style={
+                  isReviewing
+                    ? { width: "auto", padding: "0.75rem 1.5rem" }
+                    : {}
+                }
+              >
+                {isReviewing
+                  ? isLastQuestion
+                    ? "Back to Results"
+                    : "Next Question"
+                  : "Skip Question"}
+                {isReviewing ? (
+                  <ArrowRight size={18} />
+                ) : (
+                  <SkipForward size={18} />
+                )}
               </button>
             </div>
           </div>
         )}
-        
+
         {/* If selected answer, we show previous button in a separate flexible container if needed, 
             but standard design is usually to hide navigation when reviewing feedback, 
             except next. However, user might want to go back even after answering? 
@@ -277,22 +338,30 @@ export default function QuizPage() {
             I should put it outside the condition OR replicate it. 
         */}
         {selectedAnswer && (
-           <div className="navigation-actions" style={{ marginBottom: '1rem', justifyContent: 'flex-start' }}>
-              <button 
-                className="prev-button" 
-                onClick={handlePrevious}
-                disabled={currentQuestionIndex === 0}
-                style={{ visibility: currentQuestionIndex === 0 ? 'hidden' : 'visible' }}
-              >
-                <ArrowLeft size={18} />
-                Previous
-              </button>
-           </div>
+          <div
+            className="navigation-actions"
+            style={{ marginBottom: "1rem", justifyContent: "flex-start" }}
+          >
+            <button
+              className="prev-button"
+              onClick={handlePrevious}
+              disabled={currentQuestionIndex === 0}
+              style={{
+                visibility: currentQuestionIndex === 0 ? "hidden" : "visible",
+              }}
+            >
+              <ArrowLeft size={18} />
+              Previous
+            </button>
+          </div>
         )}
 
         {/* Inline Feedback Panel */}
-        {selectedAnswer && (
-          <div ref={feedbackRef} className={`feedback-panel ${isCorrect ? "correct" : "wrong"}`}>
+        {(selectedAnswer || isReviewing) && (
+          <div
+            ref={feedbackRef}
+            className={`feedback-panel ${isCorrect ? "correct" : "wrong"}`}
+          >
             <div className="feedback-panel-header">
               {isCorrect ? (
                 <CheckCircle size={24} className="feedback-icon-correct" />
@@ -300,16 +369,26 @@ export default function QuizPage() {
                 <XCircle size={24} className="feedback-icon-wrong" />
               )}
               <span className="feedback-panel-title">
-                {isCorrect ? "Correct!" : "Incorrect"}
+                {isCorrect
+                  ? "Correct!"
+                  : selectedAnswer
+                    ? "Incorrect"
+                    : "Skipped"}
               </span>
             </div>
-            
+
             {currentQuestion.explanation && (
-              <p className="feedback-panel-explanation">{currentQuestion.explanation}</p>
+              <p className="feedback-panel-explanation">
+                {currentQuestion.explanation}
+              </p>
             )}
-            
+
             <button className="next-button" onClick={handleNext}>
-              {isLastQuestion ? "See Results" : "Next Question"}
+              {isLastQuestion
+                ? isReviewing
+                  ? "Back to Results"
+                  : "See Results"
+                : "Next Question"}
               <ArrowRight size={18} />
             </button>
           </div>
@@ -318,4 +397,3 @@ export default function QuizPage() {
     </div>
   );
 }
-
