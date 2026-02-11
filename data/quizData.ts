@@ -1556,7 +1556,10 @@ export const quizTopics: Topic[] = [
         question: "How does Joseph Schumpeter describe innovation?",
         options: [
           { id: "a", text: "Only the creation of new technology" },
-          { id: "b", text: "A process without any newness" },
+          {
+            id: "b",
+            text: "A routine process without any significant newness or change",
+          },
           {
             id: "c",
             text: "The introduction of a good or significant improvement of an existing one",
@@ -1627,7 +1630,10 @@ export const quizTopics: Topic[] = [
         id: "ie-8",
         question: "The ILO defines employability as being related to:",
         options: [
-          { id: "a", text: "Staying in one job for life" },
+          {
+            id: "a",
+            text: "Staying in one specific job for life regardless of market changes",
+          },
           { id: "b", text: "Portable competencies and qualifications" },
           { id: "c", text: "The number of degrees held" },
           { id: "d", text: "Government job placement only" },
@@ -1641,7 +1647,10 @@ export const quizTopics: Topic[] = [
         question: "What exacerbates the youth unemployment crisis in Nigeria?",
         options: [
           { id: "a", text: "Too much oil revenue" },
-          { id: "b", text: "A lack of higher education qualifications" },
+          {
+            id: "b",
+            text: "A significant lack of higher education qualifications among youth",
+          },
           {
             id: "c",
             text: "A skills mismatch between graduates and the labor market",
@@ -1656,7 +1665,7 @@ export const quizTopics: Topic[] = [
         id: "ie-10",
         question: "The 'Fourth Industrial Revolution' demands proficiency in:",
         options: [
-          { id: "a", text: "Traditional farming tools" },
+          { id: "a", text: "Proficiency in using traditional farming tools" },
           { id: "b", text: "Handwritten accounting" },
           { id: "c", text: "Digital technologies and data analysis" },
           { id: "d", text: "Manual labor only" },
@@ -1670,7 +1679,10 @@ export const quizTopics: Topic[] = [
         question:
           "To succeed in entrepreneurship, graduates require innovative ideas and:",
         options: [
-          { id: "a", text: "The largest possible office space" },
+          {
+            id: "a",
+            text: "Access to the largest possible commercial office space available",
+          },
           { id: "b", text: "Necessary skills and support systems" },
           { id: "c", text: "Guaranteed lifetime profit" },
           { id: "d", text: "A lack of competition" },
@@ -1685,7 +1697,10 @@ export const quizTopics: Topic[] = [
           "Why is there a need to reform Nigeria's education curriculum?",
         options: [
           { id: "a", text: "To remove all theoretical knowledge" },
-          { id: "b", text: "To focus purely on ancient history" },
+          {
+            id: "b",
+            text: "To focus purely on ancient history and classical theories",
+          },
           {
             id: "c",
             text: "To equip students with practical, industry-relevant skills",
@@ -1700,7 +1715,10 @@ export const quizTopics: Topic[] = [
         id: "ie-13",
         question: "Collaboration between industry and academia is vital for:",
         options: [
-          { id: "a", text: "Reducing the number of teachers" },
+          {
+            id: "a",
+            text: "Reducing the number of teachers and administrative staff",
+          },
           {
             id: "b",
             text: "Aligning educational offerings with industry needs",
@@ -1730,7 +1748,10 @@ export const quizTopics: Topic[] = [
         question:
           "Which specific technical skill can enhance a graduate's employability according to the text?",
         options: [
-          { id: "a", text: "Yahoo" },
+          {
+            id: "a",
+            text: "Advanced proficiency in using Yahoo search engine",
+          },
           { id: "b", text: "Proficiency in coding" },
           { id: "c", text: "Manual file filing" },
           { id: "d", text: "Basic handwriting" },
@@ -1747,7 +1768,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Institutional inertia" },
           { id: "b", text: "A culture of innovation and problem-solving" },
           { id: "c", text: "The oil and gas industry only" },
-          { id: "d", text: "Traditional government bureaucracy" },
+          {
+            id: "d",
+            text: "Maintenance of traditional government bureaucracy and protocols",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -1761,7 +1785,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Ignoring deadlines" },
           { id: "b", text: "Adaptability and teamwork" },
           { id: "c", text: "Working alone only" },
-          { id: "d", text: "Resisting all change" },
+          {
+            id: "d",
+            text: "Passively resisting all forms of change in the workplace",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -1774,7 +1801,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Removing all computers from offices" },
           { id: "b", text: "Development and adoption of new technologies" },
           { id: "c", text: "Using only traditional farming methods" },
-          { id: "d", text: "Strictly following old procedures" },
+          {
+            id: "d",
+            text: "Strictly following old and established procedures without deviation",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -1804,7 +1834,10 @@ export const quizTopics: Topic[] = [
             id: "b",
             text: "Addressing challenges like affordable housing and childcare",
           },
-          { id: "c", text: "Improving oil extraction" },
+          {
+            id: "c",
+            text: "Focusing solely on improving efficiency in oil extraction processes",
+          },
           { id: "d", text: "Developing new software only" },
         ],
         correctAnswer: "b",
@@ -1831,7 +1864,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Teachers only" },
           { id: "b", text: "Government, academia, and industry" },
-          { id: "c", text: "Rival countries only" },
+          { id: "c", text: "Strategic alliances between rival countries only" },
           { id: "d", text: "Individual graduates only" },
         ],
         correctAnswer: "b",
@@ -1843,7 +1876,10 @@ export const quizTopics: Topic[] = [
         question:
           "Which of these is a 'key problem' hindering innovation in Nigeria?",
         options: [
-          { id: "a", text: "Too much reliable electricity" },
+          {
+            id: "a",
+            text: "The availability of too much reliable electricity supply",
+          },
           { id: "b", text: "Limited access to resources" },
           { id: "c", text: "An excess of funding" },
           { id: "d", text: "A perfect skill-to-job match" },
@@ -1871,7 +1907,10 @@ export const quizTopics: Topic[] = [
         question: "Resistance to change often stems from:",
         options: [
           { id: "a", text: "Institutional inertia and fear of the unknown" },
-          { id: "b", text: "Rapid success of all new ideas" },
+          {
+            id: "b",
+            text: "The rapid and immediate success of all new ideas implemented",
+          },
           { id: "c", text: "Complete lack of skepticism" },
           { id: "d", text: "Strong leadership commitment" },
         ],
@@ -1897,7 +1936,10 @@ export const quizTopics: Topic[] = [
         question:
           "Nigeria faces challenges in quality assurance due to a lack of:",
         options: [
-          { id: "a", text: "Students" },
+          {
+            id: "a",
+            text: "A sufficient number of enrolled university students",
+          },
           { id: "b", text: "Standardized metrics and reliable data" },
           { id: "c", text: "Graduation ceremonies" },
           { id: "d", text: "Paper for certificates" },
@@ -1913,7 +1955,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Technical benefit" },
           { id: "b", text: "Policy and regulatory barrier" },
           { id: "c", text: "Social advantage" },
-          { id: "d", text: "Method of innovation" },
+          { id: "d", text: "An effective method of implementing innovation" },
         ],
         correctAnswer: "b",
         explanation:
@@ -1924,7 +1966,10 @@ export const quizTopics: Topic[] = [
         question:
           "How does innovation bridge the gap between education and employment?",
         options: [
-          { id: "a", text: "By eliminating all exams" },
+          {
+            id: "a",
+            text: "By completely eliminating all formal exams and assessments",
+          },
           { id: "b", text: "By aligning curriculum with industry needs" },
           { id: "c", text: "By providing free degrees to everyone" },
           { id: "d", text: "By closing all schools" },
@@ -1968,7 +2013,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Traditional story-telling" },
           { id: "b", text: "Healthcare and manufacturing" },
-          { id: "c", text: "Antiquities only" },
+          {
+            id: "c",
+            text: "The collection and preservation of antiquities only",
+          },
           { id: "d", text: "Manual file storage" },
         ],
         correctAnswer: "b",
@@ -1983,7 +2031,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Software bugs only" },
           { id: "b", text: "Unemployment, inequality, and poverty" },
           { id: "c", text: "Hardware failure" },
-          { id: "d", text: "Lack of internet speed" },
+          {
+            id: "d",
+            text: "A general lack of high-speed internet connectivity across the country",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -1993,7 +2044,7 @@ export const quizTopics: Topic[] = [
         id: "ie-34",
         question: "Innovation in formal education involves reform in:",
         options: [
-          { id: "a", text: "Apprenticeships only" },
+          { id: "a", text: "Short-term technical apprenticeships only" },
           { id: "b", text: "Traditional education systems and curriculum" },
           { id: "c", text: "Vocational training only" },
           { id: "d", text: "Mentorship schemes only" },
@@ -2010,7 +2061,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "PhD programs only" },
           { id: "b", text: "Vocational training and mentorship" },
           { id: "c", text: "Formal university lectures" },
-          { id: "d", text: "Standardized classroom testing" },
+          {
+            id: "d",
+            text: "Achievement of high scores in standardized classroom testing",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -2020,7 +2074,10 @@ export const quizTopics: Topic[] = [
         id: "ie-36",
         question: "Innovation for rural graduates may focus on promoting:",
         options: [
-          { id: "a", text: "High-rise skyscrapers" },
+          {
+            id: "a",
+            text: "Construction of modern high-rise skyscrapers in cities",
+          },
           { id: "b", text: "Agribusiness and rural entrepreneurship" },
           { id: "c", text: "Metropolitan stock exchanges" },
           { id: "d", text: "City finance sectors" },
@@ -2036,7 +2093,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Private businesses" },
           { id: "b", text: "Government initiatives and policies" },
           { id: "c", text: "Non-profit organizations" },
-          { id: "d", text: "Industry associations" },
+          {
+            id: "d",
+            text: "Various local and international industry associations",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -2048,7 +2108,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Resource constraints" },
           { id: "b", text: "Enhanced skill development" },
-          { id: "c", text: "Resistance to change" },
+          { id: "c", text: "Significant resistance to any form of change" },
           { id: "d", text: "Regulatory barriers" },
         ],
         correctAnswer: "b",
@@ -2060,7 +2120,10 @@ export const quizTopics: Topic[] = [
         question:
           "How does innovation improve global competitiveness for Nigeria?",
         options: [
-          { id: "a", text: "By closing all borders" },
+          {
+            id: "a",
+            text: "By completely closing all national borders to trade",
+          },
           {
             id: "b",
             text: "By keeping abreast of global trends and acquiring in-demand skills",
@@ -2078,7 +2141,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "High-tech projects" },
           { id: "b", text: "Trade-based, no-capital, no-tech projects" },
-          { id: "c", text: "Large industrial factories" },
+          {
+            id: "c",
+            text: "Development of large industrial factories employing thousands",
+          },
           { id: "d", text: "Multi-national corporations" },
         ],
         correctAnswer: "b",
@@ -2089,7 +2155,7 @@ export const quizTopics: Topic[] = [
         id: "ie-41",
         question: "Poverty trap projects are often incapable of:",
         options: [
-          { id: "a", text: "Any starting activity" },
+          { id: "a", text: "Engaging in any meaningful starting activity" },
           { id: "b", text: "Sustainable, productive growth" },
           { id: "c", text: "Hiring any people" },
           { id: "d", text: "Creating small sales" },
@@ -2103,7 +2169,7 @@ export const quizTopics: Topic[] = [
         question:
           "Technology and innovation-based projects offer more to the economy in the:",
         options: [
-          { id: "a", text: "Immediate second" },
+          { id: "a", text: "The immediate second after they are implemented" },
           { id: "b", text: "Medium to long term" },
           { id: "c", text: "Past century" },
           { id: "d", text: "Short term only" },
@@ -2338,7 +2404,10 @@ export const quizTopics: Topic[] = [
         question:
           "Why is it beneficial for an entrepreneur to conduct their own feasibility study instead of hiring a consultant?",
         options: [
-          { id: "a", text: "It guarantees success" },
+          {
+            id: "a",
+            text: "It completely guarantees the absolute success of the venture",
+          },
           {
             id: "b",
             text: "It saves money and allows for better understanding of the business",
@@ -2385,7 +2454,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "No ideas" },
           { id: "b", text: "Multiple business concepts to winnow down" },
-          { id: "c", text: "A finalized business plan" },
+          {
+            id: "c",
+            text: "A fully finalized and printed business plan document",
+          },
           { id: "d", text: "A full staff of employees" },
         ],
         correctAnswer: "b",
@@ -2397,7 +2469,10 @@ export const quizTopics: Topic[] = [
         question:
           "Which of the following is a benefit of conducting a feasibility analysis?",
         options: [
-          { id: "a", text: "It eliminates all business risks" },
+          {
+            id: "a",
+            text: "It completely eliminates all possible business risks involved",
+          },
           { id: "b", text: "It helps in avoiding investment overrun" },
           { id: "c", text: "It replaces the need for marketing" },
           { id: "d", text: "It provides free capital from the bank" },
@@ -2467,7 +2542,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "To sell the product immediately" },
           { id: "b", text: "To put an idea to the test and scrutinize it" },
-          { id: "c", text: "To get a loan as fast as possible" },
+          {
+            id: "c",
+            text: "To secure a substantial bank loan as fast as possible",
+          },
           { id: "d", text: "To hide risks from investors" },
         ],
         correctAnswer: "b",
@@ -2505,7 +2583,10 @@ export const quizTopics: Topic[] = [
         id: "fs-20",
         question: "What is a 'target market'?",
         options: [
-          { id: "a", text: "The entire global population" },
+          {
+            id: "a",
+            text: "The entire global population of potential consumers worldwide",
+          },
           {
             id: "b",
             text: "A limited portion of the industry the firm wants to appeal to",
@@ -2524,7 +2605,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "The balance sheet" },
           { id: "b", text: "Porter's five forces model" },
-          { id: "c", text: "A focus group of 5 people" },
+          {
+            id: "c",
+            text: "A small focus group consisting of exactly 5 people",
+          },
           { id: "d", text: "The net present value" },
         ],
         correctAnswer: "b",
@@ -2565,7 +2649,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "All taxes" },
           { id: "b", text: "Head-to-head competition with industry leaders" },
-          { id: "c", text: "Paying employees" },
+          {
+            id: "c",
+            text: "The responsibility of paying salaries to all employees",
+          },
           { id: "d", text: "Collecting data" },
         ],
         correctAnswer: "b",
@@ -2596,7 +2683,10 @@ export const quizTopics: Topic[] = [
             text: "Showing a preliminary description to experts and customers",
           },
           { id: "c", text: "Calculating the total tax rate" },
-          { id: "d", text: "Writing a 100-page business plan" },
+          {
+            id: "d",
+            text: "Writing a detailed 100-page comprehensive business plan",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -2622,7 +2712,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Accountant" },
           { id: "b", text: "Detective or investigator" },
           { id: "c", text: "Professor" },
-          { id: "d", text: "Lawyer" },
+          { id: "d", text: "A professional corporate Lawyer or Solicitor" },
         ],
         correctAnswer: "b",
         explanation:
@@ -2701,7 +2791,7 @@ export const quizTopics: Topic[] = [
         question:
           "Which of the following is a critical non-financial resource?",
         options: [
-          { id: "a", text: "The price of oil" },
+          { id: "a", text: "The fluctuating international price of crude oil" },
           { id: "b", text: "Affordable office space" },
           { id: "c", text: "Personal savings" },
           { id: "d", text: "Interest rates" },
@@ -2718,7 +2808,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "A car factory" },
           { id: "b", text: "A personal service business" },
           { id: "c", text: "A toy manufacturer" },
-          { id: "d", text: "A computer design firm" },
+          { id: "d", text: "A high-tech computer graphics design firm" },
         ],
         correctAnswer: "b",
         explanation:
@@ -2749,7 +2839,10 @@ export const quizTopics: Topic[] = [
             text: "When the business relies on a few talented individuals",
           },
           { id: "c", text: "To increase taxes" },
-          { id: "d", text: "To satisfy the bank only" },
+          {
+            id: "d",
+            text: "To strictly satisfy the requirements of the bank only",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -2847,7 +2940,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Hobbies" },
           { id: "b", text: "Time and efforts" },
           { id: "c", text: "Family size" },
-          { id: "d", text: "Political vote" },
+          { id: "d", text: "Political voting preferences and affiliations" },
         ],
         correctAnswer: "b",
         explanation:
@@ -2951,7 +3044,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Design aesthetic" },
           { id: "b", text: "Commercial success tendencies" },
-          { id: "c", text: "Legal registration only" },
+          {
+            id: "c",
+            text: "Merely ensuring legal registration of the business name",
+          },
           { id: "d", text: "Storage capacity" },
         ],
         correctAnswer: "b",
@@ -2964,7 +3060,10 @@ export const quizTopics: Topic[] = [
           "According to the text, a business-oriented person must prepare for failure not just in terms of finance but also as regards:",
         options: [
           { id: "a", text: "Infrastructure" },
-          { id: "b", text: "Social media" },
+          {
+            id: "b",
+            text: "The overwhelming and constant pressure of social media",
+          },
           { id: "c", text: "Emotion" },
           { id: "d", text: "Politics" },
         ],
@@ -2991,7 +3090,7 @@ export const quizTopics: Topic[] = [
         question: "In the context of services, 'intangibility' means they:",
         options: [
           { id: "a", text: "Can be stored for years" },
-          { id: "b", text: "Can be seen but not touched" },
+          { id: "b", text: "Can be easily seen but not physically touched" },
           { id: "c", text: "Can neither be held physically nor seen" },
           { id: "d", text: "Are only performed by machines" },
         ],
@@ -3004,7 +3103,7 @@ export const quizTopics: Topic[] = [
         question:
           "Simultaneity in services means that demand and supply happen:",
         options: [
-          { id: "a", text: "At different locations" },
+          { id: "a", text: "At different locations and various times" },
           { id: "b", text: "In two different years" },
           { id: "c", text: "At the same time" },
           { id: "d", text: "Only when the customer sleeps" },
@@ -3021,7 +3120,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "McClelland" },
           { id: "b", text: "Schumpeter" },
           { id: "c", text: "Young" },
-          { id: "d", text: "Hoselitz" },
+          { id: "d", text: "Bert F. Hoselitz (1952)" },
         ],
         correctAnswer: "b",
         explanation:
@@ -3048,7 +3147,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Becomes more expensive" },
           { id: "b", text: "Fits him and sells itself" },
-          { id: "c", text: "Needs aggressive advertising" },
+          {
+            id: "c",
+            text: "Depends entirely on aggressive advertising campaigns",
+          },
           { id: "d", text: "Is always available in blue" },
         ],
         correctAnswer: "b",
@@ -3063,7 +3165,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Specific objects that satisfy a need" },
           { id: "b", text: "General survival only" },
           { id: "c", text: "Invisible entities" },
-          { id: "d", text: "The government for help" },
+          { id: "d", text: "A constant reliance on the government for help" },
         ],
         correctAnswer: "a",
         explanation:
@@ -3088,7 +3190,7 @@ export const quizTopics: Topic[] = [
           "In the shoe industry, 'youth market' is an example of which type of market?",
         options: [
           { id: "a", text: "Geographic" },
-          { id: "b", text: "Need market" },
+          { id: "b", text: "A market driven by specific needs" },
           { id: "c", text: "Demographic market" },
           { id: "d", text: "Labour market" },
         ],
@@ -3101,7 +3203,7 @@ export const quizTopics: Topic[] = [
         question:
           "Which market consists of professional buyers skilled in evaluating competitive offerings to resell them at a profit?",
         options: [
-          { id: "a", text: "Consumer Markets" },
+          { id: "a", text: "General Consumer Markets" },
           { id: "b", text: "Business Markets" },
           { id: "c", text: "Voter Markets" },
           { id: "d", text: "Global Markets" },
@@ -3117,7 +3219,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Giving products away for free" },
           { id: "b", text: "Solo manufacturer" },
-          { id: "c", text: "Buying a whole country" },
+          { id: "c", text: "Buying a whole country's assets" },
           { id: "d", text: "Ignoring local culture" },
         ],
         correctAnswer: "b",
@@ -3143,7 +3245,7 @@ export const quizTopics: Topic[] = [
         question:
           "Which marketing entity involves professionals like accountants, bankers, and software programmers?",
         options: [
-          { id: "a", text: "Goods" },
+          { id: "a", text: "Physical Goods" },
           { id: "b", text: "Services" },
           { id: "c", text: "Events" },
           { id: "d", text: "Properties" },
@@ -3170,7 +3272,7 @@ export const quizTopics: Topic[] = [
         question:
           "Climbing Mount Everest or attending a live band concert are examples of:",
         options: [
-          { id: "a", text: "Information marketing" },
+          { id: "a", text: "Information and data marketing" },
           { id: "b", text: "Experiential marketing" },
           { id: "c", text: "Business marketing" },
           { id: "d", text: "Commodity marketing" },
@@ -3186,7 +3288,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Employee" },
           { id: "b", text: "Brand" },
-          { id: "c", text: "Agent" },
+          { id: "c", text: "A professional Agent" },
           { id: "d", text: "Mystery" },
         ],
         correctAnswer: "b",
@@ -3214,7 +3316,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "University of Ilorin" },
           { id: "b", text: "Obudu Ranch" },
-          { id: "c", text: "Jide Taiwo and Associates" },
+          { id: "c", text: "Estate Surveyors Jide Taiwo and Associates" },
           { id: "d", text: "Dangote Group" },
         ],
         correctAnswer: "b",
@@ -3257,7 +3359,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Physical machines" },
           { id: "b", text: "Ideas" },
           { id: "c", text: "Real estate" },
-          { id: "d", text: "Livestock" },
+          { id: "d", text: "Breeding and selling of Livestock" },
         ],
         correctAnswer: "b",
         explanation:
@@ -3282,7 +3384,7 @@ export const quizTopics: Topic[] = [
         question:
           "Storage and transportation are part of which marketing function?",
         options: [
-          { id: "a", text: "Exchange" },
+          { id: "a", text: "Exchange and Transaction" },
           { id: "b", text: "Physical function" },
           { id: "c", text: "Facilitating" },
           { id: "d", text: "Social" },
@@ -3296,7 +3398,7 @@ export const quizTopics: Topic[] = [
         question:
           "Facilitating functions like financing and risk-bearing help perform:",
         options: [
-          { id: "a", text: "Only storage" },
+          { id: "a", text: "Only storage and warehousing" },
           { id: "b", text: "Other marketing functions" },
           { id: "c", text: "Only transportation" },
           { id: "d", text: "Global manufacturing" },
@@ -3326,7 +3428,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Specialty goods" },
           { id: "b", text: "Emergency goods" },
-          { id: "c", text: "Industrial goods" },
+          { id: "c", text: "Heavy Industrial goods" },
           { id: "d", text: "Capital items" },
         ],
         correctAnswer: "b",
@@ -3395,7 +3497,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Capital items" },
           { id: "b", text: "Raw materials (natural products)" },
-          { id: "c", text: "Business services" },
+          { id: "c", text: "Professional Business services" },
           { id: "d", text: "Component parts" },
         ],
         correctAnswer: "b",
@@ -3409,7 +3511,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Writing paper" },
           { id: "b", text: "Installations (buildings)" },
-          { id: "c", text: "Lubricants" },
+          { id: "c", text: "Various industrial Lubricants" },
           { id: "d", text: "Soap" },
         ],
         correctAnswer: "b",
@@ -3448,7 +3550,7 @@ export const quizTopics: Topic[] = [
         question:
           "According to the 4Cs model, 'Place' in the marketing mix represents the customer's:",
         options: [
-          { id: "a", text: "Solution" },
+          { id: "a", text: "The Customer's Solution" },
           { id: "b", text: "Convenience (accessibility)" },
           { id: "c", text: "Cost" },
           { id: "d", text: "Communication" },
@@ -3464,7 +3566,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Main System of Marketing Entities" },
           { id: "b", text: "Micro, Small and Medium Enterprises" },
-          { id: "c", text: "Managerial Skills for Modern Engineers" },
+          {
+            id: "c",
+            text: "Managerial Skills for Modern Engineers and Technicians",
+          },
           { id: "d", text: "Multiple Small and Major Exports" },
         ],
         correctAnswer: "b",
@@ -3492,7 +3597,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "1 and 5 staff" },
           { id: "b", text: "11 and 200 staff" },
-          { id: "c", text: "500 and 1000 staff" },
+          { id: "c", text: "Between 500 and 1000 staff members" },
           { id: "d", text: "Any number of staff" },
         ],
         correctAnswer: "b",
@@ -3504,7 +3609,7 @@ export const quizTopics: Topic[] = [
         question:
           "Cybercafés and pure water production are identified as ____ businesses to be avoided.",
         options: [
-          { id: "a", text: "Growth" },
+          { id: "a", text: "High Growth Potential" },
           { id: "b", text: "Dying" },
           { id: "c", text: "Illegal" },
           { id: "d", text: "Specialty" },
@@ -3521,7 +3626,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "After" },
           { id: "b", text: "Before" },
           { id: "c", text: "Instead of" },
-          { id: "d", text: "By never" },
+          { id: "d", text: "By never actually doing it" },
         ],
         correctAnswer: "b",
         explanation:
@@ -3532,7 +3637,7 @@ export const quizTopics: Topic[] = [
         question:
           "The essence of validation is to ensure that a ____ is available for the planned product.",
         options: [
-          { id: "a", text: "Bank loan" },
+          { id: "a", text: "A substantial Bank loan from investors" },
           { id: "b", text: "Ready market" },
           { id: "c", text: "Supplier" },
           { id: "d", text: "Tax refund" },
@@ -3546,7 +3651,7 @@ export const quizTopics: Topic[] = [
         question:
           "Opportunity recognition achieves profit potential through commencing a fresh enterprise or ____ an existing one.",
         options: [
-          { id: "a", text: "Selling" },
+          { id: "a", text: "Selling off all assets" },
           { id: "b", text: "Restructuring and rejuvenating" },
           { id: "c", text: "Closing" },
           { id: "d", text: "Ignoring" },
@@ -3576,7 +3681,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Climatic conditions" },
           { id: "b", text: "Government regulations" },
-          { id: "c", text: "Hobby interest" },
+          { id: "c", text: "Hobby interests and pass times" },
           { id: "d", text: "Social networks" },
         ],
         correctAnswer: "b",
@@ -3588,7 +3693,7 @@ export const quizTopics: Topic[] = [
         question:
           "The mass advocacy for solar-powered cars due to global warming is an example of a/an ____ influence.",
         options: [
-          { id: "a", text: "Legal" },
+          { id: "a", text: "Legal and statutory obligation" },
           { id: "b", text: "Climatic condition" },
           { id: "c", text: "Individual" },
           { id: "d", text: "Religious" },
@@ -3633,7 +3738,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Five hundred" },
           { id: "b", text: "Not more than fifteen" },
           { id: "c", text: "Two only" },
-          { id: "d", text: "The entire city" },
+          { id: "d", text: "The entire city population" },
         ],
         correctAnswer: "b",
         explanation:
