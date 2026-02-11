@@ -206,6 +206,59 @@ export default function QuizPage() {
     setCurrentQuestionIndex(0);
   }, []);
 
+  // Keyboard navigation
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Ignore valid unrelated inputs like typing in a text field (if any were added later)
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement
+      ) {
+        return;
+      }
+
+      const key = e.key;
+      const lowerKey = key.toLowerCase();
+
+      // Navigation: Next
+      if (key === "Enter" || lowerKey === "n") {
+        e.preventDefault();
+        handleNext();
+        return;
+      }
+
+      // Navigation: Previous
+      if (key === "Shift" || lowerKey === "p") {
+        e.preventDefault();
+        handlePrevious();
+        return;
+      }
+
+      // Selection (only if not reviewing and not answered)
+      if (!selectedAnswer && !isReviewing) {
+        let selectedIndex = -1;
+        if (key === "1" || lowerKey === "a") selectedIndex = 0;
+        if (key === "2" || lowerKey === "b") selectedIndex = 1;
+        if (key === "3" || lowerKey === "c") selectedIndex = 2;
+        if (key === "4" || lowerKey === "d") selectedIndex = 3;
+
+        if (selectedIndex !== -1 && shuffledOptions[selectedIndex]) {
+          handleSelectAnswer(shuffledOptions[selectedIndex].id);
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [
+    handleNext,
+    handlePrevious,
+    handleSelectAnswer,
+    selectedAnswer,
+    isReviewing,
+    shuffledOptions,
+  ]);
+
   if (!topic || !currentQuestion) {
     return (
       <div className="app-container">
