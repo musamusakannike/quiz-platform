@@ -246,6 +246,13 @@ export default function QuizPage() {
         return;
       }
 
+      // Navigation: Skip
+      if (lowerKey === "s") {
+        e.preventDefault();
+        handleSkip();
+        return;
+      }
+
       // Selection (only if not reviewing and not answered)
       if (!selectedAnswer && !isReviewing) {
         let selectedIndex = -1;
@@ -265,6 +272,7 @@ export default function QuizPage() {
   }, [
     handleNext,
     handlePrevious,
+    handleSkip,
     handleSelectAnswer,
     selectedAnswer,
     isReviewing,
