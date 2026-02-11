@@ -986,3 +986,32 @@ body {
   }
 }
 
+/* ========== Powered By ========== */
+.powered-by {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.powered-by:hover {
+  opacity: 1;
+}
+
+.powered-by a {
+  color: var(--foreground);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px dotted var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+.powered-by a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: var(--foreground);
+}
