@@ -41,7 +41,7 @@ export const quizTopics: Topic[] = [
           },
           {
             id: "c",
-            text: "As the utilization of one productive factor by another",
+            text: "As the strategic utilization of one productive factor by another one",
           },
           { id: "d", text: "As the revitalization of mature organizations" },
         ],
@@ -68,7 +68,7 @@ export const quizTopics: Topic[] = [
         question:
           "According to Jeffry (2016), entrepreneurship creates value for whom?",
         options: [
-          { id: "a", text: "Only the business owners" },
+          { id: "a", text: "Only the original business owners and founders" },
           { id: "b", text: "Only the financial investors" },
           { id: "c", text: "All participants and stakeholders" },
           { id: "d", text: "Government agencies only" },
@@ -96,7 +96,10 @@ export const quizTopics: Topic[] = [
         question:
           "How does Cole (2016) define entrepreneurship in its simplest terms?",
         options: [
-          { id: "a", text: "The training and acquisition of skills" },
+          {
+            id: "a",
+            text: "The systematic training and comprehensive acquisition of skills",
+          },
           { id: "b", text: "The pursuit of fame and growth" },
           {
             id: "c",
@@ -115,7 +118,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Maintaining the status quo" },
           { id: "b", text: "Bringing about new combinations and products" },
-          { id: "c", text: "Reducing the living standards of people" },
+          {
+            id: "c",
+            text: "Significantly reducing the everyday living standards of people",
+          },
           { id: "d", text: "Avoiding the use of national resources" },
         ],
         correctAnswer: "b",
@@ -127,7 +133,10 @@ export const quizTopics: Topic[] = [
         question:
           "According to the text, what is the 'essence' of entrepreneurship?",
         options: [
-          { id: "a", text: "Following established market rules" },
+          {
+            id: "a",
+            text: "Rigidly following all established market rules and regulations",
+          },
           {
             id: "b",
             text: "The perception and exploitation of new opportunities",
@@ -146,8 +155,8 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Cantillon" },
           { id: "b", text: "Joseph Schumpeter" },
-          { id: "c", text: "Gartner" },
-          { id: "d", text: "Penrose" },
+          { id: "c", text: "William B. Gartner (1988)" },
+          { id: "d", text: "Edith Tilton Penrose (1959)" },
         ],
         correctAnswer: "b",
         explanation:
@@ -171,7 +180,7 @@ export const quizTopics: Topic[] = [
         question:
           "An entrepreneur is commonly seen as a source of all the following EXCEPT:",
         options: [
-          { id: "a", text: "New ideas" },
+          { id: "a", text: "Innovative new business ideas and concepts" },
           { id: "b", text: "Goods and services" },
           { id: "c", text: "Business procedures" },
           { id: "d", text: "Guaranteed market stability" },
@@ -217,7 +226,10 @@ export const quizTopics: Topic[] = [
             text: "As an agent who buys means of production to combine them into a product",
           },
           { id: "b", text: "As a master of his or her own soul" },
-          { id: "c", text: "As a person who avoids the cost of input factors" },
+          {
+            id: "c",
+            text: "As a person who consistently avoids the fluctuating cost of input factors",
+          },
           { id: "d", text: "As a government representative" },
         ],
         correctAnswer: "a",
@@ -229,7 +241,7 @@ export const quizTopics: Topic[] = [
         question:
           "Mazi (2019) states that an entrepreneur must have the ability to mobilize:",
         options: [
-          { id: "a", text: "Traditional employ" },
+          { id: "a", text: "Traditional employment structures and roles" },
           { id: "b", text: "Resources to meet market opportunities" },
           { id: "c", text: "Only internal locus of control" },
           { id: "d", text: "Established production functions" },
@@ -256,7 +268,10 @@ export const quizTopics: Topic[] = [
         question:
           "Which of the following is true regarding the size of entrepreneurial businesses?",
         options: [
-          { id: "a", text: "They must always remain small" },
+          {
+            id: "a",
+            text: "They are restricted to always remain small scale enterprises",
+          },
           { id: "b", text: "They can be both small and big business owners" },
           { id: "c", text: "They only start as large empires" },
           { id: "d", text: "They never involve high risks" },
@@ -302,7 +317,10 @@ export const quizTopics: Topic[] = [
             id: "b",
             text: "It is embarked upon for a specific purpose (profit, humanitarian, etc.)",
           },
-          { id: "c", text: "It avoids making critical decisions" },
+          {
+            id: "c",
+            text: "It involves consistently avoiding the responsibility of making critical decisions",
+          },
           { id: "d", text: "It relies solely on luck" },
         ],
         correctAnswer: "b",
@@ -314,7 +332,7 @@ export const quizTopics: Topic[] = [
         question:
           "Di-Masi (2017) regards which of these as a major characteristic of entrepreneurs?",
         options: [
-          { id: "a", text: "Internal locus of control" },
+          { id: "a", text: "A strong sense of internal locus of control" },
           { id: "b", text: "Self-confidence and being multi-skilled" },
           { id: "c", text: "Team work and planning" },
           { id: "d", text: "Prudence and endurance" },
@@ -329,7 +347,7 @@ export const quizTopics: Topic[] = [
           "Which author identifies 'need for achievement' and 'internal locus of control' as main characteristics?",
         options: [
           { id: "a", text: "Rockstar" },
-          { id: "b", text: "Di-Masi" },
+          { id: "b", text: "Di-Masi (2017) Theory" },
           { id: "c", text: "Driessen (2018)" },
           { id: "d", text: "Hadzima" },
         ],
@@ -355,7 +373,10 @@ export const quizTopics: Topic[] = [
         id: "ent-24",
         question: "Why must an entrepreneur have 'Risk Bearing Ability'?",
         options: [
-          { id: "a", text: "To ensure they never fail" },
+          {
+            id: "a",
+            text: "To basically guarantee that they will never fail in the market",
+          },
           {
             id: "b",
             text: "Because new ventures are created in uncertain environments",
@@ -372,7 +393,7 @@ export const quizTopics: Topic[] = [
         question:
           "The term 'jack of all trade and master of all' refers to which characteristic?",
         options: [
-          { id: "a", text: "Versatility" },
+          { id: "a", text: "Versatility in skills" },
           { id: "b", text: "Multi-skilled" },
           { id: "c", text: "Prudence" },
           { id: "d", text: "Calmness" },
@@ -385,7 +406,10 @@ export const quizTopics: Topic[] = [
         id: "ent-26",
         question: "Being 'Results-Oriented' means the entrepreneur:",
         options: [
-          { id: "a", text: "Only cares about the process" },
+          {
+            id: "a",
+            text: "Focuses exclusively and only cares about the process",
+          },
           { id: "b", text: "Knows how to get results under any circumstances" },
           { id: "c", text: "Avoids setting goals" },
           { id: "d", text: "Works only in isolation" },
@@ -398,7 +422,10 @@ export const quizTopics: Topic[] = [
         id: "ent-27",
         question: "Starting a new business is compared to what in the text?",
         options: [
-          { id: "a", text: "Building a house" },
+          {
+            id: "a",
+            text: "The complex process of constructing and building a house",
+          },
           { id: "b", text: "Bringing a child into the world and nurturing it" },
           { id: "c", text: "Planting a tree" },
           { id: "d", text: "Driving a car" },
@@ -411,7 +438,10 @@ export const quizTopics: Topic[] = [
         id: "ent-28",
         question: "Why is 'Calmness' important for an entrepreneur?",
         options: [
-          { id: "a", text: "To ignore the competition" },
+          {
+            id: "a",
+            text: "To completely ignore the fierce actions of the market competition",
+          },
           {
             id: "b",
             text: "To remain collected during stress, emergencies, or crises",
@@ -512,7 +542,10 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "The internal staff only" },
           { id: "b", text: "Parties outside the business" },
-          { id: "c", text: "The entrepreneur's family" },
+          {
+            id: "c",
+            text: "The immediate members of the entrepreneur's family",
+          },
           { id: "d", text: "The equipment" },
         ],
         correctAnswer: "b",
@@ -527,7 +560,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Information Disseminator Role" },
           { id: "b", text: "Resource Allocator Role" },
           { id: "c", text: "Figure Head Role" },
-          { id: "d", text: "Disturbance Handler" },
+          { id: "d", text: "Organizational Disturbance Handler" },
         ],
         correctAnswer: "a",
         explanation:
@@ -543,7 +576,10 @@ export const quizTopics: Topic[] = [
             id: "b",
             text: "To act as an arbitrator in conflict to maintain harmony",
           },
-          { id: "c", text: "To allocate scarce resources" },
+          {
+            id: "c",
+            text: "To allocate scarce resources among all competing departments",
+          },
           { id: "d", text: "To monitor the external environment" },
         ],
         correctAnswer: "b",
@@ -554,7 +590,10 @@ export const quizTopics: Topic[] = [
         id: "ent-38",
         question: "The 'Resource Allocator' role involves deciding how to:",
         options: [
-          { id: "a", text: "Hire new managers" },
+          {
+            id: "a",
+            text: "Strategically recruit and hire new experienced managers",
+          },
           { id: "b", text: "Distribute scarce resources among competing ends" },
           { id: "c", text: "Update the technology" },
           { id: "d", text: "Market new products" },
@@ -568,7 +607,7 @@ export const quizTopics: Topic[] = [
         question:
           "The 'Negotiator Role' involves negotiating on behalf of the business with:",
         options: [
-          { id: "a", text: "Only internal labor" },
+          { id: "a", text: "Negotiations with only internal labor unions" },
           { id: "b", text: "Labor and other outside sources" },
           { id: "c", text: "Competitors only" },
           { id: "d", text: "Government regulators only" },
@@ -584,7 +623,7 @@ export const quizTopics: Topic[] = [
         options: [
           { id: "a", text: "Mobilizing savings" },
           { id: "b", text: "Job or employment creation in the community" },
-          { id: "c", text: "Utilizing local raw materials" },
+          { id: "c", text: "Utilizing and processing local raw materials" },
           { id: "d", text: "Adapting imported technology" },
         ],
         correctAnswer: "b",
@@ -625,7 +664,10 @@ export const quizTopics: Topic[] = [
           "Which of the following is an 'Economic Role' of the entrepreneur?",
         options: [
           { id: "a", text: "Adapting traditional technology" },
-          { id: "b", text: "Stimulating indigenous entrepreneurship" },
+          {
+            id: "b",
+            text: "Stimulating and promoting indigenous entrepreneurship",
+          },
           { id: "c", text: "Mobilizing savings necessary for the enterprise" },
           { id: "d", text: "Provision of social welfare" },
         ],
@@ -641,7 +683,7 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Social Role" },
           { id: "b", text: "Technological Role" },
           { id: "c", text: "Economic Role" },
-          { id: "d", text: "Negotiator Role" },
+          { id: "d", text: "Business Negotiator Role" },
         ],
         correctAnswer: "b",
         explanation:
@@ -654,7 +696,10 @@ export const quizTopics: Topic[] = [
           { id: "a", text: "Focusing only on profit" },
           { id: "b", text: "Anticipating and satisfying unmet customer needs" },
           { id: "c", text: "Ignoring customer feedback" },
-          { id: "d", text: "Selling products at the highest possible price" },
+          {
+            id: "d",
+            text: "Selling products at the absolute highest possible price",
+          },
         ],
         correctAnswer: "b",
         explanation:
@@ -664,7 +709,10 @@ export const quizTopics: Topic[] = [
         id: "ent-46",
         question: " 'Tolerance' is necessary for an entrepreneur because:",
         options: [
-          { id: "a", text: "Everyone has the same personality" },
+          {
+            id: "a",
+            text: "Because everyone tends to have the exact same personality",
+          },
           {
             id: "b",
             text: "People vary in perceptions, motivations, and attitudes",
@@ -720,7 +768,7 @@ export const quizTopics: Topic[] = [
         id: "ent-50",
         question: "Historically, entrepreneurs have altered the direction of:",
         options: [
-          { id: "a", text: "Only their own families" },
+          { id: "a", text: "Only the financial status of their own families" },
           { id: "b", text: "National economies, industries, and markets" },
           { id: "c", text: "Only small businesses" },
           { id: "d", text: "Local communities only" },
