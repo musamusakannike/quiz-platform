@@ -1648,14 +1648,14 @@ export const quizTopics: Topic[] = [
         ],
         correctAnswer: "b",
         explanation:
-          "Graduates need skills that are not only relevant locally but also competitive in the global arena[cite: 538].",
+          "Graduates need skills that are not only relevant locally but also competitive in the global arena.",
       },
       {
         id: "ie-15",
         question:
           "Which specific technical skill can enhance a graduate's employability according to the text?",
         options: [
-          { id: "a", text: "Typing on a typewriter" },
+          { id: "a", text: "Yahoo" },
           { id: "b", text: "Proficiency in coding" },
           { id: "c", text: "Manual file filing" },
           { id: "d", text: "Basic handwriting" },
