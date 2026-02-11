@@ -35,5 +35,6 @@ export interface SavedQuizProgress {
   currentQuestionIndex: number;
   userAnswers: Record<number, string>;
   shuffledOptionsMap: Record<number, Option[]>;
+  questionIds?: string[];
   timestamp: number;
 }

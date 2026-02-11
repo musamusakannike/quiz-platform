@@ -17,12 +17,14 @@ export function saveQuizProgress(
   currentQuestionIndex: number,
   userAnswers: Record<number, string>,
   shuffledOptionsMap: Record<number, Option[]>,
+  questionIds?: string[],
 ): void {
   const progress: SavedQuizProgress = {
     topicId,
     currentQuestionIndex,
     userAnswers,
     shuffledOptionsMap,
+    questionIds,
     timestamp: Date.now(),
   };
 

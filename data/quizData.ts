@@ -1,4 +1,5 @@
-import { Topic } from "@/types/quiz";
+import { Topic, Question } from "@/types/quiz";
+import { shuffleArray } from "@/utils/shuffleOptions";
 
 export const quizTopics: Topic[] = [
   {
@@ -6373,4 +6374,41 @@ export const getTopicById = (id: string): Topic | undefined => {
 
 export const getAllTopics = (): Topic[] => {
   return quizTopics;
+};
+
+export const getRandomQuizTopic = (): Topic => {
+  const allQuestions = quizTopics.flatMap((topic) => topic.questions);
+  const shuffledQuestions = shuffleArray(allQuestions).slice(0, 50);
+
+  return {
+    id: "random",
+    title: "Random Quiz",
+    description: "50 random questions from all topics",
+    icon: "Shuffle", // We'll need to handle this icon in TopicCard component if we used it there, but for quiz page header it might be fine
+    color: "#8b5cf6", // Violet color
+    questions: shuffledQuestions,
+  };
+};
+
+export const getQuestionById = (id: string): Question | undefined => {
+  for (const topic of quizTopics) {
+    const q = topic.questions.find((q) => q.id === id);
+    if (q) return q;
+  }
+  return undefined;
+};
+
+export const reconstructRandomTopic = (ids: string[]): Topic => {
+  const questions = ids
+    .map((id) => getQuestionById(id))
+    .filter((q): q is Question => !!q);
+
+  return {
+    id: "random",
+    title: "Random Quiz",
+    description: "50 random questions from all topics",
+    icon: "Shuffle",
+    color: "#8b5cf6",
+    questions,
+  };
 };

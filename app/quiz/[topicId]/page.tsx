@@ -2,8 +2,12 @@
 
 import { useParams } from "next/navigation";
 import { useState, useEffect, useCallback, useRef } from "react";
-import { getTopicById } from "@/data/quizData";
-import { Option } from "@/types/quiz";
+import {
+  getTopicById,
+  getRandomQuizTopic,
+  reconstructRandomTopic,
+} from "@/data/quizData";
+import { Topic, Option } from "@/types/quiz";
 import { shuffleOptions } from "@/utils/shuffleOptions";
 import {
   saveQuizProgress,
@@ -28,7 +32,8 @@ import Link from "next/link";
 export default function QuizPage() {
   const params = useParams();
   const topicId = params.topicId as string;
-  const topic = getTopicById(topicId);
+  const [topic, setTopic] = useState<Topic | undefined>(undefined);
+  const [isLoading, setIsLoading] = useState(true);
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
@@ -43,6 +48,7 @@ export default function QuizPage() {
     currentQuestion: number;
     answeredCount: number;
     timestamp: number;
+    questionIds?: string[];
   } | null>(null);
 
   // Track max reached index for overview component
@@ -51,6 +57,22 @@ export default function QuizPage() {
   useEffect(() => {
     setMaxReachedIndex((prev) => Math.max(prev, currentQuestionIndex));
   }, [currentQuestionIndex]);
+
+  // Optimize topic loading and persistence restoration
+  useEffect(() => {
+    setIsLoading(true);
+    if (topicId === "random") {
+      const saved = getQuizProgress("random");
+      if (saved && saved.questionIds && saved.questionIds.length > 0) {
+        setTopic(reconstructRandomTopic(saved.questionIds));
+      } else {
+        setTopic(getRandomQuizTopic());
+      }
+    } else {
+      setTopic(getTopicById(topicId));
+    }
+    setIsLoading(false);
+  }, [topicId]);
 
   const handleJumpToQuestion = useCallback((index: number) => {
     setCurrentQuestionIndex(index);
@@ -119,6 +141,7 @@ export default function QuizPage() {
         currentQuestionIndex,
         userAnswers,
         shuffledOptionsMap,
+        topicId === "random" ? topic?.questions.map((q) => q.id) : undefined,
       );
     }
   }, [
@@ -278,6 +301,17 @@ export default function QuizPage() {
     isReviewing,
     shuffledOptions,
   ]);
+
+  if (isLoading) {
+    return (
+      <div className="app-container">
+        <main className="main-content centered">
+          <div className="loading-spinner"></div>
+          <p>Loading Quiz...</p>
+        </main>
+      </div>
+    );
+  }
 
   if (!topic || !currentQuestion) {
     return (
