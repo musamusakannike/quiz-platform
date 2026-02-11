@@ -1015,3 +1015,159 @@ body {
   border-bottom-style: solid;
   border-bottom-color: var(--foreground);
 }
+
+/* ========== Quiz Overview (Desktop) ========== */
+@media (min-width: 1024px) {
+  .quiz-layout-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2rem;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .quiz-main-column {
+    min-width: 0; /* Prevent overflow */
+  }
+
+  .quiz-overview-sidebar {
+    display: block;
+    position: sticky;
+    top: 2rem;
+  }
+}
+
+@media (max-width: 1023px) {
+  .quiz-overview-sidebar {
+    display: none;
+  }
+  
+  .quiz-layout-wrapper {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+.overview-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.overview-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--card-border);
+  text-align: center;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.overview-item {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid var(--card-border);
+  background: var(--card-bg); /* Default unattempted-like background */
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.overview-item:hover:not(:disabled) {
+  border-color: var(--foreground);
+  color: var(--foreground);
+}
+
+.overview-item:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  background: rgba(0,0,0,0.2); 
+}
+
+/* Status Colors */
+
+/* Correct: Green */
+.overview-item.correct {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: rgba(34, 197, 94, 0.5);
+  color: #4ade80; 
+}
+
+/* Wrong: Red */
+.overview-item.wrong {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: rgba(239, 68, 68, 0.5);
+  color: #f87171;
+}
+
+/* Skipped: Yellow */
+.overview-item.skipped {
+  background: rgba(234, 179, 8, 0.2);
+  border-color: rgba(234, 179, 8, 0.5);
+  color: #facc15;
+}
+
+/* Unattempted: Dark Grey */
+.overview-item.unattempted {
+  background: #18181b;
+  border-color: #27272a;
+  color: #52525b;
+}
+
+/* Current: White Border */
+.overview-item.current {
+  border-color: var(--foreground);
+  box-shadow: 0 0 0 1px var(--foreground);
+  z-index: 10;
+  color: var(--foreground);
+}
+
+.overview-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--card-border);
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.stat-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+}
+
+.stat-value {
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+/* Utility Text Colors (if not using Tailwind classes directly in component for icons) */
+.text-green-500 { color: #22c55e; }
+.text-red-500 { color: #ef4444; }
+.text-yellow-500 { color: #eab308; }
+.text-zinc-500 { color: #71717a; }
+

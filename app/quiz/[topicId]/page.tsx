@@ -14,6 +14,7 @@ import QuizProgress from "@/components/QuizProgress";
 import OptionCard from "@/components/OptionCard";
 import QuizResults from "@/components/QuizResults";
 import ResumeQuizModal from "@/components/ResumeQuizModal";
+import QuizOverview from "@/components/QuizOverview";
 import { gsap } from "gsap";
 import {
   ArrowLeft,
@@ -43,6 +44,17 @@ export default function QuizPage() {
     answeredCount: number;
     timestamp: number;
   } | null>(null);
+
+  // Track max reached index for overview component
+  const [maxReachedIndex, setMaxReachedIndex] = useState(0);
+
+  useEffect(() => {
+    setMaxReachedIndex((prev) => Math.max(prev, currentQuestionIndex));
+  }, [currentQuestionIndex]);
+
+  const handleJumpToQuestion = useCallback((index: number) => {
+    setCurrentQuestionIndex(index);
+  }, []);
 
   // Derived state
   const currentQuestion = topic?.questions[currentQuestionIndex];
@@ -303,84 +315,87 @@ export default function QuizPage() {
         />
       )}
 
-      <main className="quiz-main">
-        <header className="quiz-header">
-          <Link href="/" className="back-button">
-            <ArrowLeft size={20} />
-            <span>Back</span>
-          </Link>
-          <h1 className="quiz-topic-title">{topic.title}</h1>
-        </header>
+      <div className="quiz-layout-wrapper">
+        <div className="quiz-main-column">
+          <main className="quiz-main">
+            <header className="quiz-header">
+              <Link href="/" className="back-button">
+                <ArrowLeft size={20} />
+                <span>Back</span>
+              </Link>
+              <h1 className="quiz-topic-title">{topic.title}</h1>
+            </header>
 
-        <QuizProgress
-          current={currentQuestionIndex + 1}
-          total={topic.questions.length}
-          score={score}
-        />
+            <QuizProgress
+              current={currentQuestionIndex + 1}
+              total={topic.questions.length}
+              score={score}
+            />
 
-        <div ref={questionRef} className="question-container">
-          <h2 className="question-text">{currentQuestion.question}</h2>
-        </div>
-
-        <div className="options-container">
-          {isMounted &&
-            shuffledOptions.map((option, index) => (
-              <OptionCard
-                key={`${currentQuestionIndex}-${option.id}`}
-                option={option}
-                index={index}
-                isSelected={selectedAnswer === option.id}
-                isCorrect={isCorrect}
-                showResult={selectedAnswer !== null || isReviewing}
-                correctAnswerId={currentQuestion.correctAnswer}
-                onSelect={handleSelectAnswer}
-                disabled={selectedAnswer !== null || isReviewing}
-              />
-            ))}
-        </div>
-
-        {/* Navigation Buttons */}
-        {/* Navigation Buttons for unanswered/skipped questions */}
-        {!selectedAnswer && (
-          <div className="navigation-actions">
-            <button
-              className="prev-button"
-              onClick={handlePrevious}
-              disabled={currentQuestionIndex === 0}
-              style={{
-                visibility: currentQuestionIndex === 0 ? "hidden" : "visible",
-              }}
-            >
-              <ArrowLeft size={18} />
-              Previous
-            </button>
-
-            <div className="skip-button-wrapper">
-              <button
-                className={isReviewing ? "next-button" : "skip-button"}
-                onClick={handleSkip}
-                style={
-                  isReviewing
-                    ? { width: "auto", padding: "0.75rem 1.5rem" }
-                    : {}
-                }
-              >
-                {isReviewing
-                  ? isLastQuestion
-                    ? "Back to Results"
-                    : "Next Question"
-                  : "Skip Question"}
-                {isReviewing ? (
-                  <ArrowRight size={18} />
-                ) : (
-                  <SkipForward size={18} />
-                )}
-              </button>
+            <div ref={questionRef} className="question-container">
+              <h2 className="question-text">{currentQuestion.question}</h2>
             </div>
-          </div>
-        )}
 
-        {/* If selected answer, we show previous button in a separate flexible container if needed, 
+            <div className="options-container">
+              {isMounted &&
+                shuffledOptions.map((option, index) => (
+                  <OptionCard
+                    key={`${currentQuestionIndex}-${option.id}`}
+                    option={option}
+                    index={index}
+                    isSelected={selectedAnswer === option.id}
+                    isCorrect={isCorrect}
+                    showResult={selectedAnswer !== null || isReviewing}
+                    correctAnswerId={currentQuestion.correctAnswer}
+                    onSelect={handleSelectAnswer}
+                    disabled={selectedAnswer !== null || isReviewing}
+                  />
+                ))}
+            </div>
+
+            {/* Navigation Buttons */}
+            {/* Navigation Buttons for unanswered/skipped questions */}
+            {!selectedAnswer && (
+              <div className="navigation-actions">
+                <button
+                  className="prev-button"
+                  onClick={handlePrevious}
+                  disabled={currentQuestionIndex === 0}
+                  style={{
+                    visibility:
+                      currentQuestionIndex === 0 ? "hidden" : "visible",
+                  }}
+                >
+                  <ArrowLeft size={18} />
+                  Previous
+                </button>
+
+                <div className="skip-button-wrapper">
+                  <button
+                    className={isReviewing ? "next-button" : "skip-button"}
+                    onClick={handleSkip}
+                    style={
+                      isReviewing
+                        ? { width: "auto", padding: "0.75rem 1.5rem" }
+                        : {}
+                    }
+                  >
+                    {isReviewing
+                      ? isLastQuestion
+                        ? "Back to Results"
+                        : "Next Question"
+                      : "Skip Question"}
+                    {isReviewing ? (
+                      <ArrowRight size={18} />
+                    ) : (
+                      <SkipForward size={18} />
+                    )}
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* If selected answer, we show previous button in a separate flexible container if needed, 
             but standard design is usually to hide navigation when reviewing feedback, 
             except next. However, user might want to go back even after answering? 
             Let's add it above or below feedback? 
@@ -390,63 +405,76 @@ export default function QuizPage() {
             If I want 'Previous' available even after answering: 
             I should put it outside the condition OR replicate it. 
         */}
-        {selectedAnswer && (
-          <div
-            className="navigation-actions"
-            style={{ marginBottom: "1rem", justifyContent: "flex-start" }}
-          >
-            <button
-              className="prev-button"
-              onClick={handlePrevious}
-              disabled={currentQuestionIndex === 0}
-              style={{
-                visibility: currentQuestionIndex === 0 ? "hidden" : "visible",
-              }}
-            >
-              <ArrowLeft size={18} />
-              Previous
-            </button>
-          </div>
-        )}
-
-        {/* Inline Feedback Panel */}
-        {(selectedAnswer || isReviewing) && (
-          <div
-            ref={feedbackRef}
-            className={`feedback-panel ${isCorrect ? "correct" : "wrong"}`}
-          >
-            <div className="feedback-panel-header">
-              {isCorrect ? (
-                <CheckCircle size={24} className="feedback-icon-correct" />
-              ) : (
-                <XCircle size={24} className="feedback-icon-wrong" />
-              )}
-              <span className="feedback-panel-title">
-                {isCorrect
-                  ? "Correct!"
-                  : selectedAnswer
-                    ? "Incorrect"
-                    : "Skipped"}
-              </span>
-            </div>
-
-            {currentQuestion.explanation && (
-              <p className="feedback-panel-explanation">
-                {currentQuestion.explanation}
-              </p>
+            {selectedAnswer && (
+              <div
+                className="navigation-actions"
+                style={{ marginBottom: "1rem", justifyContent: "flex-start" }}
+              >
+                <button
+                  className="prev-button"
+                  onClick={handlePrevious}
+                  disabled={currentQuestionIndex === 0}
+                  style={{
+                    visibility:
+                      currentQuestionIndex === 0 ? "hidden" : "visible",
+                  }}
+                >
+                  <ArrowLeft size={18} />
+                  Previous
+                </button>
+              </div>
             )}
 
-            <button className="next-button" onClick={handleNext}>
-              {isLastQuestion
-                ? isReviewing
-                  ? "Back to Results"
-                  : "See Results"
-                : "Next Question"}
-              <ArrowRight size={18} />
-            </button>
-          </div>
+            {/* Inline Feedback Panel */}
+            {(selectedAnswer || isReviewing) && (
+              <div
+                ref={feedbackRef}
+                className={`feedback-panel ${isCorrect ? "correct" : "wrong"}`}
+              >
+                <div className="feedback-panel-header">
+                  {isCorrect ? (
+                    <CheckCircle size={24} className="feedback-icon-correct" />
+                  ) : (
+                    <XCircle size={24} className="feedback-icon-wrong" />
+                  )}
+                  <span className="feedback-panel-title">
+                    {isCorrect
+                      ? "Correct!"
+                      : selectedAnswer
+                        ? "Incorrect"
+                        : "Skipped"}
+                  </span>
+                </div>
+
+                {currentQuestion.explanation && (
+                  <p className="feedback-panel-explanation">
+                    {currentQuestion.explanation}
+                  </p>
+                )}
+
+                <button className="next-button" onClick={handleNext}>
+                  {isLastQuestion
+                    ? isReviewing
+                      ? "Back to Results"
+                      : "See Results"
+                    : "Next Question"}
+                  <ArrowRight size={18} />
+                </button>
+              </div>
+            )}
+          </main>
+        </div>
+
+        {isMounted && (
+          <QuizOverview
+            questions={topic.questions}
+            userAnswers={userAnswers}
+            currentQuestionIndex={currentQuestionIndex}
+            maxReachedIndex={maxReachedIndex}
+            onQuestionClick={handleJumpToQuestion}
+          />
         )}
-      </main>
+      </div>
     </div>
   );
 }
